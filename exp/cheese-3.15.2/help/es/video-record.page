@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="video-record" xml:lang="es">
+
+  <info>
+    <link type="guide" xref="index#main" group="#first"/>
+    <revision pkgversion="3.0" date="2011-08-25" status="candidate"/>
+    <revision pkgversion="3.1" date="2011-09-05" status="review"/>
+    <revision pkgversion="3.8" date="2013-04-15" status="review"/>
+    <revision pkgversion="3.12" date="2014-02-21" status="review"/>
+
+    <credit type="author copyright">
+      <name>Julita Inca</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+      <years>2011</years>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Use su cámara web para grabar cortos para compartirlos con sus amigos.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2011 - 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jorge González</mal:name>
+      <mal:email>jorgegonz@svn.gnome.org</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Grabar un vídeo</title>
+
+  <p>Para grabar un vídeo usando su cámara web:</p>
+
+  <steps>
+    <item>
+      <p>Asegúrese de que está en el modo <gui>Vídeo</gui>. Si lo está, el botón <gui style="button">Vídeo</gui> estará seleccionado en la parte izquierda de la pantalla.</p>
+    </item>
+    <item>
+      <p>Pulse el botón <gui style="button">Grabar un vídeo usando la cámara web</gui> en la parte central del panel inferior, o pulse la tecla <key>Espacio</key> para empezar a grabar el vídeo.</p>
+    </item>
+    <item>
+     <p>Para detener la grabación, pulse el mismo botón otra vez. También puede pulsar las teclas <key>Esc</key> o <key>Space</key> para detener la grabación.</p>
+    </item>
+  </steps>
+
+  <p>Los vídeos se guardan en el formato WebM (<file>.webm</file>).</p>
+
+  <p>Después de que detener la grabación, el vídeo aparecerá automáticamente en la colección de imágenes en la parte inferior de la ventana de <app>Cheese</app>. Desde allí puede <link xref="photo-view">abrir</link> o eliminar el vídeo.</p>
+
+  <p>Si tiene problemas para compartir un vídeo con personas que usan otros sistemas operativos (como Windows o Mac OS) puede necesitar <link href="ghelp:gnome-help/#video-sending">convertirlo a un formato diferente</link>.</p>
+
+</page>

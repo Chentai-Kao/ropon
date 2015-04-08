@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="introduction" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="index" group="#first"/>
+    <revision pkgversion="3.0" date="2011-08-24" status="candidate"/>
+    <revision pkgversion="3.1" date="2011-09-05" status="review"/>
+    <revision pkgversion="3.6" date="2012-05-09" status="review"/>
+    <revision pkgversion="3.8" date="2013-04-15" status="review"/>
+    <revision pkgversion="3.12" date="2014-02-21" status="final"/>
+
+    <credit type="author copyright">
+      <name>Julita Inca</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+      <years>2011</years>
+    </credit>
+    <credit type="author editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Εισαγωγή στη φωτογραφική εφαρμογή δικτυακής κάμερας <app>Cheese</app>.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Ευστάθιος Ιωσηφίδης</mal:name>
+      <mal:email>diamond_gr@freemail.gr</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Εισαγωγή</title>
+
+  <p>Το <app>Cheese</app> είναι μια εφαρμογή δικτυακής κάμερας, η οποία σας δίνει τη δυνατότητα λήψης φωτογραφιών και καταγραφής βίντεο, χρησιμοποιώντας την κάμερα σας. Μπορείτε να τραβήξετε πολλαπλές φωτογραφίες σε γρήγορη διαδοχή, χρησιμοποιώντας τη λειτουργία <link xref="burst-mode"><gui>πολλαπλής φωτογράφησης</gui></link> και μπορείτε να εφαρμόσετε <link xref="effects-apply">ειδικά <gui>Εφέ</gui></link> για να προσθέσετε μια προσωπική πινελιά σε αυτές.</p>
+
+  <p>Από προεπιλογή, το <app>Cheese</app> ξεκινά σε λειτουργία <gui>Φωτογραφία</gui>, έτοιμο για τη <link xref="photo-take">λήψη μιας φωτογραφίας</link>. Πρέπει να αλλάξετε σε λειτουργία <gui>Βίντεο</gui> για να <link xref="video-record">καταγράψετε ένα βίντεο</link>.</p>
+
+  <p>Το <app>Cheese</app> λειτουργεί με τις περισσότερες δικτυακές κάμερες, αλλά μερικά παλαιότερα μοντέλα μπορεί να μην υποστηρίζονται.</p>
+
+</page>

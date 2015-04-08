@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="pref-resolution" xml:lang="es">
+
+  <info>
+    <link type="guide" xref="index#preferences"/>
+    <revision pkgversion="3.0" date="2011-08-25" status="candidate"/>
+    <revision pkgversion="3.1" date="2011-09-05" status="review"/>
+    <revision pkgversion="3.12" date="2014-02-21" status="candidate"/>
+
+    <credit type="author copyright">
+      <name>Julita Inca</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+      <years>2011</years>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>La resolución de un vídeo o una foto está determinada por la cantidad de detalle que puede ver en ella, cambiarla afectará al tamaño de archivo.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2011 - 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jorge González</mal:name>
+      <mal:email>jorgegonz@svn.gnome.org</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Cambiar la resolución de captura de su cámara web</title>
+
+  <p>Una resolución mayor generalmente significa mejor calidad de imágenes, pero las fotos y vídeos con más resolución también ocupan más espacio en su disco duro. En particular, los vídeos de alta resolución ocupan mucho espacio.</p>
+
+  <p>Si quiere que sus imágenes ocupen menos espacio en el disco reduzca la resolución de su cámara web. Si quiere una mejor calidad de imágenes, aumente la resolución. Para cambiar la resolución de la cámara web:</p>
+
+  <steps>
+    <item>
+      <p>Seleccione <guiseq><gui>Cheese</gui><gui>Preferencias</gui><gui>Cámara web</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Elija una diferente resolución de la lista desplegable. Algunas cámaras web sólo soportan una resolución, así que puede que no tenga opción.</p>
+    </item>
+    <item>
+      <p>Pulse <gui>Cerrar</gui>.</p>
+    </item>
+  </steps>
+
+</page>

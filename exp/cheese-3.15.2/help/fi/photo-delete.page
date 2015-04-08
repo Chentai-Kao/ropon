@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="photo-delete" xml:lang="fi">
+
+  <info>
+    <link type="guide" xref="index#main"/>
+    <revision pkgversion="3.0" date="2011-08-24" status="candidate"/>
+    <revision pkgversion="3.1" date="2011-09-05" status="review"/>
+    <revision pkgversion="3.12" date="2014-02-21" status="review"/>
+
+    <credit type="author copyright">
+      <name>Julita Inca</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+      <years>2011</years>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Turhaksi käyneiden kuvien ja videoiden poistaminen.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Sami Jaktholm</mal:name>
+      <mal:email>sjakthol@outlook.com</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Kuvan tai videon poistaminen</title>
+
+  <p>Jos otetulle valokuvalle tai videolle ei ole enää tarvetta, sen voi poistaa pysyvästi:</p>
+
+  <steps>
+    <item>
+      <p>Etsi poistettava valokuva tai video <app>Muikku</app>-ikkunan alareunassa olevasta valokuvavirrasta.</p>
+    </item>
+    <item>
+      <p>Right-click it and select <gui>Delete</gui>.<!-- Alternatively, click it
+      once to select it and press the <key>Delete</key> key.--></p>
+    </item>
+    <item>
+      <p>You will be asked if you want to permanently delete it. Confirm by
+      clicking <gui>Delete</gui>; you will not be able to recover the photo
+      or video.</p>
+    </item>
+  </steps>
+
+  <p>Jos et ole varma, haluatko poistaa valokuvan tai videon lopullisesti, napsauta sitä hiiren oikealla painikkeella ja valitse <gui>Siirrä roskakoriin</gui>. Tämä siirtää kuvan tietokoneen <gui>Roskakoriin</gui>.</p>
+
+  <note>
+    <p>Muikku ei sisällä omaa roskakoriaan eikä tietokoneen roskakoriin ei pääse käsiksi <app>Muikun</app> kautta.</p>
+  </note>
+
+</page>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="introduction" xml:lang="cs">
+
+  <info>
+    <link type="guide" xref="index" group="#first"/>
+    <revision pkgversion="3.0" date="2011-08-24" status="candidate"/>
+    <revision pkgversion="3.1" date="2011-09-05" status="review"/>
+    <revision pkgversion="3.6" date="2012-05-09" status="review"/>
+    <revision pkgversion="3.8" date="2013-04-15" status="review"/>
+    <revision pkgversion="3.12" date="2014-02-21" status="final"/>
+
+    <credit type="author copyright">
+      <name>Julita Inca</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+      <years>2011</years>
+    </credit>
+    <credit type="author editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Úvod do aplikace <app>Cheese</app> pro webovou kameru.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Lucas Lommer</mal:name>
+      <mal:email>llommer@svn.gnome.org</mal:email>
+      <mal:years>2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Martin Jablečník</mal:name>
+      <mal:email>martin.jablecnik@seznam.cz</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Marek Černocký</mal:name>
+      <mal:email>marek@manet.cz</mal:email>
+      <mal:years>2013, 2014</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Úvod</title>
+
+  <p><app>Cheese</app> je aplikace pro práci s webovou kamerou, díky které můžete pořizovat snímky a nahrávat video ze svojí webkamery. Můžete pořídit sérii fotek v rychlém sledu pomocí <link xref="burst-mode">režimu <gui>Série snímků</gui></link> a použít <link xref="effects-apply">speciální <gui>Efekty</gui></link>, které dají snímkům osobitý ráz.</p>
+
+  <p>Standardně aplikace <app>Cheese</app> začíná v režimu <gui>Fotka</gui>, připravena <link xref="take-photo">pořídit snímek</link>. Pro <link xref="record-video">nahrávání videa</link> se musíte přepnout do režimu <gui>Video</gui>.</p>
+
+  <p><app>Cheese</app> umí pracovat s většinou webových kamer, přesto některé, hlavně starší, modely nemusí být podporovány.</p>
+
+</page>

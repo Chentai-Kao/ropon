@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="introduction" xml:lang="hu">
+
+  <info>
+    <link type="guide" xref="index" group="#first"/>
+    <revision pkgversion="3.0" date="2011-08-24" status="candidate"/>
+    <revision pkgversion="3.1" date="2011-09-05" status="review"/>
+    <revision pkgversion="3.6" date="2012-05-09" status="review"/>
+    <revision pkgversion="3.8" date="2013-04-15" status="review"/>
+    <revision pkgversion="3.12" date="2014-02-21" status="final"/>
+
+    <credit type="author copyright">
+      <name>Julita Inca</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+      <years>2011</years>
+    </credit>
+    <credit type="author editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>A <app>Csííz</app> webkamera-kezelő bemutatása.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kelemen Gábor</mal:name>
+      <mal:email>kelemeng at gnome dot hu</mal:email>
+      <mal:years>2011, 2012, 2013, 2014.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Bevezetés</title>
+
+  <p>A <app>Csííz</app> egy webkamera-kezelő alkalmazás, amellyel fényképeket és videókat készíthet webkamerája használatával. Egymás után több fényképet is készíthet a <link xref="burst-mode"><gui>sorozat mód</gui></link> használatával, és <link xref="effects-apply"><gui>effektusokat</gui> is alkalmazhat</link>, amelyekkel fényképeit és videóit személyesebbé teheti.</p>
+
+  <p>Alapesetben a <app>Csííz</app> <gui>fénykép módban</gui> indul, <link xref="photo-take">fényképek készítésére</link> készen. <link xref="video-record">Videó felvételéhez</link> át kell váltania <gui>videó módba</gui>.</p>
+
+  <p>A <app>Csííz</app> a legtöbb webkamerával használható, de egyes régebbi webkamerák nem biztos, hogy támogatottak.</p>
+
+</page>

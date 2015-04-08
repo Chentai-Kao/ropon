@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="video-record" xml:lang="zh-CN">
+
+  <info>
+    <link type="guide" xref="index#main" group="#first"/>
+    <revision pkgversion="3.0" date="2011-08-25" status="candidate"/>
+    <revision pkgversion="3.1" date="2011-09-05" status="review"/>
+    <revision pkgversion="3.8" date="2013-04-15" status="review"/>
+    <revision pkgversion="3.12" date="2014-02-21" status="review"/>
+
+    <credit type="author copyright">
+      <name>Julita Inca</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+      <years>2011</years>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>使用摄像头录制短片，与朋友分享。</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>arccos (L.Q)</mal:name>
+      <mal:email>boyermoore@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>YunQiang Su</mal:name>
+      <mal:email>wzssyqa@gmail.com</mal:email>
+      <mal:years>2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>tuhaihe</mal:name>
+      <mal:email>1132321739qq@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Wylmer Wang</mal:name>
+      <mal:email>wantinghard@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>录制视频</title>
+
+  <p>要使用摄像头录制视频：</p>
+
+  <steps>
+    <item>
+      <p>Make sure that you are in <gui>Video</gui> mode. If you are, the
+      <gui style="button">Video</gui> button will be selected on the left side
+      of the screen.</p>
+    </item>
+    <item>
+      <p>Click the <gui style="button">Record a video using a webcam</gui>
+      button in the middle of the bottom panel, or press the
+      <key>Space</key> key, to start recording the video.</p>
+    </item>
+    <item>
+     <p>To stop recording, press the same button again. You can also press the 
+     <key>Esc</key> or <key>Space</key> key to stop recording.</p>
+    </item>
+  </steps>
+
+  <p>Videos are saved in the WebM (<file>.webm</file>) format.</p>
+
+  <p>After you have stopped recording, the video will automatically appear in
+  the photo stream at the bottom of the <app>Cheese</app> window. From there,
+  you can <link xref="photo-view">open</link> or delete the video.</p>
+
+  <p>如果您在与使用其他操作系统(如 Windows 或 Mac OS)的朋友分享视频时出现问题，您可能需要<link href="help:gnome-help/video-sending">将视频转换成其他格式</link>。</p>
+
+</page>

@@ -1,0 +1,169 @@
+# This file is a shell script that caches the results of configure
+# tests run on this system so they can be shared between configure
+# scripts and configure runs, see configure's option --config-cache.
+# It is not useful on other systems.  If it contains results you don't
+# want to keep, you may remove or edit it.
+#
+# config.status only pays attention to the cache file if you give it
+# the --recheck option to rerun configure.
+#
+# `ac_cv_env_foo' variables (set or unset) will be overridden when
+# loading this file, other *unset* `ac_cv_foo' will be assigned the
+# following values.
+
+ac_cv_build=${ac_cv_build=x86_64-unknown-linux-gnu}
+ac_cv_c_bigendian=${ac_cv_c_bigendian=no}
+ac_cv_c_compiler_gnu=${ac_cv_c_compiler_gnu=yes}
+ac_cv_env_CC_set=
+ac_cv_env_CC_value=
+ac_cv_env_CFLAGS_set=
+ac_cv_env_CFLAGS_value=
+ac_cv_env_CPPFLAGS_set=
+ac_cv_env_CPPFLAGS_value=
+ac_cv_env_CPP_set=
+ac_cv_env_CPP_value=
+ac_cv_env_GSL_CFLAGS_set=
+ac_cv_env_GSL_CFLAGS_value=
+ac_cv_env_GSL_LIBS_set=
+ac_cv_env_GSL_LIBS_value=
+ac_cv_env_GUVCVIEW_CFLAGS_set=
+ac_cv_env_GUVCVIEW_CFLAGS_value=
+ac_cv_env_GUVCVIEW_LIBS_set=
+ac_cv_env_GUVCVIEW_LIBS_value=
+ac_cv_env_GVIEWAUDIO_CFLAGS_set=
+ac_cv_env_GVIEWAUDIO_CFLAGS_value=
+ac_cv_env_GVIEWAUDIO_LIBS_set=
+ac_cv_env_GVIEWAUDIO_LIBS_value=
+ac_cv_env_GVIEWENCODER_CFLAGS_set=
+ac_cv_env_GVIEWENCODER_CFLAGS_value=
+ac_cv_env_GVIEWENCODER_LIBS_set=
+ac_cv_env_GVIEWENCODER_LIBS_value=
+ac_cv_env_GVIEWRENDER_CFLAGS_set=
+ac_cv_env_GVIEWRENDER_CFLAGS_value=
+ac_cv_env_GVIEWRENDER_LIBS_set=
+ac_cv_env_GVIEWRENDER_LIBS_value=
+ac_cv_env_GVIEWV4L2CORE_CFLAGS_set=
+ac_cv_env_GVIEWV4L2CORE_CFLAGS_value=
+ac_cv_env_GVIEWV4L2CORE_LIBS_set=
+ac_cv_env_GVIEWV4L2CORE_LIBS_value=
+ac_cv_env_LDFLAGS_set=
+ac_cv_env_LDFLAGS_value=
+ac_cv_env_LIBS_set=
+ac_cv_env_LIBS_value=
+ac_cv_env_PKG_CONFIG_LIBDIR_set=
+ac_cv_env_PKG_CONFIG_LIBDIR_value=
+ac_cv_env_PKG_CONFIG_PATH_set=set
+ac_cv_env_PKG_CONFIG_PATH_value=:/usr/local/lib/pkgconfig
+ac_cv_env_PKG_CONFIG_set=
+ac_cv_env_PKG_CONFIG_value=
+ac_cv_env_PULSE_CFLAGS_set=
+ac_cv_env_PULSE_CFLAGS_value=
+ac_cv_env_PULSE_LIBS_set=
+ac_cv_env_PULSE_LIBS_value=
+ac_cv_env_build_alias_set=
+ac_cv_env_build_alias_value=
+ac_cv_env_host_alias_set=
+ac_cv_env_host_alias_value=
+ac_cv_env_target_alias_set=
+ac_cv_env_target_alias_value=
+ac_cv_func_bind_textdomain_codeset=${ac_cv_func_bind_textdomain_codeset=yes}
+ac_cv_func_dcgettext=${ac_cv_func_dcgettext=yes}
+ac_cv_func_dirfd=${ac_cv_func_dirfd=yes}
+ac_cv_func_fpathconf=${ac_cv_func_fpathconf=yes}
+ac_cv_header_avcodec_h=${ac_cv_header_avcodec_h=no}
+ac_cv_header_dlfcn_h=${ac_cv_header_dlfcn_h=yes}
+ac_cv_header_ffmpeg_avcodec_h=${ac_cv_header_ffmpeg_avcodec_h=no}
+ac_cv_header_inttypes_h=${ac_cv_header_inttypes_h=yes}
+ac_cv_header_libavcodec_avcodec_h=${ac_cv_header_libavcodec_avcodec_h=yes}
+ac_cv_header_libavutil_version_h=${ac_cv_header_libavutil_version_h=yes}
+ac_cv_header_libintl_h=${ac_cv_header_libintl_h=yes}
+ac_cv_header_locale_h=${ac_cv_header_locale_h=yes}
+ac_cv_header_math_h=${ac_cv_header_math_h=yes}
+ac_cv_header_memory_h=${ac_cv_header_memory_h=yes}
+ac_cv_header_stdc=${ac_cv_header_stdc=yes}
+ac_cv_header_stdint_h=${ac_cv_header_stdint_h=yes}
+ac_cv_header_stdlib_h=${ac_cv_header_stdlib_h=yes}
+ac_cv_header_string_h=${ac_cv_header_string_h=yes}
+ac_cv_header_strings_h=${ac_cv_header_strings_h=yes}
+ac_cv_header_sys_stat_h=${ac_cv_header_sys_stat_h=yes}
+ac_cv_header_sys_types_h=${ac_cv_header_sys_types_h=yes}
+ac_cv_header_unistd_h=${ac_cv_header_unistd_h=yes}
+ac_cv_host=${ac_cv_host=x86_64-unknown-linux-gnu}
+ac_cv_lib_m_exp=${ac_cv_lib_m_exp=yes}
+ac_cv_lib_m_pow=${ac_cv_lib_m_pow=yes}
+ac_cv_lib_m_roundf=${ac_cv_lib_m_roundf=yes}
+ac_cv_objext=${ac_cv_objext=o}
+ac_cv_path_EGREP=${ac_cv_path_EGREP='/bin/grep -E'}
+ac_cv_path_FGREP=${ac_cv_path_FGREP='/bin/grep -F'}
+ac_cv_path_GMSGFMT=${ac_cv_path_GMSGFMT=/usr/bin/msgfmt}
+ac_cv_path_GREP=${ac_cv_path_GREP=/bin/grep}
+ac_cv_path_INTLTOOL_EXTRACT=${ac_cv_path_INTLTOOL_EXTRACT=/usr/bin/intltool-extract}
+ac_cv_path_INTLTOOL_MERGE=${ac_cv_path_INTLTOOL_MERGE=/usr/bin/intltool-merge}
+ac_cv_path_INTLTOOL_PERL=${ac_cv_path_INTLTOOL_PERL=/usr/bin/perl}
+ac_cv_path_INTLTOOL_UPDATE=${ac_cv_path_INTLTOOL_UPDATE=/usr/bin/intltool-update}
+ac_cv_path_MSGFMT=${ac_cv_path_MSGFMT=/usr/bin/msgfmt}
+ac_cv_path_MSGMERGE=${ac_cv_path_MSGMERGE=/usr/bin/msgmerge}
+ac_cv_path_SED=${ac_cv_path_SED=/bin/sed}
+ac_cv_path_XGETTEXT=${ac_cv_path_XGETTEXT=/usr/bin/xgettext}
+ac_cv_path_ac_pt_PKG_CONFIG=${ac_cv_path_ac_pt_PKG_CONFIG=/usr/bin/pkg-config}
+ac_cv_path_install=${ac_cv_path_install='/usr/bin/install -c'}
+ac_cv_path_mkdir=${ac_cv_path_mkdir=/bin/mkdir}
+ac_cv_prog_AWK=${ac_cv_prog_AWK=gawk}
+ac_cv_prog_CPP=${ac_cv_prog_CPP='gcc -E'}
+ac_cv_prog_ac_ct_AR=${ac_cv_prog_ac_ct_AR=ar}
+ac_cv_prog_ac_ct_CC=${ac_cv_prog_ac_ct_CC=gcc}
+ac_cv_prog_ac_ct_MANIFEST_TOOL=${ac_cv_prog_ac_ct_MANIFEST_TOOL=mt}
+ac_cv_prog_ac_ct_OBJDUMP=${ac_cv_prog_ac_ct_OBJDUMP=objdump}
+ac_cv_prog_ac_ct_RANLIB=${ac_cv_prog_ac_ct_RANLIB=ranlib}
+ac_cv_prog_ac_ct_STRIP=${ac_cv_prog_ac_ct_STRIP=strip}
+ac_cv_prog_cc_c89=${ac_cv_prog_cc_c89=}
+ac_cv_prog_cc_g=${ac_cv_prog_cc_g=yes}
+ac_cv_prog_make_make_set=${ac_cv_prog_make_make_set=yes}
+am_cv_CC_dependencies_compiler_type=${am_cv_CC_dependencies_compiler_type=gcc3}
+am_cv_make_support_nested_variables=${am_cv_make_support_nested_variables=yes}
+am_cv_prog_cc_c_o=${am_cv_prog_cc_c_o=yes}
+am_cv_val_LC_MESSAGES=${am_cv_val_LC_MESSAGES=yes}
+gt_cv_func_dgettext_libc=${gt_cv_func_dgettext_libc=yes}
+gt_cv_func_dgettext_libintl=${gt_cv_func_dgettext_libintl=no}
+gt_cv_func_ngettext_libc=${gt_cv_func_ngettext_libc=yes}
+gt_cv_have_gettext=${gt_cv_have_gettext=yes}
+lt_cv_ar_at_file=${lt_cv_ar_at_file=@}
+lt_cv_archive_cmds_need_lc=${lt_cv_archive_cmds_need_lc=no}
+lt_cv_deplibs_check_method=${lt_cv_deplibs_check_method=pass_all}
+lt_cv_file_magic_cmd=${lt_cv_file_magic_cmd='$MAGIC_CMD'}
+lt_cv_file_magic_test_file=${lt_cv_file_magic_test_file=}
+lt_cv_ld_reload_flag=${lt_cv_ld_reload_flag=-r}
+lt_cv_nm_interface=${lt_cv_nm_interface='BSD nm'}
+lt_cv_objdir=${lt_cv_objdir=.libs}
+lt_cv_path_LD=${lt_cv_path_LD=/usr/bin/ld}
+lt_cv_path_NM=${lt_cv_path_NM='/usr/bin/nm -B'}
+lt_cv_path_mainfest_tool=${lt_cv_path_mainfest_tool=no}
+lt_cv_prog_compiler_c_o=${lt_cv_prog_compiler_c_o=yes}
+lt_cv_prog_compiler_pic=${lt_cv_prog_compiler_pic='-fPIC -DPIC'}
+lt_cv_prog_compiler_pic_works=${lt_cv_prog_compiler_pic_works=yes}
+lt_cv_prog_compiler_rtti_exceptions=${lt_cv_prog_compiler_rtti_exceptions=no}
+lt_cv_prog_compiler_static_works=${lt_cv_prog_compiler_static_works=yes}
+lt_cv_prog_gnu_ld=${lt_cv_prog_gnu_ld=yes}
+lt_cv_sharedlib_from_linklib_cmd=${lt_cv_sharedlib_from_linklib_cmd='printf %s\n'}
+lt_cv_shlibpath_overrides_runpath=${lt_cv_shlibpath_overrides_runpath=no}
+lt_cv_sys_global_symbol_pipe=${lt_cv_sys_global_symbol_pipe='sed -n -e '\''s/^.*[	 ]\([ABCDGIRSTW][ABCDGIRSTW]*\)[	 ][	 ]*\([_A-Za-z][_A-Za-z0-9]*\)$/\1 \2 \2/p'\'' | sed '\''/ __gnu_lto/d'\'''}
+test "${lt_cv_sys_global_symbol_to_c_name_address+set}" = set || lt_cv_sys_global_symbol_to_c_name_address='sed -n -e '\''s/^: \([^ ]*\)[ ]*$/  {\"\1\", (void *) 0},/p'\'' -e '\''s/^[ABCDGIRSTW]* \([^ ]*\) \([^ ]*\)$/  {"\2", (void *) \&\2},/p'\'''
+test "${lt_cv_sys_global_symbol_to_c_name_address_lib_prefix+set}" = set || lt_cv_sys_global_symbol_to_c_name_address_lib_prefix='sed -n -e '\''s/^: \([^ ]*\)[ ]*$/  {\"\1\", (void *) 0},/p'\'' -e '\''s/^[ABCDGIRSTW]* \([^ ]*\) \(lib[^ ]*\)$/  {"\2", (void *) \&\2},/p'\'' -e '\''s/^[ABCDGIRSTW]* \([^ ]*\) \([^ ]*\)$/  {"lib\2", (void *) \&\2},/p'\'''
+lt_cv_sys_global_symbol_to_cdecl=${lt_cv_sys_global_symbol_to_cdecl='sed -n -e '\''s/^T .* \(.*\)$/extern int \1();/p'\'' -e '\''s/^[ABCDGIRSTW]* .* \(.*\)$/extern char \1;/p'\'''}
+lt_cv_sys_max_cmd_len=${lt_cv_sys_max_cmd_len=1572864}
+lt_cv_to_host_file_cmd=${lt_cv_to_host_file_cmd=func_convert_file_noop}
+lt_cv_to_tool_file_cmd=${lt_cv_to_tool_file_cmd=func_convert_file_noop}
+pkg_cv_GSL_CFLAGS=${pkg_cv_GSL_CFLAGS=' '}
+pkg_cv_GSL_LIBS=${pkg_cv_GSL_LIBS='-lgsl -lgslcblas -lm  '}
+pkg_cv_GUVCVIEW_CFLAGS=${pkg_cv_GUVCVIEW_CFLAGS='-pthread -I/usr/include/gtk-3.0 -I/usr/include/atk-1.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/pango-1.0 -I/usr/include/gio-unix-2.0/ -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/pixman-1 -I/usr/include/libpng12  '}
+pkg_cv_GUVCVIEW_LIBS=${pkg_cv_GUVCVIEW_LIBS='-lgtk-3 -lgdk-3 -latk-1.0 -lgio-2.0 -lpangocairo-1.0 -lgdk_pixbuf-2.0 -lcairo-gobject -lpango-1.0 -lcairo -lgobject-2.0 -lglib-2.0  '}
+pkg_cv_GVIEWAUDIO_CFLAGS=${pkg_cv_GVIEWAUDIO_CFLAGS='-pthread  '}
+pkg_cv_GVIEWAUDIO_LIBS=${pkg_cv_GVIEWAUDIO_LIBS='-lportaudio -lasound -lm -lpthread  '}
+pkg_cv_GVIEWENCODER_CFLAGS=${pkg_cv_GVIEWENCODER_CFLAGS=' '}
+pkg_cv_GVIEWENCODER_LIBS=${pkg_cv_GVIEWENCODER_LIBS='-lavcodec -lavutil  '}
+pkg_cv_GVIEWRENDER_CFLAGS=${pkg_cv_GVIEWRENDER_CFLAGS='-D_REENTRANT -I/usr/include/SDL2  '}
+pkg_cv_GVIEWRENDER_LIBS=${pkg_cv_GVIEWRENDER_LIBS='-lSDL2  '}
+pkg_cv_GVIEWV4L2CORE_CFLAGS=${pkg_cv_GVIEWV4L2CORE_CFLAGS='-I/usr/include/libusb-1.0 -I/usr/include/libpng12  '}
+pkg_cv_GVIEWV4L2CORE_LIBS=${pkg_cv_GVIEWV4L2CORE_LIBS='-lv4l2 -ludev -lusb-1.0 -lavcodec -lpng12  '}
+pkg_cv_PULSE_CFLAGS=${pkg_cv_PULSE_CFLAGS='-D_REENTRANT  '}
+pkg_cv_PULSE_LIBS=${pkg_cv_PULSE_LIBS='-lpulse  '}

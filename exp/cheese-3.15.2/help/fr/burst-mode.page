@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="burst-mode" xml:lang="fr">
+
+  <info>
+    <link type="guide" xref="index#main" group="#first"/>
+    <revision pkgversion="3.0" date="2011-08-24" status="candidate"/>
+    <revision pkgversion="3.1" date="2011-09-05" status="review"/>
+    <revision pkgversion="3.8" date="2013-04-19" status="review"/>
+    <revision pkgversion="3.12" date="2014-02-21" status="review"/>
+
+    <credit type="author copyright">
+      <name>Julita Inca</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+      <years>2011</years>
+    </credit>
+    <credit type="author copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+      <years>2011, 2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Pour prendre plusieurs photos en un seul clic, appuyer sur le mode <gui>rafale</gui>. Changer de pose entre chaque prise !</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Bruno Brouard</mal:name>
+      <mal:email>annoa.b@gmail.com</mal:email>
+      <mal:years>2008-2009,2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Claude Paroz</mal:name>
+      <mal:email>claude@2xlibre.net</mal:email>
+      <mal:years>2008-2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Yannick Tailliez</mal:name>
+      <mal:email>ytdispatch-libre@yahoo.com</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Laurent Coudeur</mal:name>
+      <mal:email>laurentc@iol.ie</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Luc Pionchon</mal:name>
+      <mal:email>pionchon.luc@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Luc Guillemin</mal:name>
+      <mal:email>luc.guillemin@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mickael Albertus</mal:name>
+      <mal:email>mickael.albertus@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>naybnet</mal:name>
+      <mal:email>naybnet@gmail.com</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alain Lojewski</mal:name>
+      <mal:email>allomervan@gmail.com</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Prise d'une rapide succession de photos</title>
+
+  <p>Utilisez le mode <gui>rafale</gui> pour prendre automatiquement plusieurs photos à la suite. Cela est particulièrement amusant si vous changez de pose entre les prises ! Pour utiliser le mode <gui>rafale</gui> :</p>
+
+  <steps>
+    <item>
+      <p>Vérifiez que vous êtes en mode <gui>rafale</gui>. Si c'est le cas, le bouton <gui style="button">Rafale</gui> est sélectionné à gauche de l'écran.</p>
+    </item>
+    <item>
+      <p>Cliquez sur le bouton <gui>Prendre plusieurs photos avec une webcam</gui> au milieu du panneau inférieur ou appuyez sur la <key>Barre d'espace</key> pour démarrer la prise.</p>
+      <p>Par défaut, Cheese prend quatre photos séparées d'une seconde par un compte à rebours.</p>
+    </item>
+    <item>
+      <p>Pour arrêter l'enregistrement, appuyez de nouveau sur le même bouton. Vous pouvez également appuyer sur la touche <key>Échap</key> ou <key>Barre d'espace</key> pour arrêter l'enregistrement.</p>
+    </item>
+  </steps>
+
+<section id="burst-preferences">
+  <title>Changement des préférences du mode <gui>rafale</gui></title>
+
+  <p>Vous pouvez modifier le nombre de photos à prendre à chaque rafale et la durée du délai entre les photos :</p>
+
+  <steps>
+    <item>
+      <p>Sélectionnez <guiseq><gui style="menu">Cheese</gui><gui style="menuitem">Préférences</gui><gui style="tab">Capture</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Modifiez les paramètres des préférences :</p>
+      <terms>
+        <item>
+          <title>Retardateur</title>
+          <p>Comptez à rebours à partir de trois avant que la photo soit prise.</p>
+        </item>
+        <item>
+          <title>Déclenchement du flash</title>
+          <p>Votre écran déclenche un flash lorsqu'une photo est prise.</p>
+        </item>
+        <item>
+          <title>Nombre de photos</title>
+          <p>Le nombre de photos prises dans une rafale.</p>
+        </item>
+        <item>
+          <title>Délai entre les photos (en secondes)</title>
+          <p>Délai entre deux photos. Si le <gui>retardateur</gui> est activé, alors le délai doit être d'au moins quatre secondes pour avoir un quelconque effet.</p>
+          <!--<p>The delay between the last photo and the start of the next
+          countdown. If <gui>Countdown</gui> is disabled, this is the delay
+          between photos.</p>-->
+        </item>
+      </terms>
+    </item>
+  </steps>
+
+</section>
+
+</page>

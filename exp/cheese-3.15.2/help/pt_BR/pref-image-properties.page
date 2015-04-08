@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="pref-image-properties" xml:lang="pt-BR">
+
+  <info>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="index#problems"/>
+    <revision pkgversion="3.0" date="2011-08-24" status="candidate"/>
+    <revision pkgversion="3.1" date="2011-09-05" status="review"/>
+    <revision pkgversion="3.8" date="2013-04-15" status="review"/>
+    <revision pkgversion="3.12" date="2014-02-21" status="review"/>
+
+    <credit type="author copyright">
+      <name>Julita Inca</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+      <years>2011</years>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Ajustando a saturação, o contraste, o brilho e a matiz para melhorar a aparência de fotos e vídeos.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Fabrício Godoy</mal:name>
+      <mal:email>skarllot@gmail.com</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Leonardo Ferreira Fontenelle</mal:name>
+      <mal:email>leonardof@gnome.org</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Gabriel Speckhahn</mal:name>
+      <mal:email>gabspeck@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Enrico Nicoletto</mal:name>
+      <mal:email>liverig@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rafael Ferreira</mal:name>
+      <mal:email>rafael.f.f1@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Minhas fotos e vídeos ficam estranhos</title>
+
+  <p>Se as suas fotos e vídeos estão escuros demais ou as cores parecem estar erradas, tente ajudar sua saturação, contraste, brilho e matiz:</p>
+
+  <steps>
+    <item>
+      <p>Selecione <guiseq><gui>Cheese</gui><gui>Preferências</gui><gui>Imagem</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Ajuste os deslizadores para encontrar as melhores configurações para a sua webcam.</p>
+    </item>
+    <item>
+      <p>Click <gui>Close</gui> and check to see if the preview looks
+      better.</p>
+    </item>
+  </steps>
+
+  <figure>
+    <title>Diferentes opções em <gui>Propriedades da imagem</gui> (da esquerda para a direita): aplicar brilho, contraste, matiz e saturação</title>
+    <media its:translate="no" type="image" src="figures/image-properties.png" width="800" height="150"/>
+  </figure>
+
+  <terms>
+    <item>
+      <title>Brilho</title>
+      <p>Aumentar o brilho fará com que as fotos e vídeos fiquem mais claros. Entretanto, se você estiver em uma sala escura, aumentar o brilho poderá fazer com a que a imagem pareça mais ruidosa.</p>
+    </item>
+    <item>
+      <title>Contraste</title>
+      <p>Definir um contraste maior aumentará a diferença entre cores mais escuras e cores mais claras. Se a imagem parecer desbotada, tente aumentar o contraste.</p>
+    </item>
+    <item>
+      <title>Matiz</title>
+      <p>Mudar a matiz da imagem adicionará uma tonalidade a ela. Se a imagem parece ser da cor errada (por exemplo, amarela demais), tente mudar a matiz.</p>
+    </item>
+    <item>
+      <title>Saturação</title>
+      <p>Reduzir a saturação tornará a imagem menos colorida. Se as cores parecem berrantes demais, reduza a saturação.</p>
+    </item>
+  </terms>
+
+</page>

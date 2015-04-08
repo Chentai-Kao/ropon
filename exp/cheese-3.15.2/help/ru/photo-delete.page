@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="photo-delete" xml:lang="ru">
+
+  <info>
+    <link type="guide" xref="index#main"/>
+    <revision pkgversion="3.0" date="2011-08-24" status="candidate"/>
+    <revision pkgversion="3.1" date="2011-09-05" status="review"/>
+    <revision pkgversion="3.12" date="2014-02-21" status="review"/>
+
+    <credit type="author copyright">
+      <name>Джулита Инка (Julita Inca)</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+      <years>2011</years>
+    </credit>
+    <credit type="editor">
+      <name>Екатерина Герасимова (Ekaterina Gerasimova)</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Удаление фотографий и видеозаписей.</desc>
+  </info>
+
+  <title>Удаление фотографии или видеозаписи</title>
+
+  <p>Если какая-либо фотография или видеозапись вам больше не нужна, вы можете удалить её:</p>
+
+  <steps>
+    <item>
+      <p>Найдите в ленте в нижней части окна <app>Cheesee</app> фотографию или видеозапись, которую вы хотите удалить.</p>
+    </item>
+    <item>
+      <p>Right-click it and select <gui>Delete</gui>.<!-- Alternatively, click it
+      once to select it and press the <key>Delete</key> key.--></p>
+    </item>
+    <item>
+      <p>You will be asked if you want to permanently delete it. Confirm by
+      clicking <gui>Delete</gui>; you will not be able to recover the photo
+      or video.</p>
+    </item>
+  </steps>
+
+  <p>Если вы не уверены, хотите ли вы окончательно удалить медиафайл, можете щёлкнуть по медиафайлу правой кнопкой мыши и выбрать <gui>Отправить в корзину</gui>. Это действие переместит файл в каталог <gui>Корзина</gui>.</p>
+
+  <note>
+    <p>В <app>Cheese</app> нет собственной папки, используемой в качестве корзины. Из <app>Cheese</app> нельзя получить доступ к системной папке <gui>Корзина</gui>.</p>
+  </note>
+
+</page>

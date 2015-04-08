@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="pref-resolution" xml:lang="pt-BR">
+
+  <info>
+    <link type="guide" xref="index#preferences"/>
+    <revision pkgversion="3.0" date="2011-08-25" status="candidate"/>
+    <revision pkgversion="3.1" date="2011-09-05" status="review"/>
+    <revision pkgversion="3.12" date="2014-02-21" status="candidate"/>
+
+    <credit type="author copyright">
+      <name>Julita Inca</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+      <years>2011</years>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>A resolução do vídeo ou foto determina quantos detalhes poderão ser percebidos; alterar a resolução afeterá o tamanho do arquivo.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Fabrício Godoy</mal:name>
+      <mal:email>skarllot@gmail.com</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Leonardo Ferreira Fontenelle</mal:name>
+      <mal:email>leonardof@gnome.org</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Gabriel Speckhahn</mal:name>
+      <mal:email>gabspeck@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Enrico Nicoletto</mal:name>
+      <mal:email>liverig@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rafael Ferreira</mal:name>
+      <mal:email>rafael.f.f1@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Mudando a resolução de captura da sua webcam</title>
+
+  <p>Uma resolução mais alta geralmente produz imagens de melhor qualidade, porém fotos e vídeos com resoluções maiores ocupam mais espaço no seu disco rídigo. Vídeos em alta resolução, especialmente, ocupam bastante espaço.</p>
+
+  <p>Se você quiser que as suas imagens ocupem menos espaço em disco, reduza a resolução da sua webcam. Se você quiser imagens com maior qualidade, aumente a resolução. Para mudar a resolução da webcam:</p>
+
+  <steps>
+    <item>
+      <p>Selecione <guiseq><gui>Cheese</gui><gui>Preferências</gui><gui>Webcam</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Escolha uma resolução diferente na lista suspensa. Algumas webcams oferecem suporte a apenas uma resolução, portanto você pode não ter escolha.</p>
+    </item>
+    <item>
+      <p>Pressione <gui>Fechar</gui>.</p>
+    </item>
+  </steps>
+
+</page>

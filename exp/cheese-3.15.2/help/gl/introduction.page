@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="introduction" xml:lang="gl">
+
+  <info>
+    <link type="guide" xref="index" group="#first"/>
+    <revision pkgversion="3.0" date="2011-08-24" status="candidate"/>
+    <revision pkgversion="3.1" date="2011-09-05" status="review"/>
+    <revision pkgversion="3.6" date="2012-05-09" status="review"/>
+    <revision pkgversion="3.8" date="2013-04-15" status="review"/>
+    <revision pkgversion="3.12" date="2014-02-21" status="final"/>
+
+    <credit type="author copyright">
+      <name>Julita Inca</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+      <years>2011</years>
+    </credit>
+    <credit type="author editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Introdución ao <app>Fotomatón de cámara web Cheese</app>.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Fran Dieguez</mal:name>
+      <mal:email>frandieguez@gnome.org</mal:email>
+      <mal:years>2013.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Introducción</title>
+
+  <p><app>Cheese</app> é un aplicativo de cámara web que lle permite tomar fotos e gravar vídeos usando a súa cámara. Pode facer fotos e vídeos orixinais e divertidos que pode compartir de forma doada cos outros. Pode tomar varias fotos en sucesión usando o <link xref="pref-burst-mode">modo <gui>ráfaga</gui></link> e permítelle <link xref="effects-apply">aplicar <gui>efectos</gui></link> para crear fotos e vídeos con un toque divertido e especial.</p>
+
+  <p>Por omisión, <app>Cheese</app> inicia no modo <gui>foto</gui>, preparado para <link xref="photo-take">sacar unha foto</link>. Debe cambiar ao modo <gui>vídeo</gui> para <link xref="video-record">gravar un vídeo</link>.</p>
+
+  <p><app>Cheese</app> funciona coa maioría das cámaras web, pero algunhas cámaras web antigas poderían non ser compatíbeis.</p>
+
+</page>

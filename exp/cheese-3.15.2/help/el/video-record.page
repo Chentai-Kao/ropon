@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="video-record" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="index#main" group="#first"/>
+    <revision pkgversion="3.0" date="2011-08-25" status="candidate"/>
+    <revision pkgversion="3.1" date="2011-09-05" status="review"/>
+    <revision pkgversion="3.8" date="2013-04-15" status="review"/>
+    <revision pkgversion="3.12" date="2014-02-21" status="review"/>
+
+    <credit type="author copyright">
+      <name>Julita Inca</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+      <years>2011</years>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Χρησιμοποιήστε την δικτυακή σας κάμερα για να καταγράψετε μικρού μήκους ταινίες και για να τις μοιράσετε με τους φίλους σας.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Ευστάθιος Ιωσηφίδης</mal:name>
+      <mal:email>diamond_gr@freemail.gr</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Καταγραφή βίντεο</title>
+
+  <p>Για να καταγράψετε ένα βίντεο χρησιμοποιώντας την κάμερα σας:</p>
+
+  <steps>
+    <item>
+      <p>Βεβαιωθείτε ότι είστε σε λειτουργία <gui>Βίντεο</gui>. Αν αυτό όντως ισχύει, θα επιλεγεί το κουμπί <gui style="button">Βίντεο</gui> στην αριστερή πλευρά της οθόνης.</p>
+    </item>
+    <item>
+      <p>Κάντε κλικ στο κουμπί <gui style="button">Εγγραφή βίντεο χρησιμοποιώντας μια δικτυακή κάμερα </gui>, στη μέση του κάτω πίνακα, ή πατήστε το πλήκτρο <key>Space</key>. Το <app>Cheese</app> θα αρχίσει την εγγραφή ενός βίντεο χρησιμοποιώντας την κάμερά σας.</p>
+    </item>
+    <item>
+     <p>Για να διακοπεί η εγγραφή, πατήστε ξανά το ίδιο κουμπί. Μπορείτε επίσης να πατήσετε το πλήκτρο <key>Esc</key> ή το <key>Space</key> για να σταματήσει η εγγραφή.</p>
+    </item>
+  </steps>
+
+  <p>Τα βίντεο αποθηκεύονται σε αρχεία τύπου WebM (<file>.webm</file>).</p>
+
+  <p>Όταν θα έχετε σταματήσει την καταγραφή, το βίντεο θα εμφανισθεί αυτόματα στη ροή φωτογραφιών, στο κάτω μέρος του παραθύρου του <app>Cheese</app>. Από εκεί, μπορείτε <link xref="photo-view">να ανοίξετε</link>, ή να διαγράψετε το βίντεο.</p>
+
+  <p>Αν έχετε πρόβλημα να στείλετε κάποιο βίντεο σε άτομα με διαφορετικό λογισμικό (όπως Windows ή Mac OS), ίσως να πρέπει να <link href="help:gnome-help/video-sending">το μετατρέψετε σε κάποιον άλλο τύπο αρχείου</link>.</p>
+
+</page>

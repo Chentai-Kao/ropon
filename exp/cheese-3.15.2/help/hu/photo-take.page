@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="photo-take" xml:lang="hu">
+
+  <info>
+    <link type="guide" xref="index#main" group="#first"/>
+    <link type="seealso" xref="pref-flash"/>
+    <link type="seealso" xref="pref-countdown"/>
+    <link type="seealso" xref="photo-view"/>
+    <link type="seealso" xref="photo-delete"/>
+
+    <revision pkgversion="3.0" date="2011-08-25" status="candidate"/>
+    <revision pkgversion="3.1" date="2011-09-05" status="review"/>
+    <revision pkgversion="3.8" date="2013-04-15" status="review"/>
+    <revision pkgversion="3.12" date="2014-02-21" status="review"/>
+
+    <credit type="author copyright">
+      <name>Julita Inca</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+      <years>2011</years>
+    </credit>
+    <credit type="author editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Webkamera használata videók helyett fényképek készítésére.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kelemen Gábor</mal:name>
+      <mal:email>kelemeng at gnome dot hu</mal:email>
+      <mal:years>2011, 2012, 2013, 2014.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Fényképek készítése</title>
+
+  <p>A webkamerák használhatók a videók mellett állóképek készítésére is. Fénykép készítéséhez:</p>
+
+  <steps>
+    <item>
+      <p>Győződjön meg róla, hogy <gui>Fénykép</gui> módban van. Ebben az esetben a képernyő bal oldalán ki van jelölve a <gui style="button">Fénykép</gui> gomb.</p>
+    </item>
+    <item>
+      <p>Nyomja meg a <gui style="button">Fénykép készítése webkamerával</gui> gombot az alsó panel közepén, vagy a <key>szóközt</key> a fénykép elkészítéséhez.</p>
+    </item>
+    <item>
+      <p>Egy rövid visszaszámlálás után felvillan az ablak, és a fénykép megjelenik a fényképsávban.</p>
+    </item>
+  </steps>
+
+  <p>A fényképsáv fényképei a saját mappájában lévő <file>Képek/Webcam</file> mappába kerülnek mentésre, JPEG (<file>.jpg</file>) formátumban.</p>
+
+  <p>A fényképkészítés a <gui>Fényképezés</gui> gomb megnyomása utáni megszakításához nyomja meg az <key>Esc</key> billentyűt a visszaszámlálás alatt.</p>
+
+  <note>
+    <p>Több kép gyors egymásutánban történő készítéséhez használja a <link xref="burst-mode"><gui>Sorozat</gui> módot</link>.</p>
+  </note>
+
+</page>

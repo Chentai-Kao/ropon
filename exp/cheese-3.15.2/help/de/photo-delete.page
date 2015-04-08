@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="photo-delete" xml:lang="de">
+
+  <info>
+    <link type="guide" xref="index#main"/>
+    <revision pkgversion="3.0" date="2011-08-24" status="candidate"/>
+    <revision pkgversion="3.1" date="2011-09-05" status="review"/>
+    <revision pkgversion="3.12" date="2014-02-21" status="review"/>
+
+    <credit type="author copyright">
+      <name>Julita Inca</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+      <years>2011</years>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Fotos und Videos löschen, die Sie nicht mehr aufbewahren wollen.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Stefan Horning</mal:name>
+      <mal:email>stefan@hornings.de</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mario Blättermann</mal:name>
+      <mal:email>mario.blaettermann@gmail.com</mal:email>
+      <mal:years>2009-2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Wolfgang Stöggl</mal:name>
+      <mal:email>c72578@yahoo.de</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Christian Kirbach</mal:name>
+      <mal:email>christian.kirbach@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Tobias Endrigkeit</mal:name>
+      <mal:email>tobiasendrigkeit@outlook.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Ein Foto oder ein Video löschen</title>
+
+  <p>Wenn Sie ein Foto oder Video nicht mehr benötigen, können Sie es dauerhaft löschen:</p>
+
+  <steps>
+    <item>
+      <p>Suchen Sie das zu löschende Foto oder Video in der Fotostrecke am unteren Rand des <app>Cheese</app>-Fensters.</p>
+    </item>
+    <item>
+      <p>Right-click it and select <gui>Delete</gui>.<!-- Alternatively, click it
+      once to select it and press the <key>Delete</key> key.--></p>
+    </item>
+    <item>
+      <p>You will be asked if you want to permanently delete it. Confirm by
+      clicking <gui>Delete</gui>; you will not be able to recover the photo
+      or video.</p>
+    </item>
+  </steps>
+
+  <p>Wenn Sie nicht sicher sind, ob Sie das Foto oder Video dauerhaft löschen wollen, klicken Sie mit der rechten Maustaste darauf und wählen Sie <gui>In den Papierkorb verschieben</gui>. Dadurch wird es in den <gui>Papierkorb</gui>-Ordner des Rechners verschoben.</p>
+
+  <note>
+    <p>Cheese hat keinen eigenen <gui>Papierkorb</gui>-Ordner. Sie können auch nicht aus <app>Cheese</app> direkt auf den <gui>Papierkorb</gui>-Ordner des Systems zugreifen.</p>
+  </note>
+
+</page>

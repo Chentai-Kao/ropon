@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="video-record" xml:lang="cs">
+
+  <info>
+    <link type="guide" xref="index#main" group="#first"/>
+    <revision pkgversion="3.0" date="2011-08-25" status="candidate"/>
+    <revision pkgversion="3.1" date="2011-09-05" status="review"/>
+    <revision pkgversion="3.8" date="2013-04-15" status="review"/>
+    <revision pkgversion="3.12" date="2014-02-21" status="review"/>
+
+    <credit type="author copyright">
+      <name>Julita Inca</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+      <years>2011</years>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Použijte svou webovou kameru k zaznamenání krátkých filmů a sdílejte je se svými přáteli.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Lucas Lommer</mal:name>
+      <mal:email>llommer@svn.gnome.org</mal:email>
+      <mal:years>2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Martin Jablečník</mal:name>
+      <mal:email>martin.jablecnik@seznam.cz</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Marek Černocký</mal:name>
+      <mal:email>marek@manet.cz</mal:email>
+      <mal:years>2013, 2014</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Jak nahrávat video</title>
+
+  <p>Když chcete svoji webovou kamerou nahrát video:</p>
+
+  <steps>
+    <item>
+      <p>Ujistěte se, že jste v režimu <gui>video</gui>. Pokud jste, bude po levé straně obrazovky vybráno tlačítko <gui style="button">Video</gui>.</p>
+    </item>
+    <item>
+      <p>Klikněte na tlačítko <gui style="button">Nahrát video pomocí webové kamery</gui> uprostřed spodního panelu nebo zmáčkněte <key>mezerník</key> a video se začne nahrávat.</p>
+    </item>
+    <item>
+     <p>Pro ukončení snímání zmáčkněte to samé tlačítko znovu. Můžete také použít klávesu <key>Esc</key> nebo <key>mezerník</key>.</p>
+    </item>
+  </steps>
+
+  <p>Videa jsou ukládána ve formátu WebM (<file>.webm</file>).</p>
+
+  <p>Po zastavení nahrávání se video automaticky objeví v panelu snímků ve spodní části okna <app>Cheese</app>. Odtud jej můžete <link xref="photo-view">otevřít</link> nebo smazat.</p>
+
+  <p>V případě, že máte problémy se sdílením videa s lidmi užívající jiný operační systém (například Windows nebo Mac OS), můžete <link href="help:gnome-help/video-sending">jej převést do jiného formátu</link>.</p>
+
+</page>

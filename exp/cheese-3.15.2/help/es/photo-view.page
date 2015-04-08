@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="photo-view" xml:lang="es">
+
+  <info>
+    <link type="guide" xref="index#main"/>
+    <revision pkgversion="3.0" date="2011-08-25" status="candidate"/>
+    <revision pkgversion="3.1" date="2011-09-05" status="review"/>
+    <revision pkgversion="3.12" date="2014-02-21" status="review"/>
+
+    <credit type="author copyright">
+      <name>Julita Inca</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+      <years>2011</years>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Las fotos y los vídeos aparecerán automáticamente en la colección de imágenes.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2011 - 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jorge González</mal:name>
+      <mal:email>jorgegonz@svn.gnome.org</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  </info>
+
+
+  <title>Ver una foto o un vídeo que hizo</title>
+
+  <p>Después de hacer una foto o e grabar un vídeo, esta aparecerá en la colección de fotos en la parte inferior de la ventana. Puede pulsarla con el botón derecho y elegir <gui style="menuitem">Abrir</gui> para abrirla en el visor de fotos o en el reproductor de vídeo.</p>
+
+<!-- TODO: This is a bug, it doesn't work right now.
+  <p>If you want to see a bigger version of a photo, or to play a video,
+  double-click it. This will open it in the default photo viewer or video
+  player.</p>-->
+
+  <p>Todas las fotos y vídeos de la colección de fotos se guardan en las carpetas <file>Imágenes/Webcam</file> o <file>Vídeos/Webcam</file> en su carpeta personal.</p>
+
+</page>

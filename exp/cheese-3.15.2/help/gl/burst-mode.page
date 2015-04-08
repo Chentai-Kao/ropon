@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="burst-mode" xml:lang="gl">
+
+  <info>
+    <link type="guide" xref="index#main" group="#first"/>
+    <revision pkgversion="3.0" date="2011-08-24" status="candidate"/>
+    <revision pkgversion="3.1" date="2011-09-05" status="review"/>
+    <revision pkgversion="3.8" date="2013-04-19" status="review"/>
+    <revision pkgversion="3.12" date="2014-02-21" status="review"/>
+
+    <credit type="author copyright">
+      <name>Julita Inca</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+      <years>2011</years>
+    </credit>
+    <credit type="author copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+      <years>2011, 2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Capture several photos with one button press in <gui>Burst</gui> mode. Change your pose in between each shot!</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Fran Dieguez</mal:name>
+      <mal:email>frandieguez@gnome.org</mal:email>
+      <mal:years>2013.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Take photos in quick succession</title>
+
+  <p>Use o modo <gui>ráfaga</gui> para sacar varias fotos en fila de forma automática. Isto é particularmente divertido se cambia a súa foto entre as poses! Para usar o modo <gui>ráfaga</gui>:</p>
+
+  <steps>
+    <item>
+      <p>Make sure that you are in <gui>Burst</gui> mode. If you are, the
+      <gui style="button">Burst</gui> button will be selected on the left side
+      of the screen.</p>
+    </item>
+    <item>
+      <p>Click the <gui style="button">Take multiple photos using a
+      webcam</gui> button in the middle of the bottom panel, or press the
+      <key>Space</key> key, to start taking photos.</p>
+      <p>Por omisión, tomaranse catro fotos, con un segundo de atraso e unha conta atrás entre as fotos.</p>
+    </item>
+    <item>
+      <p>To stop recording, press the same button again. You can also press the
+      <key>Esc</key> or <key>Space</key> key to stop recording.</p>
+    </item>
+  </steps>
+
+<section id="burst-preferences">
+  <title>Cambiar as preferencias da <gui>Ráfaga</gui></title>
+
+  <p>Pode cambiar cantas fotos se toman para cada modo ráfaga e a cantidade de atrase entre as fotos:</p>
+
+  <steps>
+    <item>
+      <p>Seleccione <guiseq><gui style="menu">Cheese</gui> <gui style="menuitem">Preferencias</gui> <gui style="tab">Capturar</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Editar as preferencias:</p>
+      <terms>
+        <item>
+          <title>Conta atrás</title>
+          <p>Conta atrás desde tres antes de que se saque unha foto.</p>
+        </item>
+        <item>
+          <title>Disparar flash</title>
+          <p>A súa pantalla fará un flash cando se saque a foto.</p>
+        </item>
+        <item>
+          <title>Número de fotos</title>
+          <p>O número de fotos que tomar nunha sola ráfaga.</p>
+        </item>
+        <item>
+          <title>Atraso entre fotos (segundos)</title>
+          <p>The delay between two photos. If you have the <gui>Countdown</gui>
+          enabled, then this delay needs to be set to over four seconds for it
+          to have any effect.</p>
+          <!--<p>The delay between the last photo and the start of the next
+          countdown. If <gui>Countdown</gui> is disabled, this is the delay
+          between photos.</p>-->
+        </item>
+      </terms>
+    </item>
+  </steps>
+
+</section>
+
+</page>

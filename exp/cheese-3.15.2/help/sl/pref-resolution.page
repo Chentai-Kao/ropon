@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="pref-resolution" xml:lang="sl">
+
+  <info>
+    <link type="guide" xref="index#preferences"/>
+    <revision pkgversion="3.0" date="2011-08-25" status="candidate"/>
+    <revision pkgversion="3.1" date="2011-09-05" status="review"/>
+    <revision pkgversion="3.12" date="2014-02-21" status="candidate"/>
+
+    <credit type="author copyright">
+      <name>Julita Inca</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+      <years>2011</years>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Ločljivost fotografije ali videa določi, koliko podrobnosti lahko vidite  v njem. Njena sprememba bo vplivala na velikost datoteke.</desc>
+
+  </info>
+
+  <title>Sprememba ločljivosti zajemanja spletne kamere</title>
+
+  <p>Viška ločljivost običajno pomeni bolj kakovostne slike, vendar pa fotografije in videi z višjo ločljivostjo zavzemajo več prostora na trdem disku. Veliko prostora zavzamejo predvsem videoposnetki, zajeti z visoko ločljivostjo. </p>
+
+  <p>Če želite, da vaše slike zavzemajo manj prostora na disku, zmanjšajte ločljivost svoje spletne kamere. Če želite bolj kakovostne slike, ločljivost zvišajte. Za spremembo ločljivosti spletne kamere:</p>
+
+  <steps>
+    <item>
+      <p>Select
+      <guiseq><gui>Cheese</gui><gui>Preferences</gui><gui>Webcam</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Izberite drugo ločljivost s spustnega seznama. Nekatere spletne kamere podpirajo le eno ločljivost, zato morda nimate izbrie.</p>
+    </item>
+    <item>
+      <p>Press <gui>Close</gui>.</p>
+    </item>
+  </steps>
+
+</page>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="pref-resolution" xml:lang="ru">
+
+  <info>
+    <link type="guide" xref="index#preferences"/>
+    <revision pkgversion="3.0" date="2011-08-25" status="candidate"/>
+    <revision pkgversion="3.1" date="2011-09-05" status="review"/>
+    <revision pkgversion="3.12" date="2014-02-21" status="candidate"/>
+
+    <credit type="author copyright">
+      <name>Джулита Инка (Julita Inca)</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+      <years>2011</years>
+    </credit>
+    <credit type="editor">
+      <name>Екатерина Герасимова (Ekaterina Gerasimova)</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Разрешение фото или видео определяет их детализацию, изменение разрешения приведёт к изменению размера файла.</desc>
+
+  </info>
+
+  <title>Изменение разрешения захвата веб-камеры</title>
+
+  <p>Как правило, выбор более высокого разрешения означает получение более качественных фотографий и видеозаписей, однако, медиафайлы с высоким разрешением будут занимать больше места на вашем жёстком диске. В частности, видеозаписи в высоком разрешении занимают существенно большее место.</p>
+
+  <p>Если вы хотите, чтобы изображения занимали меньше дискового пространства, уменьшите разрешение веб-камеры. Если вы хотите получать изображения с лучшим качеством, увеличьте разрешение. Чтобы изменить разрешение камеры:</p>
+
+  <steps>
+    <item>
+      <p>Select
+      <guiseq><gui>Cheese</gui><gui>Preferences</gui><gui>Webcam</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Выберите другое разрешение из выпадающего списка. Некоторые веб-камеры поддерживают только одно-единственное разрешение, в этом случае вы не сможете выбрать другое разрешение.</p>
+    </item>
+    <item>
+      <p>Press <gui>Close</gui>.</p>
+    </item>
+  </steps>
+
+</page>

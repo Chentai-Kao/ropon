@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="photo-view" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="index#main"/>
+    <revision pkgversion="3.0" date="2011-08-25" status="candidate"/>
+    <revision pkgversion="3.1" date="2011-09-05" status="review"/>
+    <revision pkgversion="3.12" date="2014-02-21" status="review"/>
+
+    <credit type="author copyright">
+      <name>Julita Inca</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+      <years>2011</years>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Φωτογραφίες και βίντεο θα εμφανισθούν αυτόματα στον διαχειριστή εικόνων.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Ευστάθιος Ιωσηφίδης</mal:name>
+      <mal:email>diamond_gr@freemail.gr</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+
+  <title>Προβολή φωτογραφίων ή βίντεο που έχετε τραβήξει</title>
+
+  <p>Αφού τραβήξετε μια φωτογραφία ή καταγράψετε ένα βίντεο, θα εμφανισθεί στη ροή φωτογραφιών στο κάτω μέρος του παραθύρου. Μπορείτε να κάνετε δεξί κλικ σε αυτό και πατήστε <gui style="menuitem">Άνοιγμα</gui> για να το ανοίξετε στο πρόγραμμα προβολής φωτογραφιών ή στην εφαρμογή για αναπαραγωγή βίντεο.</p>
+
+<!-- TODO: This is a bug, it doesn't work right now.
+  <p>If you want to see a bigger version of a photo, or to play a video,
+  double-click it. This will open it in the default photo viewer or video
+  player.</p>-->
+
+  <p>Όλες οι εικόνες και τα βίντεο στον διαχειριστή φωτογραφιών αποθηκεύονται στους φακέλους <file>Εικόνες/Δικτυακή κάμερα</file> ή <file>Βίντεο/Δικτυακή κάμερα</file> στον προσωπικό σας φάκελο.</p>
+
+</page>

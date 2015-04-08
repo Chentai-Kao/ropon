@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="burst-mode" xml:lang="pt-BR">
+
+  <info>
+    <link type="guide" xref="index#main" group="#first"/>
+    <revision pkgversion="3.0" date="2011-08-24" status="candidate"/>
+    <revision pkgversion="3.1" date="2011-09-05" status="review"/>
+    <revision pkgversion="3.8" date="2013-04-19" status="review"/>
+    <revision pkgversion="3.12" date="2014-02-21" status="review"/>
+
+    <credit type="author copyright">
+      <name>Julita Inca</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+      <years>2011</years>
+    </credit>
+    <credit type="author copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+      <years>2011, 2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Capture several photos with one button press in <gui>Burst</gui> mode. Change your pose in between each shot!</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Fabrício Godoy</mal:name>
+      <mal:email>skarllot@gmail.com</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Leonardo Ferreira Fontenelle</mal:name>
+      <mal:email>leonardof@gnome.org</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Gabriel Speckhahn</mal:name>
+      <mal:email>gabspeck@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Enrico Nicoletto</mal:name>
+      <mal:email>liverig@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rafael Ferreira</mal:name>
+      <mal:email>rafael.f.f1@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Take photos in quick succession</title>
+
+  <p>Use o modo de <gui>Explosão</gui> para tirar automaticamente várias fotos de uma só vez. Fica mais divertido se você trocar de pose entre as fotos! Para usar o modo de <gui>Explosão</gui>:</p>
+
+  <steps>
+    <item>
+      <p>Make sure that you are in <gui>Burst</gui> mode. If you are, the
+      <gui style="button">Burst</gui> button will be selected on the left side
+      of the screen.</p>
+    </item>
+    <item>
+      <p>Click the <gui style="button">Take multiple photos using a
+      webcam</gui> button in the middle of the bottom panel, or press the
+      <key>Space</key> key, to start taking photos.</p>
+      <p>Por padrão, são tiradas quatro fotos com atraso de um segundo e uma contagem regressiva entre as fotos.</p>
+    </item>
+    <item>
+      <p>To stop recording, press the same button again. You can also press the
+      <key>Esc</key> or <key>Space</key> key to stop recording.</p>
+    </item>
+  </steps>
+
+<section id="burst-preferences">
+  <title>Alterando as preferências de <gui>Explosão</gui></title>
+
+  <p>Você pode mudar quantas fotos são tiradas em cada explosão e a duração do atraso entre as fotos:</p>
+
+  <steps>
+    <item>
+      <p>Selecione <guiseq><gui style="menu">Cheese</gui><gui style="menuitem">Preferências</gui><gui style="tab">Captura</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Edite as configurações de preferência:</p>
+      <terms>
+        <item>
+          <title>Contador regressivo</title>
+          <p>Contagem regressiva partindo do três antes que a foto seja tirada.</p>
+        </item>
+        <item>
+          <title>Disparo do flash</title>
+          <p>Quando uma foto é tirada, sua tela irá emitir um flash</p>
+        </item>
+        <item>
+          <title>Número de fotos</title>
+          <p>É o número de fotos que serão tiradas em uma única explosão.</p>
+        </item>
+        <item>
+          <title>Atraso entre as fotos (segundos)</title>
+          <p>The delay between two photos. If you have the <gui>Countdown</gui>
+          enabled, then this delay needs to be set to over four seconds for it
+          to have any effect.</p>
+          <!--<p>The delay between the last photo and the start of the next
+          countdown. If <gui>Countdown</gui> is disabled, this is the delay
+          between photos.</p>-->
+        </item>
+      </terms>
+    </item>
+  </steps>
+
+</section>
+
+</page>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="photo-take" xml:lang="fr">
+
+  <info>
+    <link type="guide" xref="index#main" group="#first"/>
+    <link type="seealso" xref="pref-flash"/>
+    <link type="seealso" xref="pref-countdown"/>
+    <link type="seealso" xref="photo-view"/>
+    <link type="seealso" xref="photo-delete"/>
+
+    <revision pkgversion="3.0" date="2011-08-25" status="candidate"/>
+    <revision pkgversion="3.1" date="2011-09-05" status="review"/>
+    <revision pkgversion="3.8" date="2013-04-15" status="review"/>
+    <revision pkgversion="3.12" date="2014-02-21" status="review"/>
+
+    <credit type="author copyright">
+      <name>Julita Inca</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+      <years>2011</years>
+    </credit>
+    <credit type="author editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Utiliser votre webcam pour faire des photos plutôt que des vidéos.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Bruno Brouard</mal:name>
+      <mal:email>annoa.b@gmail.com</mal:email>
+      <mal:years>2008-2009,2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Claude Paroz</mal:name>
+      <mal:email>claude@2xlibre.net</mal:email>
+      <mal:years>2008-2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Yannick Tailliez</mal:name>
+      <mal:email>ytdispatch-libre@yahoo.com</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Laurent Coudeur</mal:name>
+      <mal:email>laurentc@iol.ie</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Luc Pionchon</mal:name>
+      <mal:email>pionchon.luc@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Luc Guillemin</mal:name>
+      <mal:email>luc.guillemin@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mickael Albertus</mal:name>
+      <mal:email>mickael.albertus@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>naybnet</mal:name>
+      <mal:email>naybnet@gmail.com</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alain Lojewski</mal:name>
+      <mal:email>allomervan@gmail.com</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Prise de photos</title>
+
+  <p>Les webcams permettent de prendre aussi bien des photos que des vidéos. Pour prendre une photo :</p>
+
+  <steps>
+    <item>
+      <p>Vérifiez que vous êtes en mode <gui>Photo</gui>. Si c'est le cas, le bouton <gui style="button">Photo</gui> est sélectionné à gauche de l'écran.</p>
+    </item>
+    <item>
+      <p>Cliquez sur le bouton <gui style="button">Prendre une photo avec une webcam</gui> au milieu du panneau inférieur, ou appuyez sur la <key>Barre d'espace</key> pour prendre la photo.</p>
+    </item>
+    <item>
+      <p>Un court compte à rebours s'affiche, suivi d'un flash, puis la photo apparaît dans le flux d'images.</p>
+    </item>
+  </steps>
+
+  <p>Les photos du flux d'images sont automatiquement enregistrées dans le dossier <file>Images/Webcam</file> de votre dossier personnel. Elles sont enregistrées au format JPEG (<file>.jpg</file>).</p>
+
+  <p>Pour annuler la prise d'une photo après avoir cliqué sur <gui>Prendre une photo</gui>, appuyez sur la touche <key>Échap</key> avant la fin du compte à rebours.</p>
+
+  <note>
+    <p>Pour prendre plusieurs photos les unes à la suite des autres, utilisez le <link xref="pref-burst-mode">mode <gui>rafale</gui></link>.</p>
+  </note>
+
+</page>

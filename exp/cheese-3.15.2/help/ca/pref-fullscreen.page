@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="pref-fullscreen" xml:lang="ca">
+
+  <info>
+    <link type="guide" xref="index#preferences"/>
+    <revision pkgversion="3.6" date="2012-05-09" status="stub"/>
+    <revision pkgversion="3.12" date="2014-02-21" status="review"/>
+
+    <credit type="author">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Com activar o desactivar el mode de pantalla completa</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Joan Duran</mal:name>
+      <mal:email>jodufi@gmail.com</mal:email>
+      <mal:years>2008, 2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Carles Ferrando</mal:name>
+      <mal:email>carles.ferrando@gmail.com</mal:email>
+      <mal:years>2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Gerard Alcorlo Bofill</mal:name>
+      <mal:email>galcorlo@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Laura Sales</mal:name>
+      <mal:email>laura.saflo@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Pantalla completa</title>
+
+  <p>To enable or disable the fullscreen mode:</p>
+
+  <steps>
+    <item><p>Feu clic a <guiseq><gui>Cheese</gui><gui>Pantalla completa</gui></guiseq>.</p></item>
+  </steps>
+
+  <p>If you cannot see the <gui style="menu">Cheese</gui> menu in fullscreen
+  mode, move your mouse or tap your touchscreen.</p>
+
+  <note style="tip">
+    <p>You can also enable and disable fullscreen mode by pressing
+    <key>F11</key>.</p>
+  </note>
+</page>

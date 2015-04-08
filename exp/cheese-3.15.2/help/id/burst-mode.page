@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="burst-mode" xml:lang="id">
+
+  <info>
+    <link type="guide" xref="index#main" group="#first"/>
+    <revision pkgversion="3.0" date="2011-08-24" status="candidate"/>
+    <revision pkgversion="3.1" date="2011-09-05" status="review"/>
+    <revision pkgversion="3.8" date="2013-04-19" status="review"/>
+    <revision pkgversion="3.12" date="2014-02-21" status="review"/>
+
+    <credit type="author copyright">
+      <name>Julita Inca</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+      <years>2011</years>
+    </credit>
+    <credit type="author copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+      <years>2011, 2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Ambil beberapa foto dengan satu kali menekan tombol dalam mode <gui>Rentetan</gui>. Ubah pose Anda di antara setiap pengambilan!</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Andika Triwidada</mal:name>
+      <mal:email>andika@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Ambil banyak foto berurutan secara cepat</title>
+
+  <p>Gunakan mode <gui>Rentetan</gui> untuk secara otomatis mengambil beberapa foto berturutan. Sangat menyenangkan jika Anda mengubah pose Anda di antara foto! Untuk memakai mode <gui>Rentetan</gui>:</p>
+
+  <steps>
+    <item>
+      <p>Pastikan bahwa Anda berada dalam mode <gui>Rentetan</gui>. Bila ya, tombol <gui style="button">Rentetan</gui> akan dipilih di sisi kiri layar.</p>
+    </item>
+    <item>
+      <p>Klik tombol <gui style="button">Ambil banyak foto memakai webcam</gui>  di tengah panel bawah, atau tekan tombol<key>Spasi</key> untuk mulai mengambil foto.</p>
+      <p>Secara baku, akan diambil empat foto, dengan jeda satu detik dan hitung mundur antar foto.</p>
+    </item>
+    <item>
+      <p>Untuk mengakhiri perekaman, tekan lagi tombol yang sama. Anda juga dapat menekan tombol <key>Esc</key> atau <key>Spasi</key> untuk berhenti merekam.</p>
+    </item>
+  </steps>
+
+<section id="burst-preferences">
+  <title>Ubah preferensi <gui>Rentetan</gui></title>
+
+  <p>Anda dapat mengubah berapa banyak foto yang akan diambil dalam setiap rentetan dan lama jeda antar foto:</p>
+
+  <steps>
+    <item>
+      <p>Pilih <guiseq><gui style="menu">Cheese</gui><gui style="menuitem">Preferensi</gui><gui style="tab">Tangkap</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Sunting pengaturan preferensi:</p>
+      <terms>
+        <item>
+          <title>Hitung mundur</title>
+          <p>Menghitung mundur dari tiga sebelum foto diambil.</p>
+        </item>
+        <item>
+          <title>Nyalakan lampu kilat</title>
+          <p>Layar Anda akan menyala seperti kilat ketika suatu foto diambil.</p>
+        </item>
+        <item>
+          <title>Cacah foto</title>
+          <p>Banyaknya foto yang akan diambil dalam satu rentetan tunggal.</p>
+        </item>
+        <item>
+          <title>Jeda antar foto (detik)</title>
+          <p>Jeda antara dua foto. Bila Anda memfungsikan <gui>Hitung Mundur</gui>, maka jeda ini perlu diatur agar lebih dari empat detik agar berdampak.</p>
+          <!--<p>The delay between the last photo and the start of the next
+          countdown. If <gui>Countdown</gui> is disabled, this is the delay
+          between photos.</p>-->
+        </item>
+      </terms>
+    </item>
+  </steps>
+
+</section>
+
+</page>

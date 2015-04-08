@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="pref-image-properties" xml:lang="gl">
+
+  <info>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="index#problems"/>
+    <revision pkgversion="3.0" date="2011-08-24" status="candidate"/>
+    <revision pkgversion="3.1" date="2011-09-05" status="review"/>
+    <revision pkgversion="3.8" date="2013-04-15" status="review"/>
+    <revision pkgversion="3.12" date="2014-02-21" status="review"/>
+
+    <credit type="author copyright">
+      <name>Julita Inca</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+      <years>2011</years>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Axuste a saturación, contraste, brillo e ton para facer que as fotos e os vídeos se vexan mellor.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Fran Dieguez</mal:name>
+      <mal:email>frandieguez@gnome.org</mal:email>
+      <mal:years>2013.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>As miñas fotos e vídeos vense mal</title>
+
+  <p>Se as súas fotos ou vídeos están demasiado escuros ou as cores son erróneas, tente axustar a saturación, contraste, brillo e ton:</p>
+
+  <steps>
+    <item>
+      <p>Seleccione <guiseq><gui>Cheese</gui><gui>Preferencias</gui><gui>Imaxe</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Move the sliders to find the best settings for your webcam.</p>
+    </item>
+    <item>
+      <p>Click <gui>Close</gui> and check to see if the preview looks
+      better.</p>
+    </item>
+  </steps>
+
+  <figure>
+    <title>Diferentes opcións baixo: <gui>Propieades da imaxe</gui> (de esquerda a dereita): aplicar brillo, contraste, ton e saturación</title>
+    <media its:translate="no" type="image" src="figures/image-properties.png" width="800" height="150"/>
+  </figure>
+
+  <terms>
+    <item>
+      <title>Brillo</title>
+      <p>Aumentar o brillo fará que as fotos sexan máis claras. Porén, se está nunha habitación escura, aumentar o brillo fará que as imaxe teña máis ruido.</p>
+    </item>
+    <item>
+      <title>Contraste</title>
+      <p>Ao estabelecer un contraste máis alto incrementarase a diferenza entre as cores máis escuras e máis claras. Se a imaxe vese como lavada, tente incrementar o contraste.</p>
+    </item>
+    <item>
+      <title>Ton</title>
+      <p>Ao cambiar o ton dunha imaxe engadiráselle un tinte. Se a imaxe semella ter cor incorrecto (por exemplo, demasiado amarela), tente cambiar o ton.</p>
+    </item>
+    <item>
+      <title>Saturación</title>
+      <p>Ao reducir a saturación redúcese tamén o cor da imaxe. Se os cores son demasiado intensos, reduza a saturación.</p>
+    </item>
+  </terms>
+
+</page>

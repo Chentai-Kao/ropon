@@ -1,0 +1,41 @@
+Webcam
+- opencv cannot set camera parameters, fps too low => use Gstreamer (e.g. Cheese app)
+  - Gstreamer + Python tutorial: http://goo.gl/drNK8d
+- use libuvc (need libusb-1.0-0-dev), able to adjust parameters (e.g. GTK UVC video viewer)
+  - document: http://goo.gl/LvEawh
+  - run the example code of libuvc (problem: multiple streams are not allowed)
+    - Compile: $ gcc -Lbuild/ -o example src/example.c -luvc
+    - Setup path to libuvc.so (assume at build/): $ sudo ldconfig -n build/ && sudo ldconfig
+    - Run: $ sudo ./example
+
+- Use Gstreamer (need to install gstreamer-tools)
+  - Stream over web
+    - $ gst-launch v4l2src device=/dev/video1 ! video/x-raw-yuv,width=320,height=240,framerate=30/1 ! ffmpegcolorspace ! jpegenc ! multipartmux ! tcpserversink host=127.0.0.1 port=1234
+    - (Play with VLC) $ vlc tcp://127.0.0.1:1234
+  - Stream & Play (at Gstreamer)
+    - $ gst-launch v4l2src device=/dev/video1 ! video/x-raw-yuv,width=320,height=240,framerate=30/1 ! ffmpegcolorspace ! xvimagesink
+    - Both devices
+      - $ gst-launch -e videomixer name=mix ! ffmpegcolorspace ! xvimagesink sync=false \
+          v4l2src device=/dev/video2 ! video/x-raw-yuv, framerate=30/1, width=320, height=240 ! \
+          videobox border-alpha=0 top=0 left=0 ! mix. \
+          v4l2src device=/dev/video1 ! video/x-raw-yuv, framerate=30/1, width=320, height=240 ! \
+          videobox border-alpha=0 top=0 left=-320 ! mix.
+  - Control with GUVCview while streaming
+    - $ guvcview -d /dev/video1 -o
+  - OpenCV + GStreamer works!
+
+stereo calibration
+- using calib3d + checkboard
+- using table only
+- tutorial: http://goo.gl/kyptWT
+
+detect object
+- HSV color threshold
+  - example: http://goo.gl/mtYlwF
+- Hough circle detection (may fail for ball further away)
+
+track object
+- optical flow
+  - Lucas-Kanade method
+
+

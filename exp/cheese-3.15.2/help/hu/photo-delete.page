@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="photo-delete" xml:lang="hu">
+
+  <info>
+    <link type="guide" xref="index#main"/>
+    <revision pkgversion="3.0" date="2011-08-24" status="candidate"/>
+    <revision pkgversion="3.1" date="2011-09-05" status="review"/>
+    <revision pkgversion="3.12" date="2014-02-21" status="review"/>
+
+    <credit type="author copyright">
+      <name>Julita Inca</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+      <years>2011</years>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Fölösleges fényképek és videók eltávolítása.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kelemen Gábor</mal:name>
+      <mal:email>kelemeng at gnome dot hu</mal:email>
+      <mal:years>2011, 2012, 2013, 2014.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Fénykép vagy videó törlése</title>
+
+  <p>Ha már nem akar egy fényképet vagy videót tovább tárolni, akkor véglegesen törölheti azt:</p>
+
+  <steps>
+    <item>
+      <p>Keresse meg a törlendő fényképet vagy videót a <app>Csííz</app> ablak alján lévő fényképsávon.</p>
+    </item>
+    <item>
+      <p>Kattintson a jobb egérgombbal, és válassza a <gui>Törlés</gui> menüpontot.</p>
+    </item>
+    <item>
+      <p>A program rákérdez, hogy biztosan törölni kívánja-e. Erősítse meg a <gui>Törlés</gui> gomb megnyomásával. Ezután a fényképet vagy videót már nem állíthatja helyre.</p>
+    </item>
+  </steps>
+
+  <p>Ha nem biztos benne, hogy a fényképet vagy videót véglegesen kívánja-e törölni, akkor kattintson rá a jobb egérgombbal, és inkább válassza az <gui>Áthelyezés a Kukába</gui> menüpontot. Ez a számítógép <gui>Kuka</gui> mappájába fogja áthelyezni.</p>
+
+  <note>
+    <p>A Csííz nem rendelkezik saját <gui>Kuka</gui> mappával, és a számítógép <gui>Kuka</gui> mappáját nem érheti el a <app>Csíízből</app>.</p>
+  </note>
+
+</page>

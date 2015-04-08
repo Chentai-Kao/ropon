@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="effects-apply" xml:lang="fi">
+
+  <info>
+    <link type="guide" xref="index#main"/>
+    <revision pkgversion="3.0" date="2011-08-24" status="candidate"/>
+    <revision pkgversion="3.1" date="2011-09-05" status="review"/>
+    <revision pkgversion="3.12" date="2014-02-21" status="review"/>
+
+    <credit type="author copyright">
+      <name>Julita Inca</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+      <years>2011</years>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Hauskojen tehosteiden lisääminen kuviin ja videoihin. Muuta esimerkiksi itsesi vihreäksi tai vääristä kuvaa peilitalon peilien tavoin.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Sami Jaktholm</mal:name>
+      <mal:email>sjakthol@outlook.com</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Tehosteiden lisääminen kuviin ja videoihin</title>
+
+  <p>Kuviin ja videoihin voi lisätä hauskoja ja kiinnostavia tehosteita seuraavasti:</p>
+
+  <steps>
+    <item>
+      <p>Click <gui style="button">Effects</gui>.</p>
+    </item>
+    <item>
+      <p>Select the effect you want to use by clicking one of the options or
+      select <gui>No Effect</gui> if you don't want to use one.</p>
+    </item>
+  </steps>
+
+  <p><app>Cheese</app> offers 35 effects, of which only 9 are shown on the
+  first page. Click the back and forward arrows next to
+  <gui style="button">Effects</gui> to navigate to the other pages.</p>
+
+  <figure>
+    <title>Joitain tehosteita (vasemmalta oikealle): Sepia, Shagadelic, Sobel (ensimmäinen rivi), Waveform, X-Ray ja Warp (toinen rivi)</title>
+    <media its:translate="no" type="image" src="figures/effects.png" width="529" height="264"/>
+  </figure>
+
+</page>

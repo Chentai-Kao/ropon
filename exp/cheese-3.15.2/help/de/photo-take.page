@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="photo-take" xml:lang="de">
+
+  <info>
+    <link type="guide" xref="index#main" group="#first"/>
+    <link type="seealso" xref="pref-flash"/>
+    <link type="seealso" xref="pref-countdown"/>
+    <link type="seealso" xref="photo-view"/>
+    <link type="seealso" xref="photo-delete"/>
+
+    <revision pkgversion="3.0" date="2011-08-25" status="candidate"/>
+    <revision pkgversion="3.1" date="2011-09-05" status="review"/>
+    <revision pkgversion="3.8" date="2013-04-15" status="review"/>
+    <revision pkgversion="3.12" date="2014-02-21" status="review"/>
+
+    <credit type="author copyright">
+      <name>Julita Inca</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+      <years>2011</years>
+    </credit>
+    <credit type="author editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Ihre Webcam zum Aufnehmen von Fotos anstatt Videos verwenden.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Stefan Horning</mal:name>
+      <mal:email>stefan@hornings.de</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mario Blättermann</mal:name>
+      <mal:email>mario.blaettermann@gmail.com</mal:email>
+      <mal:years>2009-2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Wolfgang Stöggl</mal:name>
+      <mal:email>c72578@yahoo.de</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Christian Kirbach</mal:name>
+      <mal:email>christian.kirbach@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Tobias Endrigkeit</mal:name>
+      <mal:email>tobiasendrigkeit@outlook.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Take photos</title>
+
+  <p>Mit Webcams können Sie sowohl Fotos als auch Videos aufnehmen. So nehmen Sie ein Foto auf:</p>
+
+  <steps>
+    <item>
+      <p>Make sure that you are in <gui>Photo</gui> mode. If you are, the
+      <gui style="button">Photo</gui> button will be selected on the left side
+      of the screen.</p>
+    </item>
+    <item>
+      <p>Click the <gui style="button">Take a photo using a webcam</gui>
+      button in the middle of the bottom panel, or press the
+      <key>Space</key> key, to take the photo.</p>
+    </item>
+    <item>
+      <p>Nach einem kurzen Countdown erscheint ein »Blitz«. Danach erscheint das Foto in der Fotostrecke.</p>
+    </item>
+  </steps>
+
+  <p>The photos in the photo stream are automatically saved in the
+  <file>Pictures/Webcam</file> folder in your home folder. They are saved
+  using the JPEG (<file>.jpg</file>) format.</p>
+
+  <p>Um die Aufnahme eines Fotos abzubrechen, nachdem Sie auf <gui>Ein Foto aufnehmen</gui> geklickt haben, drücken Sie die <key>Esc</key>-Taste, bevor der Countdown abgelaufen ist.</p>
+
+  <note>
+    <p>To take multiple photos in rapid succession, use
+    <link xref="burst-mode"><gui>Burst</gui> mode</link>.</p>
+  </note>
+
+</page>

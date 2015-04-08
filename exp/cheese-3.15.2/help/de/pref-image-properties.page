@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="pref-image-properties" xml:lang="de">
+
+  <info>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="index#problems"/>
+    <revision pkgversion="3.0" date="2011-08-24" status="candidate"/>
+    <revision pkgversion="3.1" date="2011-09-05" status="review"/>
+    <revision pkgversion="3.8" date="2013-04-15" status="review"/>
+    <revision pkgversion="3.12" date="2014-02-21" status="review"/>
+
+    <credit type="author copyright">
+      <name>Julita Inca</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+      <years>2011</years>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Passen Sie die Sättigung, den Kontrast, die Helligkeit und den Farbton an, um das Aussehen Ihrer Fotos und Videos zu verbessern.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Stefan Horning</mal:name>
+      <mal:email>stefan@hornings.de</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mario Blättermann</mal:name>
+      <mal:email>mario.blaettermann@gmail.com</mal:email>
+      <mal:years>2009-2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Wolfgang Stöggl</mal:name>
+      <mal:email>c72578@yahoo.de</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Christian Kirbach</mal:name>
+      <mal:email>christian.kirbach@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Tobias Endrigkeit</mal:name>
+      <mal:email>tobiasendrigkeit@outlook.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Meine Fotos und Videos sehen nicht gut aus</title>
+
+  <p>Falls Ihre Fotos oder Videos zu dunkel sind oder die Farben nicht korrekt erscheinen, versuchen Sie die Sättigung, den Kontrast, die Helligkeit und den Farbton anzupassen:</p>
+
+  <steps>
+    <item>
+      <p>Wählen Sie <guiseq><gui>Cheese</gui><gui>Einstellungen</gui><gui>Bild</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Bewegen Sie die Schieberegler, um die besten Einstellungen für Ihre Webcam zu finden.</p>
+    </item>
+    <item>
+      <p>Click <gui>Close</gui> and check to see if the preview looks
+      better.</p>
+    </item>
+  </steps>
+
+  <figure>
+    <title>Verschiedene Optionen in <gui>Bildeigenschaften</gui> (von links nach rechts): Anpassung von Helligkeit, Kontrast, Farbton und Sättigung</title>
+    <media its:translate="no" type="image" src="figures/image-properties.png" width="800" height="150"/>
+  </figure>
+
+  <terms>
+    <item>
+      <title>Helligkeit</title>
+      <p>Durch Erhöhung der Helligkeit erscheinen Videos und Fotos heller. Allerdings kann bei einer Aufnahme in einem dunklen Raum die Erhöhung der Helligkeit das Bildrauschen verstärken.</p>
+    </item>
+    <item>
+      <title>Kontrast</title>
+      <p>Ein höherer Kontrast vergrößert den Unterschied zwischen dunkleren und helleren Farben. Falls das Bild verwaschen erscheint, versuchen Sie den Kontrast zu erhöhen.</p>
+    </item>
+    <item>
+      <title>Farbton</title>
+      <p>Die Änderung des Farbtons bewirkt eine Anpassung der Färbung. Wenn die Farbe eines Bildes falsch erscheint, zum Beispiel durch einen Gelbstich, versuchen Sie den Farbton zu ändern.</p>
+    </item>
+    <item>
+      <title>Sättigung</title>
+      <p>Die Verringerung der Sättigung lässt ein Bild weniger farbig erscheinen. Falls die Farben zu grell sind, verringern Sie die Sättigung.</p>
+    </item>
+  </terms>
+
+</page>

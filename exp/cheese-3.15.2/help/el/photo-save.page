@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="photo-save" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="index#main"/>
+    <revision pkgversion="3.0" date="2011-08-25" status="review"/>
+    <revision pkgversion="3.1" date="2011-09-05" status="review"/>
+    <revision pkgversion="3.12" date="2014-02-21" status="review"/>
+
+    <credit type="author copyright">
+      <name>Julita Inca</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+      <years>2011</years>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Αποθήκευση μιας φωτογραφίας ή ενός βίντεο σε έναν διαφορετικό φάκελο.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Ευστάθιος Ιωσηφίδης</mal:name>
+      <mal:email>diamond_gr@freemail.gr</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Αποθήκευση μιας φωτογραφίας ή ενός βίντεο</title>
+
+  <p>Από προεπιλογή, το Cheese αποθηκεύει της φωτογραφίες και τα βίντεο στους φακέλους <file>Εικόνες/Webcam</file> και <file>Βίντεο/Webcam</file> στον προσωπικό σας φάκελο.</p>
+
+  <p>Για να αποθηκεύσετε μια εικόνα σε διαφορετική τοποθεσία, κάντε δεξί κλικ στην εικόνα στη ροή φωτογραφιών και κάντε κλικ στο <gui>Αποθήκευση ως...</gui>. Μετά, επιλέξτε που θέλετε να αποθηκεύσετε την εικόνα.</p>
+
+  <p>Ένα νέο αντίγραφο της εικόνας θα αποθηκευθεί στη νέα τοποθεσία. Η παλιά έκδοση θα παραμείνει στον φάκελο <file>Εικόνες/Webcam</file> ή <file>Βίντεο/Webcam</file> . </p>
+
+</page>

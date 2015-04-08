@@ -1,0 +1,1292 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Cheese Reference Manual: CheeseCamera</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.78.1">
+<link rel="home" href="index.html" title="Cheese Reference Manual">
+<link rel="up" href="libcheese.html" title="libcheese">
+<link rel="prev" href="cheese-Initializing-libcheese.html" title="Initializing libcheese">
+<link rel="next" href="CheeseCameraDevice.html" title="CheeseCameraDevice">
+<meta name="generator" content="GTK-Doc V1.21.1 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="5"><tr valign="middle">
+<td width="100%" align="left" class="shortcuts">
+<a href="#" class="shortcut">Top</a><span id="nav_description">  <span class="dim">|</span> 
+                  <a href="#CheeseCamera.description" class="shortcut">Description</a></span><span id="nav_hierarchy">  <span class="dim">|</span> 
+                  <a href="#CheeseCamera.object-hierarchy" class="shortcut">Object Hierarchy</a></span><span id="nav_properties">  <span class="dim">|</span> 
+                  <a href="#CheeseCamera.properties" class="shortcut">Properties</a></span><span id="nav_signals">  <span class="dim">|</span> 
+                  <a href="#CheeseCamera.signals" class="shortcut">Signals</a></span>
+</td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="16" height="16" border="0" alt="Home"></a></td>
+<td><a accesskey="u" href="libcheese.html"><img src="up.png" width="16" height="16" border="0" alt="Up"></a></td>
+<td><a accesskey="p" href="cheese-Initializing-libcheese.html"><img src="left.png" width="16" height="16" border="0" alt="Prev"></a></td>
+<td><a accesskey="n" href="CheeseCameraDevice.html"><img src="right.png" width="16" height="16" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry">
+<a name="CheeseCamera"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="CheeseCamera.top_of_page"></a>CheeseCamera</span></h2>
+<p>CheeseCamera — A representation of the video capture device inside
+<a class="link" href="CheeseWidget.html" title="CheeseWidget"><span class="type">CheeseWidget</span></a></p>
+</td>
+<td class="gallery_image" valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsect1">
+<a name="CheeseCamera.stability-level"></a><h2>Stability Level</h2>
+<acronym title="Unstable interfaces are experimental or transitional. They are typically used to
+give outside developers early access to new or rapidly changing technology, or
+to provide an interim solution to a problem where a more general solution is
+anticipated. No claims are made about either source or binary compatibility from
+one minor release to the next.
+
+The Unstable interface level is a warning that these interfaces are  subject to
+change without warning and should not be used in unbundled products.
+
+Given such caveats, customer impact need not be a factor when considering
+incompatible changes to an Unstable interface in a major or minor release.
+Nonetheless, when such changes are introduced, the changes should still be
+mentioned in the release notes for the affected release.
+"><span class="acronym">Unstable</span></acronym>, unless otherwise indicated
+</div>
+<div class="refsect1">
+<a name="CheeseCamera.functions"></a><h2>Functions</h2>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="functions_return">
+<col class="functions_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="function_type">
+<a class="link" href="CheeseCamera.html" title="CheeseCamera"><span class="returnvalue">CheeseCamera</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="CheeseCamera.html#cheese-camera-new" title="cheese_camera_new ()">cheese_camera_new</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="https://developer.gnome.org/glib/unstable/glib-Pointer-Arrays.html#GPtrArray"><span class="returnvalue">GPtrArray</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="CheeseCamera.html#cheese-camera-get-camera-devices" title="cheese_camera_get_camera_devices ()">cheese_camera_get_camera_devices</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">const <a class="link" href="CheeseCameraDevice.html#CheeseVideoFormat"><span class="returnvalue">CheeseVideoFormat</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="CheeseCamera.html#cheese-camera-get-current-video-format" title="cheese_camera_get_current_video_format ()">cheese_camera_get_current_video_format</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="https://developer.gnome.org/glib/unstable/glib-Doubly-Linked-Lists.html#GList"><span class="returnvalue">GList</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="CheeseCamera.html#cheese-camera-get-video-formats" title="cheese_camera_get_video_formats ()">cheese_camera_get_video_formats</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="CheeseCamera.html#cheese-camera-set-video-format" title="cheese_camera_set_video_format ()">cheese_camera_set_video_format</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="CheeseCameraDevice.html" title="CheeseCameraDevice"><span class="returnvalue">CheeseCameraDevice</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="CheeseCamera.html#cheese-camera-get-selected-device" title="cheese_camera_get_selected_device ()">cheese_camera_get_selected_device</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="CheeseCamera.html#cheese-camera-set-device-by-device-node" title="cheese_camera_set_device_by_device_node ()">cheese_camera_set_device_by_device_node</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="CheeseCamera.html#cheese-camera-set-effect" title="cheese_camera_set_effect ()">cheese_camera_set_effect</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="CheeseCamera.html#cheese-camera-get-balance-property-range" title="cheese_camera_get_balance_property_range ()">cheese_camera_get_balance_property_range</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="CheeseCamera.html#cheese-camera-set-balance-property" title="cheese_camera_set_balance_property ()">cheese_camera_set_balance_property</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="CheeseCamera.html#cheese-camera-get-recorded-time" title="cheese_camera_get_recorded_time ()">cheese_camera_get_recorded_time</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="CheeseCamera.html#cheese-camera-connect-effect-texture" title="cheese_camera_connect_effect_texture ()">cheese_camera_connect_effect_texture</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="CheeseCamera.html#cheese-camera-play" title="cheese_camera_play ()">cheese_camera_play</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="CheeseCamera.html#cheese-camera-stop" title="cheese_camera_stop ()">cheese_camera_stop</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="CheeseCamera.html#cheese-camera-start-video-recording" title="cheese_camera_start_video_recording ()">cheese_camera_start_video_recording</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="CheeseCamera.html#cheese-camera-stop-video-recording" title="cheese_camera_stop_video_recording ()">cheese_camera_stop_video_recording</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="CheeseCamera.html#cheese-camera-switch-camera-device" title="cheese_camera_switch_camera_device ()">cheese_camera_switch_camera_device</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="CheeseCamera.html#cheese-camera-take-photo" title="cheese_camera_take_photo ()">cheese_camera_take_photo</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="CheeseCamera.html#cheese-camera-take-photo-pixbuf" title="cheese_camera_take_photo_pixbuf ()">cheese_camera_take_photo_pixbuf</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="CheeseCamera.html#cheese-camera-toggle-effects-pipeline" title="cheese_camera_toggle_effects_pipeline ()">cheese_camera_toggle_effects_pipeline</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="CheeseCamera.html#cheese-camera-setup" title="cheese_camera_setup ()">cheese_camera_setup</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="CheeseCamera.properties"></a><h2>Properties</h2>
+<div class="informaltable"><table border="0">
+<colgroup>
+<col width="150px" class="properties_type">
+<col width="300px" class="properties_name">
+<col width="200px" class="properties_flags">
+</colgroup>
+<tbody>
+<tr>
+<td class="property_type">
+<a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *</td>
+<td class="property_name"><a class="link" href="CheeseCamera.html#CheeseCamera--device-node" title="The “device-node” property">device-node</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+<tr>
+<td class="property_type">
+<a class="link" href="CheeseCameraDevice.html#CheeseVideoFormat"><span class="type">CheeseVideoFormat</span></a> *</td>
+<td class="property_name"><a class="link" href="CheeseCamera.html#CheeseCamera--format" title="The “format” property">format</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+<tr>
+<td class="property_type"><a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#guint"><span class="type">guint</span></a></td>
+<td class="property_name"><a class="link" href="CheeseCamera.html#CheeseCamera--num-camera-devices" title="The “num-camera-devices” property">num-camera-devices</a></td>
+<td class="property_flags">Read</td>
+</tr>
+<tr>
+<td class="property_type"><a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gpointer"><span class="type">gpointer</span></a></td>
+<td class="property_name"><a class="link" href="CheeseCamera.html#CheeseCamera--video-texture" title="The “video-texture” property">video-texture</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="CheeseCamera.signals"></a><h2>Signals</h2>
+<div class="informaltable"><table border="0">
+<colgroup>
+<col width="150px" class="signals_return">
+<col width="300px" class="signals_name">
+<col width="200px" class="signals_flags">
+</colgroup>
+<tbody>
+<tr>
+<td class="signal_type"><span class="returnvalue">void</span></td>
+<td class="signal_name"><a class="link" href="CheeseCamera.html#CheeseCamera-photo-saved" title="The “photo-saved” signal">photo-saved</a></td>
+<td class="signal_flags">Action</td>
+</tr>
+<tr>
+<td class="signal_type"><span class="returnvalue">void</span></td>
+<td class="signal_name"><a class="link" href="CheeseCamera.html#CheeseCamera-photo-taken" title="The “photo-taken” signal">photo-taken</a></td>
+<td class="signal_flags">Action</td>
+</tr>
+<tr>
+<td class="signal_type"><span class="returnvalue">void</span></td>
+<td class="signal_name"><a class="link" href="CheeseCamera.html#CheeseCamera-state-flags-changed" title="The “state-flags-changed” signal">state-flags-changed</a></td>
+<td class="signal_flags">Action</td>
+</tr>
+<tr>
+<td class="signal_type"><span class="returnvalue">void</span></td>
+<td class="signal_name"><a class="link" href="CheeseCamera.html#CheeseCamera-video-saved" title="The “video-saved” signal">video-saved</a></td>
+<td class="signal_flags">Action</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="CheeseCamera.other"></a><h2>Types and Values</h2>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="name">
+<col class="description">
+</colgroup>
+<tbody>
+<tr>
+<td class="datatype_keyword">struct</td>
+<td class="function_name"><a class="link" href="CheeseCamera.html#CheeseCameraClass" title="struct CheeseCameraClass">CheeseCameraClass</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword">struct</td>
+<td class="function_name"><a class="link" href="CheeseCamera.html#CheeseCamera-struct" title="struct CheeseCamera">CheeseCamera</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword">enum</td>
+<td class="function_name"><a class="link" href="CheeseCamera.html#CheeseCameraError" title="enum CheeseCameraError">CheeseCameraError</a></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="CheeseCamera.object-hierarchy"></a><h2>Object Hierarchy</h2>
+<pre class="screen">    <a href="https://developer.gnome.org/gobject/unstable/gobject-The-Base-Object-Type.html#GObject">GObject</a>
+    <span class="lineart">╰──</span> CheeseCamera
+</pre>
+</div>
+<div class="refsect1">
+<a name="CheeseCamera.includes"></a><h2>Includes</h2>
+<pre class="synopsis">#include &lt;cheese/cheese-camera.h&gt;
+</pre>
+</div>
+<div class="refsect1">
+<a name="CheeseCamera.description"></a><h2>Description</h2>
+<p><a class="link" href="CheeseCamera.html" title="CheeseCamera"><span class="type">CheeseCamera</span></a> represents the video capture device used to drive a
+<a class="link" href="CheeseWidget.html" title="CheeseWidget"><span class="type">CheeseWidget</span></a>.</p>
+</div>
+<div class="refsect1">
+<a name="CheeseCamera.functions_details"></a><h2>Functions</h2>
+<div class="refsect2">
+<a name="cheese-camera-new"></a><h3>cheese_camera_new ()</h3>
+<pre class="programlisting"><a class="link" href="CheeseCamera.html" title="CheeseCamera"><span class="returnvalue">CheeseCamera</span></a> *
+cheese_camera_new (<em class="parameter"><code><span class="type">ClutterTexture</span> *video_texture</code></em>,
+                   <em class="parameter"><code>const <a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *camera_device_node</code></em>,
+                   <em class="parameter"><code><a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gint"><span class="type">gint</span></a> x_resolution</code></em>,
+                   <em class="parameter"><code><a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gint"><span class="type">gint</span></a> y_resolution</code></em>);</pre>
+<p>Create a new <a class="link" href="CheeseCamera.html" title="CheeseCamera"><span class="type">CheeseCamera</span></a> object.</p>
+<div class="refsect3">
+<a name="id-1.3.4.11.2.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>video_texture</p></td>
+<td class="parameter_description"><p>a <span class="type">ClutterTexture</span></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>camera_device_node</p></td>
+<td class="parameter_description"><p> the device node path. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="NULL is OK, both for passing and for returning."><span class="acronym">allow-none</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>x_resolution</p></td>
+<td class="parameter_description"><p>the resolution width</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>y_resolution</p></td>
+<td class="parameter_description"><p>the resolution height</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="id-1.3.4.11.2.6"></a><h4>Returns</h4>
+<p> a new <a class="link" href="CheeseCamera.html" title="CheeseCamera"><span class="type">CheeseCamera</span></a></p>
+<p></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="cheese-camera-get-camera-devices"></a><h3>cheese_camera_get_camera_devices ()</h3>
+<pre class="programlisting"><a href="https://developer.gnome.org/glib/unstable/glib-Pointer-Arrays.html#GPtrArray"><span class="returnvalue">GPtrArray</span></a> *
+cheese_camera_get_camera_devices (<em class="parameter"><code><a class="link" href="CheeseCamera.html" title="CheeseCamera"><span class="type">CheeseCamera</span></a> *camera</code></em>);</pre>
+<p>Get the list of <a class="link" href="CheeseCameraDevice.html" title="CheeseCameraDevice"><span class="type">CheeseCameraDevice</span></a> objects, representing active video
+capture devices on the system.</p>
+<div class="refsect3">
+<a name="id-1.3.4.11.3.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>camera</p></td>
+<td class="parameter_description"><p>a <a class="link" href="CheeseCamera.html" title="CheeseCamera"><span class="type">CheeseCamera</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="id-1.3.4.11.3.6"></a><h4>Returns</h4>
+<p> an array
+of <a class="link" href="CheeseCameraDevice.html" title="CheeseCameraDevice"><span class="type">CheeseCameraDevice</span></a>. </p>
+<p><span class="annotation">[<acronym title="Generics and defining elements of containers and arrays."><span class="acronym">element-type</span></acronym> Cheese.CameraDevice][<acronym title="Free data container after the code is done."><span class="acronym">transfer container</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="cheese-camera-get-current-video-format"></a><h3>cheese_camera_get_current_video_format ()</h3>
+<pre class="programlisting">const <a class="link" href="CheeseCameraDevice.html#CheeseVideoFormat"><span class="returnvalue">CheeseVideoFormat</span></a> *
+cheese_camera_get_current_video_format
+                               (<em class="parameter"><code><a class="link" href="CheeseCamera.html" title="CheeseCamera"><span class="type">CheeseCamera</span></a> *camera</code></em>);</pre>
+<p>Get the <a class="link" href="CheeseCameraDevice.html#CheeseVideoFormat"><span class="type">CheeseVideoFormat</span></a> that is currently set on the <em class="parameter"><code>camera</code></em>
+.</p>
+<div class="refsect3">
+<a name="id-1.3.4.11.4.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>camera</p></td>
+<td class="parameter_description"><p>a <a class="link" href="CheeseCamera.html" title="CheeseCamera"><span class="type">CheeseCamera</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="id-1.3.4.11.4.6"></a><h4>Returns</h4>
+<p> the <a class="link" href="CheeseCameraDevice.html#CheeseVideoFormat"><span class="type">CheeseVideoFormat</span></a> set on the <a class="link" href="CheeseCamera.html" title="CheeseCamera"><span class="type">CheeseCamera</span></a>. </p>
+<p><span class="annotation">[<acronym title="Don't free data after the code is done."><span class="acronym">transfer none</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="cheese-camera-get-video-formats"></a><h3>cheese_camera_get_video_formats ()</h3>
+<pre class="programlisting"><a href="https://developer.gnome.org/glib/unstable/glib-Doubly-Linked-Lists.html#GList"><span class="returnvalue">GList</span></a> *
+cheese_camera_get_video_formats (<em class="parameter"><code><a class="link" href="CheeseCamera.html" title="CheeseCamera"><span class="type">CheeseCamera</span></a> *camera</code></em>);</pre>
+<p>Gets the list of <a class="link" href="CheeseCameraDevice.html#CheeseVideoFormat"><span class="type">CheeseVideoFormat</span></a> supported by the selected
+<a class="link" href="CheeseCameraDevice.html" title="CheeseCameraDevice"><span class="type">CheeseCameraDevice</span></a> on the <em class="parameter"><code>camera</code></em>
+.</p>
+<div class="refsect3">
+<a name="id-1.3.4.11.5.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>camera</p></td>
+<td class="parameter_description"><p>a <a class="link" href="CheeseCamera.html" title="CheeseCamera"><span class="type">CheeseCamera</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="id-1.3.4.11.5.6"></a><h4>Returns</h4>
+<p> a <a href="https://developer.gnome.org/glib/unstable/glib-Doubly-Linked-Lists.html#GList"><span class="type">GList</span></a> of
+<a class="link" href="CheeseCameraDevice.html#CheeseVideoFormat"><span class="type">CheeseVideoFormat</span></a>, or <a href="https://developer.gnome.org/glib/unstable/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a> if there was no device selected. </p>
+<p><span class="annotation">[<acronym title="Generics and defining elements of containers and arrays."><span class="acronym">element-type</span></acronym> Cheese.VideoFormat][<acronym title="Free data container after the code is done."><span class="acronym">transfer container</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="cheese-camera-set-video-format"></a><h3>cheese_camera_set_video_format ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+cheese_camera_set_video_format (<em class="parameter"><code><a class="link" href="CheeseCamera.html" title="CheeseCamera"><span class="type">CheeseCamera</span></a> *camera</code></em>,
+                                <em class="parameter"><code><a class="link" href="CheeseCameraDevice.html#CheeseVideoFormat"><span class="type">CheeseVideoFormat</span></a> *format</code></em>);</pre>
+<p>Sets a <a class="link" href="CheeseCameraDevice.html#CheeseVideoFormat"><span class="type">CheeseVideoFormat</span></a> on a <a class="link" href="CheeseCamera.html" title="CheeseCamera"><span class="type">CheeseCamera</span></a>, restarting the video stream if
+necessary.</p>
+<div class="refsect3">
+<a name="id-1.3.4.11.6.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>camera</p></td>
+<td class="parameter_description"><p>a <a class="link" href="CheeseCamera.html" title="CheeseCamera"><span class="type">CheeseCamera</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>format</p></td>
+<td class="parameter_description"><p>a <a class="link" href="CheeseCameraDevice.html#CheeseVideoFormat"><span class="type">CheeseVideoFormat</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="cheese-camera-get-selected-device"></a><h3>cheese_camera_get_selected_device ()</h3>
+<pre class="programlisting"><a class="link" href="CheeseCameraDevice.html" title="CheeseCameraDevice"><span class="returnvalue">CheeseCameraDevice</span></a> *
+cheese_camera_get_selected_device (<em class="parameter"><code><a class="link" href="CheeseCamera.html" title="CheeseCamera"><span class="type">CheeseCamera</span></a> *camera</code></em>);</pre>
+<p>Get the currently-selected <a class="link" href="CheeseCameraDevice.html" title="CheeseCameraDevice"><span class="type">CheeseCameraDevice</span></a> of the <em class="parameter"><code>camera</code></em>
+.</p>
+<div class="refsect3">
+<a name="id-1.3.4.11.7.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>camera</p></td>
+<td class="parameter_description"><p>a <a class="link" href="CheeseCamera.html" title="CheeseCamera"><span class="type">CheeseCamera</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="id-1.3.4.11.7.6"></a><h4>Returns</h4>
+<p> a <a class="link" href="CheeseCameraDevice.html" title="CheeseCameraDevice"><span class="type">CheeseCameraDevice</span></a>, or <a href="https://developer.gnome.org/glib/unstable/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a> if there is no
+selected device. </p>
+<p><span class="annotation">[<acronym title="Don't free data after the code is done."><span class="acronym">transfer none</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="cheese-camera-set-device-by-device-node"></a><h3>cheese_camera_set_device_by_device_node ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+cheese_camera_set_device_by_device_node
+                               (<em class="parameter"><code><a class="link" href="CheeseCamera.html" title="CheeseCamera"><span class="type">CheeseCamera</span></a> *camera</code></em>,
+                                <em class="parameter"><code>const <a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *file</code></em>);</pre>
+<p>Set the active video capture device of the <em class="parameter"><code>camera</code></em>
+, matching by device node
+path.</p>
+<div class="refsect3">
+<a name="id-1.3.4.11.8.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>camera</p></td>
+<td class="parameter_description"><p>a <a class="link" href="CheeseCamera.html" title="CheeseCamera"><span class="type">CheeseCamera</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>file</p></td>
+<td class="parameter_description"><p> the device node path. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Override the parsed C type with given type."><span class="acronym">type</span></acronym> filename]</span></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="cheese-camera-set-effect"></a><h3>cheese_camera_set_effect ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+cheese_camera_set_effect (<em class="parameter"><code><a class="link" href="CheeseCamera.html" title="CheeseCamera"><span class="type">CheeseCamera</span></a> *camera</code></em>,
+                          <em class="parameter"><code><a class="link" href="CheeseEffect.html" title="CheeseEffect"><span class="type">CheeseEffect</span></a> *effect</code></em>);</pre>
+<p>Set the <em class="parameter"><code>effect</code></em>
+ on the <em class="parameter"><code>camera</code></em>
+.</p>
+<div class="refsect3">
+<a name="id-1.3.4.11.9.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>camera</p></td>
+<td class="parameter_description"><p>a <a class="link" href="CheeseCamera.html" title="CheeseCamera"><span class="type">CheeseCamera</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>effect</p></td>
+<td class="parameter_description"><p>a <a class="link" href="CheeseEffect.html" title="CheeseEffect"><span class="type">CheeseEffect</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="cheese-camera-get-balance-property-range"></a><h3>cheese_camera_get_balance_property_range ()</h3>
+<pre class="programlisting"><a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+cheese_camera_get_balance_property_range
+                               (<em class="parameter"><code><a class="link" href="CheeseCamera.html" title="CheeseCamera"><span class="type">CheeseCamera</span></a> *camera</code></em>,
+                                <em class="parameter"><code>const <a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *property</code></em>,
+                                <em class="parameter"><code><a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gdouble"><span class="type">gdouble</span></a> *min</code></em>,
+                                <em class="parameter"><code><a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gdouble"><span class="type">gdouble</span></a> *max</code></em>,
+                                <em class="parameter"><code><a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gdouble"><span class="type">gdouble</span></a> *def</code></em>);</pre>
+<p>Get the minimum, maximum and default values for the requested <em class="parameter"><code>property</code></em>
+ of
+the <em class="parameter"><code>camera</code></em>
+.</p>
+<div class="refsect3">
+<a name="id-1.3.4.11.10.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>camera</p></td>
+<td class="parameter_description"><p>a <a class="link" href="CheeseCamera.html" title="CheeseCamera"><span class="type">CheeseCamera</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>property</p></td>
+<td class="parameter_description"><p>name of the balance property</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>min</p></td>
+<td class="parameter_description"><p> minimum value. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for returning results. Default is transfer full."><span class="acronym">out</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>max</p></td>
+<td class="parameter_description"><p> maximum value. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for returning results. Default is transfer full."><span class="acronym">out</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>def</p></td>
+<td class="parameter_description"><p> default value. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for returning results. Default is transfer full."><span class="acronym">out</span></acronym>]</span></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="id-1.3.4.11.10.6"></a><h4>Returns</h4>
+<p> <a href="https://developer.gnome.org/glib/unstable/glib-Standard-Macros.html#TRUE:CAPS"><code class="literal">TRUE</code></a> if the operation was successful, <a href="https://developer.gnome.org/glib/unstable/glib-Standard-Macros.html#FALSE:CAPS"><code class="literal">FALSE</code></a> otherwise</p>
+<p></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="cheese-camera-set-balance-property"></a><h3>cheese_camera_set_balance_property ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+cheese_camera_set_balance_property (<em class="parameter"><code><a class="link" href="CheeseCamera.html" title="CheeseCamera"><span class="type">CheeseCamera</span></a> *camera</code></em>,
+                                    <em class="parameter"><code>const <a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *property</code></em>,
+                                    <em class="parameter"><code><a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gdouble"><span class="type">gdouble</span></a> value</code></em>);</pre>
+<p>Set the requested <em class="parameter"><code>property</code></em>
+ on the <em class="parameter"><code>camera</code></em>
+ to <em class="parameter"><code>value</code></em>
+.</p>
+<div class="refsect3">
+<a name="id-1.3.4.11.11.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>camera</p></td>
+<td class="parameter_description"><p>A <a class="link" href="CheeseCamera.html" title="CheeseCamera"><span class="type">CheeseCamera</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>property</p></td>
+<td class="parameter_description"><p>name of the balance property</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>value</p></td>
+<td class="parameter_description"><p>value to be set</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="cheese-camera-get-recorded-time"></a><h3>cheese_camera_get_recorded_time ()</h3>
+<pre class="programlisting"><a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *
+cheese_camera_get_recorded_time (<em class="parameter"><code><a class="link" href="CheeseCamera.html" title="CheeseCamera"><span class="type">CheeseCamera</span></a> *camera</code></em>);</pre>
+<p>Get a string representation of the playing time
+of the current video recording</p>
+<div class="refsect3">
+<a name="id-1.3.4.11.12.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>camera</p></td>
+<td class="parameter_description"><p>A <a class="link" href="CheeseCamera.html" title="CheeseCamera"><span class="type">CheeseCamera</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="id-1.3.4.11.12.6"></a><h4>Returns</h4>
+<p> A string with the time representation.</p>
+<p></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="cheese-camera-connect-effect-texture"></a><h3>cheese_camera_connect_effect_texture ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+cheese_camera_connect_effect_texture (<em class="parameter"><code><a class="link" href="CheeseCamera.html" title="CheeseCamera"><span class="type">CheeseCamera</span></a> *camera</code></em>,
+                                      <em class="parameter"><code><a class="link" href="CheeseEffect.html" title="CheeseEffect"><span class="type">CheeseEffect</span></a> *effect</code></em>,
+                                      <em class="parameter"><code><span class="type">ClutterTexture</span> *texture</code></em>);</pre>
+<p>Connect the supplied <em class="parameter"><code>texture</code></em>
+ to the <em class="parameter"><code>camera</code></em>
+, using <em class="parameter"><code>effect</code></em>
+.</p>
+<div class="refsect3">
+<a name="id-1.3.4.11.13.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>camera</p></td>
+<td class="parameter_description"><p>a <a class="link" href="CheeseCamera.html" title="CheeseCamera"><span class="type">CheeseCamera</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>effect</p></td>
+<td class="parameter_description"><p>a <a class="link" href="CheeseEffect.html" title="CheeseEffect"><span class="type">CheeseEffect</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>texture</p></td>
+<td class="parameter_description"><p>a <span class="type">ClutterTexture</span></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="cheese-camera-play"></a><h3>cheese_camera_play ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+cheese_camera_play (<em class="parameter"><code><a class="link" href="CheeseCamera.html" title="CheeseCamera"><span class="type">CheeseCamera</span></a> *camera</code></em>);</pre>
+<p>Set the state of the GStreamer pipeline associated with the <a class="link" href="CheeseCamera.html" title="CheeseCamera"><span class="type">CheeseCamera</span></a> to
+playing.</p>
+<div class="refsect3">
+<a name="id-1.3.4.11.14.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>camera</p></td>
+<td class="parameter_description"><p>a <a class="link" href="CheeseCamera.html" title="CheeseCamera"><span class="type">CheeseCamera</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="cheese-camera-stop"></a><h3>cheese_camera_stop ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+cheese_camera_stop (<em class="parameter"><code><a class="link" href="CheeseCamera.html" title="CheeseCamera"><span class="type">CheeseCamera</span></a> *camera</code></em>);</pre>
+<p>Set the state of the GStreamer pipeline associated with the <a class="link" href="CheeseCamera.html" title="CheeseCamera"><span class="type">CheeseCamera</span></a> to
+NULL.</p>
+<div class="refsect3">
+<a name="id-1.3.4.11.15.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>camera</p></td>
+<td class="parameter_description"><p>a <a class="link" href="CheeseCamera.html" title="CheeseCamera"><span class="type">CheeseCamera</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="cheese-camera-start-video-recording"></a><h3>cheese_camera_start_video_recording ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+cheese_camera_start_video_recording (<em class="parameter"><code><a class="link" href="CheeseCamera.html" title="CheeseCamera"><span class="type">CheeseCamera</span></a> *camera</code></em>,
+                                     <em class="parameter"><code>const <a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *filename</code></em>);</pre>
+<p>Start a video recording with the <em class="parameter"><code>camera</code></em>
+ and save it to <em class="parameter"><code>filename</code></em>
+.</p>
+<div class="refsect3">
+<a name="id-1.3.4.11.16.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>camera</p></td>
+<td class="parameter_description"><p>a <a class="link" href="CheeseCamera.html" title="CheeseCamera"><span class="type">CheeseCamera</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>filename</p></td>
+<td class="parameter_description"><p> the name of the video file to where the
+recording will be saved. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Override the parsed C type with given type."><span class="acronym">type</span></acronym> filename]</span></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="cheese-camera-stop-video-recording"></a><h3>cheese_camera_stop_video_recording ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+cheese_camera_stop_video_recording (<em class="parameter"><code><a class="link" href="CheeseCamera.html" title="CheeseCamera"><span class="type">CheeseCamera</span></a> *camera</code></em>);</pre>
+<p>Stop recording video on the <em class="parameter"><code>camera</code></em>
+.</p>
+<div class="refsect3">
+<a name="id-1.3.4.11.17.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>camera</p></td>
+<td class="parameter_description"><p>a <a class="link" href="CheeseCamera.html" title="CheeseCamera"><span class="type">CheeseCamera</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="cheese-camera-switch-camera-device"></a><h3>cheese_camera_switch_camera_device ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+cheese_camera_switch_camera_device (<em class="parameter"><code><a class="link" href="CheeseCamera.html" title="CheeseCamera"><span class="type">CheeseCamera</span></a> *camera</code></em>);</pre>
+<p>Toggle the playing/recording state of the <em class="parameter"><code>camera</code></em>
+.</p>
+<div class="refsect3">
+<a name="id-1.3.4.11.18.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>camera</p></td>
+<td class="parameter_description"><p>a <a class="link" href="CheeseCamera.html" title="CheeseCamera"><span class="type">CheeseCamera</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="cheese-camera-take-photo"></a><h3>cheese_camera_take_photo ()</h3>
+<pre class="programlisting"><a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+cheese_camera_take_photo (<em class="parameter"><code><a class="link" href="CheeseCamera.html" title="CheeseCamera"><span class="type">CheeseCamera</span></a> *camera</code></em>,
+                          <em class="parameter"><code>const <a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *filename</code></em>);</pre>
+<p>Save a photo taken with the <em class="parameter"><code>camera</code></em>
+ to a new file at <em class="parameter"><code>filename</code></em>
+.</p>
+<div class="refsect3">
+<a name="id-1.3.4.11.19.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>camera</p></td>
+<td class="parameter_description"><p>a <a class="link" href="CheeseCamera.html" title="CheeseCamera"><span class="type">CheeseCamera</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>filename</p></td>
+<td class="parameter_description"><p> name of the file to save a photo to. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Override the parsed C type with given type."><span class="acronym">type</span></acronym> filename]</span></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="id-1.3.4.11.19.6"></a><h4>Returns</h4>
+<p> <a href="https://developer.gnome.org/glib/unstable/glib-Standard-Macros.html#TRUE:CAPS"><code class="literal">TRUE</code></a> on success, <a href="https://developer.gnome.org/glib/unstable/glib-Standard-Macros.html#FALSE:CAPS"><code class="literal">FALSE</code></a> if an error occurred</p>
+<p></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="cheese-camera-take-photo-pixbuf"></a><h3>cheese_camera_take_photo_pixbuf ()</h3>
+<pre class="programlisting"><a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+cheese_camera_take_photo_pixbuf (<em class="parameter"><code><a class="link" href="CheeseCamera.html" title="CheeseCamera"><span class="type">CheeseCamera</span></a> *camera</code></em>);</pre>
+<p>Take a photo with the <em class="parameter"><code>camera</code></em>
+ and emit it in the ::capture-start signal as a
+<span class="type">GdkPixbuf</span>.</p>
+<div class="refsect3">
+<a name="id-1.3.4.11.20.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>camera</p></td>
+<td class="parameter_description"><p>a <a class="link" href="CheeseCamera.html" title="CheeseCamera"><span class="type">CheeseCamera</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="id-1.3.4.11.20.6"></a><h4>Returns</h4>
+<p> <a href="https://developer.gnome.org/glib/unstable/glib-Standard-Macros.html#TRUE:CAPS"><code class="literal">TRUE</code></a> if the photo was successfully captured, <a href="https://developer.gnome.org/glib/unstable/glib-Standard-Macros.html#FALSE:CAPS"><code class="literal">FALSE</code></a> otherwise</p>
+<p></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="cheese-camera-toggle-effects-pipeline"></a><h3>cheese_camera_toggle_effects_pipeline ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+cheese_camera_toggle_effects_pipeline (<em class="parameter"><code><a class="link" href="CheeseCamera.html" title="CheeseCamera"><span class="type">CheeseCamera</span></a> *camera</code></em>,
+                                       <em class="parameter"><code><a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a> active</code></em>);</pre>
+<p>Control whether the effects pipeline is enabled for <em class="parameter"><code>camera</code></em>
+.</p>
+<div class="refsect3">
+<a name="id-1.3.4.11.21.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>camera</p></td>
+<td class="parameter_description"><p>a <a class="link" href="CheeseCamera.html" title="CheeseCamera"><span class="type">CheeseCamera</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>active</p></td>
+<td class="parameter_description"><p><a href="https://developer.gnome.org/glib/unstable/glib-Standard-Macros.html#TRUE:CAPS"><code class="literal">TRUE</code></a> if effects pipeline is active, <a href="https://developer.gnome.org/glib/unstable/glib-Standard-Macros.html#FALSE:CAPS"><code class="literal">FALSE</code></a> otherwise</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="cheese-camera-setup"></a><h3>cheese_camera_setup ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+cheese_camera_setup (<em class="parameter"><code><a class="link" href="CheeseCamera.html" title="CheeseCamera"><span class="type">CheeseCamera</span></a> *camera</code></em>,
+                     <em class="parameter"><code>const <a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *uuid</code></em>,
+                     <em class="parameter"><code><a href="https://developer.gnome.org/glib/unstable/glib-Error-Reporting.html#GError"><span class="type">GError</span></a> **error</code></em>);</pre>
+<p>Setup a video capture device.</p>
+<div class="refsect3">
+<a name="id-1.3.4.11.22.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>camera</p></td>
+<td class="parameter_description"><p>a <a class="link" href="CheeseCamera.html" title="CheeseCamera"><span class="type">CheeseCamera</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>uuid</p></td>
+<td class="parameter_description"><p> UUID of the video capture device, or <a href="https://developer.gnome.org/glib/unstable/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a>. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="NULL is OK, both for passing and for returning."><span class="acronym">allow-none</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>error</p></td>
+<td class="parameter_description"><p>return location for a <a href="https://developer.gnome.org/glib/unstable/glib-Error-Reporting.html#GError"><span class="type">GError</span></a>, or <a href="https://developer.gnome.org/glib/unstable/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="refsect1">
+<a name="CheeseCamera.other_details"></a><h2>Types and Values</h2>
+<div class="refsect2">
+<a name="CheeseCameraClass"></a><h3>struct CheeseCameraClass</h3>
+<pre class="programlisting">struct CheeseCameraClass {
+  void (*photo_saved)(CheeseCamera *camera);
+  void (*photo_taken)(CheeseCamera *camera, GdkPixbuf *pixbuf);
+  void (*video_saved)(CheeseCamera *camera);
+  void (*state_flags_changed)(CheeseCamera *camera, GstState new_state);
+};
+</pre>
+<p>Class for <a class="link" href="CheeseCamera.html" title="CheeseCamera"><span class="type">CheeseCamera</span></a>.</p>
+<div class="refsect3">
+<a name="id-1.3.4.12.2.5"></a><h4>Members</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="300px" class="struct_members_name">
+<col class="struct_members_description">
+<col width="200px" class="struct_members_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="struct_member_name"><p><em class="structfield"><code><a name="CheeseCameraClass.photo-saved"></a>photo_saved</code></em> ()</p></td>
+<td class="struct_member_description"><p>invoked when a photo was saved to disk</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><em class="structfield"><code><a name="CheeseCameraClass.photo-taken"></a>photo_taken</code></em> ()</p></td>
+<td class="struct_member_description"><p>invoked when a photo was taken</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><em class="structfield"><code><a name="CheeseCameraClass.video-saved"></a>video_saved</code></em> ()</p></td>
+<td class="struct_member_description"><p>invoked when a video was saved to disk</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><em class="structfield"><code><a name="CheeseCameraClass.state-flags-changed"></a>state_flags_changed</code></em> ()</p></td>
+<td class="struct_member_description"><p>invoked when the state of the camera <span class="type">GstElement</span>
+changed</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="CheeseCamera-struct"></a><h3>struct CheeseCamera</h3>
+<pre class="programlisting">struct CheeseCamera;</pre>
+<p>Use the accessor functions below.</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="CheeseCameraError"></a><h3>enum CheeseCameraError</h3>
+<p>Errors that can occur during camera setup, when calling
+<a class="link" href="CheeseCamera.html#cheese-camera-setup" title="cheese_camera_setup ()"><code class="function">cheese_camera_setup()</code></a>.</p>
+<div class="refsect3">
+<a name="id-1.3.4.12.4.4"></a><h4>Members</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="300px" class="enum_members_name">
+<col class="enum_members_description">
+<col width="200px" class="enum_members_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="enum_member_name"><p><a name="CHEESE-CAMERA-ERROR-UNKNOWN:CAPS"></a>CHEESE_CAMERA_ERROR_UNKNOWN</p></td>
+<td class="enum_member_description">
+<p>unknown error</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="CHEESE-CAMERA-ERROR-ELEMENT-NOT-FOUND:CAPS"></a>CHEESE_CAMERA_ERROR_ELEMENT_NOT_FOUND</p></td>
+<td class="enum_member_description">
+<p>a required GStreamer element was not
+found</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="CHEESE-CAMERA-ERROR-NO-DEVICE:CAPS"></a>CHEESE_CAMERA_ERROR_NO_DEVICE</p></td>
+<td class="enum_member_description">
+<p>a <a class="link" href="CheeseCameraDevice.html" title="CheeseCameraDevice"><span class="type">CheeseCameraDevice</span></a> was not found</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="refsect1">
+<a name="CheeseCamera.property-details"></a><h2>Property Details</h2>
+<div class="refsect2">
+<a name="CheeseCamera--device-node"></a><h3>The <code class="literal">“device-node”</code> property</h3>
+<pre class="programlisting">  “device-node”              <a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *</pre>
+<p>The path to the device node for the video capture device.</p>
+<p>Flags: Read / Write</p>
+<p>Default value: ""</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="CheeseCamera--format"></a><h3>The <code class="literal">“format”</code> property</h3>
+<pre class="programlisting">  “format”                   <a class="link" href="CheeseCameraDevice.html#CheeseVideoFormat"><span class="type">CheeseVideoFormat</span></a> *</pre>
+<p>The format of the video capture device.</p>
+<p>Flags: Read / Write</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="CheeseCamera--num-camera-devices"></a><h3>The <code class="literal">“num-camera-devices”</code> property</h3>
+<pre class="programlisting">  “num-camera-devices”       <a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#guint"><span class="type">guint</span></a></pre>
+<p>The currently number of camera devices available for being used.</p>
+<p>Flags: Read</p>
+<p>Allowed values: &lt;= 255</p>
+<p>Default value: 0</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="CheeseCamera--video-texture"></a><h3>The <code class="literal">“video-texture”</code> property</h3>
+<pre class="programlisting">  “video-texture”            <a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gpointer"><span class="type">gpointer</span></a></pre>
+<p>The video texture for the <a class="link" href="CheeseCamera.html" title="CheeseCamera"><span class="type">CheeseCamera</span></a> to render into.</p>
+<p>Flags: Read / Write</p>
+</div>
+</div>
+<div class="refsect1">
+<a name="CheeseCamera.signal-details"></a><h2>Signal Details</h2>
+<div class="refsect2">
+<a name="CheeseCamera-photo-saved"></a><h3>The <code class="literal">“photo-saved”</code> signal</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+user_function (<a class="link" href="CheeseCamera.html" title="CheeseCamera"><span class="type">CheeseCamera</span></a> *camera,
+               <a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gpointer"><span class="type">gpointer</span></a>      user_data)</pre>
+<p>Emitted when a photo was saved to disk.</p>
+<div class="refsect3">
+<a name="id-1.3.4.14.2.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>camera</p></td>
+<td class="parameter_description"><p>a <a class="link" href="CheeseCamera.html" title="CheeseCamera"><span class="type">CheeseCamera</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>user_data</p></td>
+<td class="parameter_description"><p>user data set when the signal handler was connected.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p>Flags: Action</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="CheeseCamera-photo-taken"></a><h3>The <code class="literal">“photo-taken”</code> signal</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+user_function (<a class="link" href="CheeseCamera.html" title="CheeseCamera"><span class="type">CheeseCamera</span></a> *camera,
+               <span class="type">GdkPixbuf</span>    *pixbuf,
+               <a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gpointer"><span class="type">gpointer</span></a>      user_data)</pre>
+<p>Emitted when a photo was taken.</p>
+<div class="refsect3">
+<a name="id-1.3.4.14.3.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>camera</p></td>
+<td class="parameter_description"><p>a <a class="link" href="CheeseCamera.html" title="CheeseCamera"><span class="type">CheeseCamera</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>pixbuf</p></td>
+<td class="parameter_description"><p>a <span class="type">GdkPixbuf</span> of the photo which was taken</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>user_data</p></td>
+<td class="parameter_description"><p>user data set when the signal handler was connected.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p>Flags: Action</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="CheeseCamera-state-flags-changed"></a><h3>The <code class="literal">“state-flags-changed”</code> signal</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+user_function (<a class="link" href="CheeseCamera.html" title="CheeseCamera"><span class="type">CheeseCamera</span></a> *camera,
+               <a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gint"><span class="type">gint</span></a>          state,
+               <a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gpointer"><span class="type">gpointer</span></a>      user_data)</pre>
+<p>Emitted when the state of the <em class="parameter"><code>camera</code></em>
+ <span class="type">GstElement</span> changed.</p>
+<div class="refsect3">
+<a name="id-1.3.4.14.4.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>camera</p></td>
+<td class="parameter_description"><p>a <a class="link" href="CheeseCamera.html" title="CheeseCamera"><span class="type">CheeseCamera</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>state</p></td>
+<td class="parameter_description"><p>the <span class="type">GstState</span> which <em class="parameter"><code>camera</code></em>
+changed to</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>user_data</p></td>
+<td class="parameter_description"><p>user data set when the signal handler was connected.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p>Flags: Action</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="CheeseCamera-video-saved"></a><h3>The <code class="literal">“video-saved”</code> signal</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+user_function (<a class="link" href="CheeseCamera.html" title="CheeseCamera"><span class="type">CheeseCamera</span></a> *camera,
+               <a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gpointer"><span class="type">gpointer</span></a>      user_data)</pre>
+<p>Emitted when a video was saved to disk.</p>
+<div class="refsect3">
+<a name="id-1.3.4.14.5.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>camera</p></td>
+<td class="parameter_description"><p>a <a class="link" href="CheeseCamera.html" title="CheeseCamera"><span class="type">CheeseCamera</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>user_data</p></td>
+<td class="parameter_description"><p>user data set when the signal handler was connected.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p>Flags: Action</p>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.21.1</div>
+</body>
+</html>

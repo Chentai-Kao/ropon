@@ -1,0 +1,10 @@
+prefix=/home/cobra/Desktop/guvcview-src-2.0.1
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libgviewaudio
+Description: guvcview audio library.
+Version: 2.0.1
+Libs: -L${libdir} -lgviewaudio
+Cflags: -I${includedir}/guvcview-2/libgviewaudio

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="pref-image-properties" xml:lang="ca">
+
+  <info>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="index#problems"/>
+    <revision pkgversion="3.0" date="2011-08-24" status="candidate"/>
+    <revision pkgversion="3.1" date="2011-09-05" status="review"/>
+    <revision pkgversion="3.8" date="2013-04-15" status="review"/>
+    <revision pkgversion="3.12" date="2014-02-21" status="review"/>
+
+    <credit type="author copyright">
+      <name>Julita Inca</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+      <years>2011</years>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Com ajustar la saturació, el contrast, la brillantor i el to per fer que les fotos i els vídeos quedin millor.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Joan Duran</mal:name>
+      <mal:email>jodufi@gmail.com</mal:email>
+      <mal:years>2008, 2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Carles Ferrando</mal:name>
+      <mal:email>carles.ferrando@gmail.com</mal:email>
+      <mal:years>2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Gerard Alcorlo Bofill</mal:name>
+      <mal:email>galcorlo@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Laura Sales</mal:name>
+      <mal:email>laura.saflo@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Les fotos i els vídeos no es veuen correctament</title>
+
+  <p>Si les fotos o els vídeos són massa foscos o els colors no estan bé, proveu d'ajustar la saturació, el contrast i el to:</p>
+
+  <steps>
+    <item>
+      <p>Select
+      <guiseq><gui>Cheese</gui><gui>Preferences</gui><gui>Image</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Move the sliders to find the best settings for your webcam.</p>
+    </item>
+    <item>
+      <p>Click <gui>Close</gui> and check to see if the preview looks
+      better.</p>
+    </item>
+  </steps>
+
+  <figure>
+    <title>Diferents opcions des de <gui>Propietats de la foto</gui> (d'esquerra a dreta): aplicant brillantor, contrast, to i saturació</title>
+    <media its:translate="no" type="image" src="figures/image-properties.png" width="800" height="150"/>
+  </figure>
+
+  <terms>
+    <item>
+      <title>Brillantor</title>
+      <p>L'increment de la brillantor aclarirà les fotos i els vídeos. Tot i així, si esteu en una habitació fosca, incrementar la brillantor pot provocar que aparegui molt de soroll a la imatge.</p>
+    </item>
+    <item>
+      <title>Contrast</title>
+      <p>Si establiu un contrast més alt s'incrementarà la diferència entre els colors clars i els foscos. Si la imatge sembla descolorida, proveu d'incrementar el contrast.</p>
+    </item>
+    <item>
+      <title>To</title>
+      <p>Si canvieu el to de la imatge li afegireu tint. Si la imatge sembla tenir un color estrany (per exemple, massa grogosa), proveu de canviar el to.</p>
+    </item>
+    <item>
+      <title>Saturació</title>
+      <p>Si reduïu la saturació la imatge apareixerà amb menys color. Si el color sembla massa fort, reduïu la saturació.</p>
+    </item>
+  </terms>
+
+</page>

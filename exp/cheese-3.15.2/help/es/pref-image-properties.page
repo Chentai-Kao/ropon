@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="pref-image-properties" xml:lang="es">
+
+  <info>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="index#problems"/>
+    <revision pkgversion="3.0" date="2011-08-24" status="candidate"/>
+    <revision pkgversion="3.1" date="2011-09-05" status="review"/>
+    <revision pkgversion="3.8" date="2013-04-15" status="review"/>
+    <revision pkgversion="3.12" date="2014-02-21" status="review"/>
+
+    <credit type="author copyright">
+      <name>Julita Inca</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+      <years>2011</years>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Ajuste la saturación, el contraste, el brillo y el tono para que las fotos y vídeos se vean mejor.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2011 - 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jorge González</mal:name>
+      <mal:email>jorgegonz@svn.gnome.org</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Mis fotos y vídeos están mal</title>
+
+  <p>Si sus fotos o vídeos están demasiado oscuros o los colores son erróneos, intente ajustar su saturación, contraste, brillo y tono:</p>
+
+  <steps>
+    <item>
+      <p>Seleccione <guiseq><gui>Cheese</gui><gui>Preferencias</gui><gui>Imagen</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Mueva los deslizadores para buscar la mejor configuración para su cámara web.</p>
+    </item>
+    <item>
+      <p>Pulse <gui>Cerrar</gui> y compruebe si ve la vista previa mejor.</p>
+    </item>
+  </steps>
+
+  <figure>
+    <title>Diferentes opciones bajo <gui>Propiedades de la imagen</gui> (de izquierda a derecha): aplicar brillo, contraste, tono y saturación</title>
+    <media its:translate="no" type="image" src="figures/image-properties.png" width="800" height="150"/>
+  </figure>
+
+  <terms>
+    <item>
+      <title>Brillo</title>
+      <p>Aumentar el brillo hará que las fotos y vídeos sean más claros. No obstante, si está en una habitación oscura, aumentar el brillo hará que la imagen tenga más ruido.</p>
+    </item>
+    <item>
+      <title>Contraste</title>
+      <p>Establecer un contraste más alto aumentará la diferencia entre los colores más oscuros y más claros. Si la imagen parece que está lavada, pruebe a aumentar el contraste.</p>
+    </item>
+    <item>
+      <title>Tono</title>
+      <p>Cambiar el tono de la imagen añadirá tinta en ella. Si la imagen parece que tiene los colores incorrectos (por ejemplo, muy amarilla) pruebe a cambiar el tono.</p>
+    </item>
+    <item>
+      <title>Saturación</title>
+      <p>Reducir la saturación hace que la imagen tenga menos color. Si los colores son muy duros, reduzca la saturación.</p>
+    </item>
+  </terms>
+
+</page>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="photo-save" xml:lang="es">
+
+  <info>
+    <link type="guide" xref="index#main"/>
+    <revision pkgversion="3.0" date="2011-08-25" status="review"/>
+    <revision pkgversion="3.1" date="2011-09-05" status="review"/>
+    <revision pkgversion="3.12" date="2014-02-21" status="review"/>
+
+    <credit type="author copyright">
+      <name>Julita Inca</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+      <years>2011</years>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Guardar una foto o un vídeo en una carpeta diferente.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2011 - 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jorge González</mal:name>
+      <mal:email>jorgegonz@svn.gnome.org</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Guardar una foto o un vídeo</title>
+
+  <p>De manera predeterminada Cheese guarda las fotos y vídeos en las carpetas <file>Imágenes/Webcam</file> y <file>Vídeos/Webcam</file> dentro de su carpeta personal.</p>
+
+  <p>Para guardar una imagen en una ubicación diferente pulse con el botón derecho del ratón sobre la colección de imágenes y pulse <gui>Guardar como…</gui>. Después, elija dónde quiere guardar la imagen.</p>
+
+  <p>Se guardará una copia nueva de la imagen en la nueva ubicación. La versión anterior seguirá permaneciendo en las carpeta <file>Imágenes/Webcam</file> o <file>Vídeos/Webcam</file>.</p>
+
+</page>

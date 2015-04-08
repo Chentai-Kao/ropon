@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="photo-delete" xml:lang="sl">
+
+  <info>
+    <link type="guide" xref="index#main"/>
+    <revision pkgversion="3.0" date="2011-08-24" status="candidate"/>
+    <revision pkgversion="3.1" date="2011-09-05" status="review"/>
+    <revision pkgversion="3.12" date="2014-02-21" status="review"/>
+
+    <credit type="author copyright">
+      <name>Julita Inca</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+      <years>2011</years>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Odstranitev fotografij in videov, ki jih ne želite več obdržati.</desc>
+  </info>
+
+  <title>Izbris fotografije ali videa</title>
+
+  <p>Če fotografije ali videa ne želite več, ga lahko trajno izbrišete:</p>
+
+  <steps>
+    <item>
+      <p>Najdite fotografijo ali video, ki ga želite izbrisati v pretoku fotografij na dnu okna <app>Cheese</app>.</p>
+    </item>
+    <item>
+      <p>Right-click it and select <gui>Delete</gui>.<!-- Alternatively, click it
+      once to select it and press the <key>Delete</key> key.--></p>
+    </item>
+    <item>
+      <p>You will be asked if you want to permanently delete it. Confirm by
+      clicking <gui>Delete</gui>; you will not be able to recover the photo
+      or video.</p>
+    </item>
+  </steps>
+
+  <p>Če niste prepričani, da želite fotografijo ali video trajno izbrisati, jo lahko desno kliknete in izberete <gui>Premakni v smeti</gui>. To jo bo premaknilo v računalnikovo mapo <gui>Smeti</gui>.</p>
+
+  <note>
+    <p>Cheese nima lastne mape <gui>Smeti</gui> in iz njega ne morete dostopati do računalnikove mape <gui>Smeti</gui>.</p>
+  </note>
+
+</page>

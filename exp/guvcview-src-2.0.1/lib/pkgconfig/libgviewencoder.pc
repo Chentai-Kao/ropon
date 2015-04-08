@@ -1,0 +1,10 @@
+prefix=/home/cobra/Desktop/guvcview-src-2.0.1
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libgviewencoder
+Description: guvcview encoder library.
+Version: 2.0.1
+Libs: -L${libdir} -lgviewencoder
+Cflags: -I${includedir}/guvcview-2/libgviewencoder

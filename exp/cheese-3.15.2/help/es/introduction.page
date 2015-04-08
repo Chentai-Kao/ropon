@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="introduction" xml:lang="es">
+
+  <info>
+    <link type="guide" xref="index" group="#first"/>
+    <revision pkgversion="3.0" date="2011-08-24" status="candidate"/>
+    <revision pkgversion="3.1" date="2011-09-05" status="review"/>
+    <revision pkgversion="3.6" date="2012-05-09" status="review"/>
+    <revision pkgversion="3.8" date="2013-04-15" status="review"/>
+    <revision pkgversion="3.12" date="2014-02-21" status="final"/>
+
+    <credit type="author copyright">
+      <name>Julita Inca</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+      <years>2011</years>
+    </credit>
+    <credit type="author editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Introducción a la aplicación de cámara web <app>Cheese</app>.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2011 - 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jorge González</mal:name>
+      <mal:email>jorgegonz@svn.gnome.org</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Introducción</title>
+
+  <p><app>Cheese</app> es una aplicación de cámara web que le permite hacer fotos y grabar vídeos usando su cámara web. Puede tomar varias fotos de forma seguida (usando el modo <link xref="burst-mode"><gui>Ráfaga</gui></link>) y le permite aplicar <link xref="apply-effects"><gui>Efectos</gui> especiales</link> para añadirles un toque personal.</p>
+
+  <p>De manera predeterminada <app>Cheese</app> se inicia en el modo <gui>Foto</gui>, listo para <link xref="take-photo">hacer una foto</link>. Debe cambiar al modo <gui>Vídeo</gui> para <link xref="record-video">grabar un vídeo</link>.</p>
+
+  <p><app>Cheese</app> funciona con la mayoría de cámaras web, pero algunos modelos antiguos puede no estar soportados.</p>
+
+</page>

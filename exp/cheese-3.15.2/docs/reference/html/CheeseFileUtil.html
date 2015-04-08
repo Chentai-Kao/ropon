@@ -1,0 +1,341 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Cheese Reference Manual: CheeseFileUtil</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.78.1">
+<link rel="home" href="index.html" title="Cheese Reference Manual">
+<link rel="up" href="libcheese.html" title="libcheese">
+<link rel="prev" href="CheeseEffect.html" title="CheeseEffect">
+<link rel="next" href="libcheese-gtk.html" title="libcheese-gtk">
+<meta name="generator" content="GTK-Doc V1.21.1 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="5"><tr valign="middle">
+<td width="100%" align="left" class="shortcuts">
+<a href="#" class="shortcut">Top</a><span id="nav_description">  <span class="dim">|</span> 
+                  <a href="#CheeseFileUtil.description" class="shortcut">Description</a></span><span id="nav_hierarchy">  <span class="dim">|</span> 
+                  <a href="#CheeseFileUtil.object-hierarchy" class="shortcut">Object Hierarchy</a></span>
+</td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="16" height="16" border="0" alt="Home"></a></td>
+<td><a accesskey="u" href="libcheese.html"><img src="up.png" width="16" height="16" border="0" alt="Up"></a></td>
+<td><a accesskey="p" href="CheeseEffect.html"><img src="left.png" width="16" height="16" border="0" alt="Prev"></a></td>
+<td><a accesskey="n" href="libcheese-gtk.html"><img src="right.png" width="16" height="16" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry">
+<a name="CheeseFileUtil"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="CheeseFileUtil.top_of_page"></a>CheeseFileUtil</span></h2>
+<p>CheeseFileUtil — File utility functions for Cheese</p>
+</td>
+<td class="gallery_image" valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsect1">
+<a name="CheeseFileUtil.stability-level"></a><h2>Stability Level</h2>
+<acronym title="Unstable interfaces are experimental or transitional. They are typically used to
+give outside developers early access to new or rapidly changing technology, or
+to provide an interim solution to a problem where a more general solution is
+anticipated. No claims are made about either source or binary compatibility from
+one minor release to the next.
+
+The Unstable interface level is a warning that these interfaces are  subject to
+change without warning and should not be used in unbundled products.
+
+Given such caveats, customer impact need not be a factor when considering
+incompatible changes to an Unstable interface in a major or minor release.
+Nonetheless, when such changes are introduced, the changes should still be
+mentioned in the release notes for the affected release.
+"><span class="acronym">Unstable</span></acronym>, unless otherwise indicated
+</div>
+<div class="refsect1">
+<a name="CheeseFileUtil.functions"></a><h2>Functions</h2>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="functions_return">
+<col class="functions_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="function_type">
+<a class="link" href="CheeseFileUtil.html" title="CheeseFileUtil"><span class="returnvalue">CheeseFileUtil</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="CheeseFileUtil.html#cheese-fileutil-new" title="cheese_fileutil_new ()">cheese_fileutil_new</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="CheeseFileUtil.html#cheese-fileutil-get-new-media-filename" title="cheese_fileutil_get_new_media_filename ()">cheese_fileutil_get_new_media_filename</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">const <a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="CheeseFileUtil.html#cheese-fileutil-get-photo-path" title="cheese_fileutil_get_photo_path ()">cheese_fileutil_get_photo_path</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">const <a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="CheeseFileUtil.html#cheese-fileutil-get-video-path" title="cheese_fileutil_get_video_path ()">cheese_fileutil_get_video_path</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="CheeseFileUtil.html#cheese-fileutil-reset-burst" title="cheese_fileutil_reset_burst ()">cheese_fileutil_reset_burst</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="CheeseFileUtil.other"></a><h2>Types and Values</h2>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="name">
+<col class="description">
+</colgroup>
+<tbody>
+<tr>
+<td class="datatype_keyword">struct</td>
+<td class="function_name"><a class="link" href="CheeseFileUtil.html#CheeseFileUtil-struct" title="struct CheeseFileUtil">CheeseFileUtil</a></td>
+</tr>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="CheeseFileUtil.html#CHEESE-PHOTO-NAME-SUFFIX:CAPS" title="CHEESE_PHOTO_NAME_SUFFIX">CHEESE_PHOTO_NAME_SUFFIX</a></td>
+</tr>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="CheeseFileUtil.html#CHEESE-VIDEO-NAME-SUFFIX:CAPS" title="CHEESE_VIDEO_NAME_SUFFIX">CHEESE_VIDEO_NAME_SUFFIX</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword">enum</td>
+<td class="function_name"><a class="link" href="CheeseFileUtil.html#CheeseMediaMode" title="enum CheeseMediaMode">CheeseMediaMode</a></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="CheeseFileUtil.object-hierarchy"></a><h2>Object Hierarchy</h2>
+<pre class="screen">    <a href="https://developer.gnome.org/gobject/unstable/gobject-The-Base-Object-Type.html#GObject">GObject</a>
+    <span class="lineart">╰──</span> CheeseFileUtil
+</pre>
+</div>
+<div class="refsect1">
+<a name="CheeseFileUtil.includes"></a><h2>Includes</h2>
+<pre class="synopsis">#include &lt;cheese/cheese-fileutil.h&gt;
+</pre>
+</div>
+<div class="refsect1">
+<a name="CheeseFileUtil.description"></a><h2>Description</h2>
+<p><a class="link" href="CheeseFileUtil.html" title="CheeseFileUtil"><span class="type">CheeseFileUtil</span></a> provides some helpful utility functions for looking up paths
+for photos and videos.</p>
+</div>
+<div class="refsect1">
+<a name="CheeseFileUtil.functions_details"></a><h2>Functions</h2>
+<div class="refsect2">
+<a name="cheese-fileutil-new"></a><h3>cheese_fileutil_new ()</h3>
+<pre class="programlisting"><a class="link" href="CheeseFileUtil.html" title="CheeseFileUtil"><span class="returnvalue">CheeseFileUtil</span></a> *
+cheese_fileutil_new (<em class="parameter"><code><span class="type">void</span></code></em>);</pre>
+<p>Create a new <a class="link" href="CheeseFileUtil.html" title="CheeseFileUtil"><span class="type">CheeseFileUtil</span></a> object.</p>
+<div class="refsect3">
+<a name="id-1.3.8.9.2.5"></a><h4>Returns</h4>
+<p> a new <a class="link" href="CheeseFileUtil.html" title="CheeseFileUtil"><span class="type">CheeseFileUtil</span></a></p>
+<p></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="cheese-fileutil-get-new-media-filename"></a><h3>cheese_fileutil_get_new_media_filename ()</h3>
+<pre class="programlisting"><a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *
+cheese_fileutil_get_new_media_filename
+                               (<em class="parameter"><code><a class="link" href="CheeseFileUtil.html" title="CheeseFileUtil"><span class="type">CheeseFileUtil</span></a> *fileutil</code></em>,
+                                <em class="parameter"><code><a class="link" href="CheeseFileUtil.html#CheeseMediaMode" title="enum CheeseMediaMode"><span class="type">CheeseMediaMode</span></a> mode</code></em>);</pre>
+<p>Creates a filename for one of the three media types: photo, photo burst or
+video. If a filename for a photo burst image was previously created, this
+function increments the burst count automatically. To start a new burst,
+first call <a class="link" href="CheeseFileUtil.html#cheese-fileutil-reset-burst" title="cheese_fileutil_reset_burst ()"><code class="function">cheese_fileutil_reset_burst()</code></a>.</p>
+<div class="refsect3">
+<a name="id-1.3.8.9.3.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>fileutil</p></td>
+<td class="parameter_description"><p>a <a class="link" href="CheeseFileUtil.html" title="CheeseFileUtil"><span class="type">CheeseFileUtil</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>mode</p></td>
+<td class="parameter_description"><p>the type of media to create a filename for</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="id-1.3.8.9.3.6"></a><h4>Returns</h4>
+<p> a new filename. </p>
+<p><span class="annotation">[<acronym title="Free data after the code is done."><span class="acronym">transfer full</span></acronym>][<acronym title="Override the parsed C type with given type."><span class="acronym">type</span></acronym> filename]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="cheese-fileutil-get-photo-path"></a><h3>cheese_fileutil_get_photo_path ()</h3>
+<pre class="programlisting">const <a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *
+cheese_fileutil_get_photo_path (<em class="parameter"><code><a class="link" href="CheeseFileUtil.html" title="CheeseFileUtil"><span class="type">CheeseFileUtil</span></a> *fileutil</code></em>);</pre>
+<p>Get the path where Cheese photo files are stored.</p>
+<div class="refsect3">
+<a name="id-1.3.8.9.4.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>fileutil</p></td>
+<td class="parameter_description"><p>a <a class="link" href="CheeseFileUtil.html" title="CheeseFileUtil"><span class="type">CheeseFileUtil</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="id-1.3.8.9.4.6"></a><h4>Returns</h4>
+<p> the Cheese photo path. </p>
+<p><span class="annotation">[<acronym title="Don't free data after the code is done."><span class="acronym">transfer none</span></acronym>][<acronym title="Override the parsed C type with given type."><span class="acronym">type</span></acronym> filename]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="cheese-fileutil-get-video-path"></a><h3>cheese_fileutil_get_video_path ()</h3>
+<pre class="programlisting">const <a href="https://developer.gnome.org/glib/unstable/glib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *
+cheese_fileutil_get_video_path (<em class="parameter"><code><a class="link" href="CheeseFileUtil.html" title="CheeseFileUtil"><span class="type">CheeseFileUtil</span></a> *fileutil</code></em>);</pre>
+<p>Get the path where Cheese video files are stored.</p>
+<div class="refsect3">
+<a name="id-1.3.8.9.5.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>fileutil</p></td>
+<td class="parameter_description"><p>a <a class="link" href="CheeseFileUtil.html" title="CheeseFileUtil"><span class="type">CheeseFileUtil</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="id-1.3.8.9.5.6"></a><h4>Returns</h4>
+<p> the Cheese video path. </p>
+<p><span class="annotation">[<acronym title="Don't free data after the code is done."><span class="acronym">transfer none</span></acronym>][<acronym title="Override the parsed C type with given type."><span class="acronym">type</span></acronym> filename]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="cheese-fileutil-reset-burst"></a><h3>cheese_fileutil_reset_burst ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+cheese_fileutil_reset_burst (<em class="parameter"><code><a class="link" href="CheeseFileUtil.html" title="CheeseFileUtil"><span class="type">CheeseFileUtil</span></a> *fileutil</code></em>);</pre>
+<p>Resets the burst counter, so that calling
+<a class="link" href="CheeseFileUtil.html#cheese-fileutil-get-new-media-filename" title="cheese_fileutil_get_new_media_filename ()"><code class="function">cheese_fileutil_get_new_media_filename()</code></a> with a photo burst starts a new
+burst of photos.</p>
+<div class="refsect3">
+<a name="id-1.3.8.9.6.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>fileutil</p></td>
+<td class="parameter_description"><p>a <a class="link" href="CheeseFileUtil.html" title="CheeseFileUtil"><span class="type">CheeseFileUtil</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="refsect1">
+<a name="CheeseFileUtil.other_details"></a><h2>Types and Values</h2>
+<div class="refsect2">
+<a name="CheeseFileUtil-struct"></a><h3>struct CheeseFileUtil</h3>
+<pre class="programlisting">struct CheeseFileUtil;</pre>
+<p>Use the accessor functions below.</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="CHEESE-PHOTO-NAME-SUFFIX:CAPS"></a><h3>CHEESE_PHOTO_NAME_SUFFIX</h3>
+<pre class="programlisting">#define CHEESE_PHOTO_NAME_SUFFIX ".jpg"
+</pre>
+<p>The filename suffix for photos saved by Cheese.</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="CHEESE-VIDEO-NAME-SUFFIX:CAPS"></a><h3>CHEESE_VIDEO_NAME_SUFFIX</h3>
+<pre class="programlisting">#define CHEESE_VIDEO_NAME_SUFFIX ".webm"
+</pre>
+<p>The filename suffix for videos saved by Cheese.</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="CheeseMediaMode"></a><h3>enum CheeseMediaMode</h3>
+<p>The media type, used for generating filenames with
+<a class="link" href="CheeseFileUtil.html#cheese-fileutil-get-new-media-filename" title="cheese_fileutil_get_new_media_filename ()"><code class="function">cheese_fileutil_get_new_media_filename()</code></a>.</p>
+<div class="refsect3">
+<a name="id-1.3.8.10.5.4"></a><h4>Members</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="300px" class="enum_members_name">
+<col class="enum_members_description">
+<col width="200px" class="enum_members_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="enum_member_name"><p><a name="CHEESE-MEDIA-MODE-PHOTO:CAPS"></a>CHEESE_MEDIA_MODE_PHOTO</p></td>
+<td class="enum_member_description">
+<p>photo</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="CHEESE-MEDIA-MODE-VIDEO:CAPS"></a>CHEESE_MEDIA_MODE_VIDEO</p></td>
+<td class="enum_member_description">
+<p>video</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="CHEESE-MEDIA-MODE-BURST:CAPS"></a>CHEESE_MEDIA_MODE_BURST</p></td>
+<td class="enum_member_description">
+<p>a burst of photos</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.21.1</div>
+</body>
+</html>

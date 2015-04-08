@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="burst-mode" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="index#main" group="#first"/>
+    <revision pkgversion="3.0" date="2011-08-24" status="candidate"/>
+    <revision pkgversion="3.1" date="2011-09-05" status="review"/>
+    <revision pkgversion="3.8" date="2013-04-19" status="review"/>
+    <revision pkgversion="3.12" date="2014-02-21" status="review"/>
+
+    <credit type="author copyright">
+      <name>Julita Inca</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+      <years>2011</years>
+    </credit>
+    <credit type="author copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+      <years>2011, 2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Λήψη πολλών φωτογραφιών με πάτημα ενός κουμπιού, Πατήστε στη λειτουργία <gui>Πολλαπλή φωτογράφηση</gui> . Αλλάξτε πόζα ανάμεσα σε κάθε φωτογραφία!</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Ευστάθιος Ιωσηφίδης</mal:name>
+      <mal:email>diamond_gr@freemail.gr</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Λήψη φωτογραφιών με γρήγορη διαδοχή</title>
+
+  <p>Χρησιμοποιήσετε τη λειτουργία <gui>Πολλαπλή φωτογράφηση</gui> για να τραβήξετε αυτόματα πολλές φωτογραφίες στη σειρά. Είναι ιδιαίτερα διασκεδαστικό αν αλλάζετε πόζα ανάμεσα στις φωτογραφίες! Για να χρησιμοποιήσετε τη λειτουργία <gui>Πολλαπλή φωτογράφηση</gui>:</p>
+
+  <steps>
+    <item>
+      <p>Βεβαιωθείτε πως βρίσκεσθε στη λειτουργία <gui>Πολλαπλή φωτογράφηση</gui> . Αν αυτό ισχύει, θα επιλεγεί το κουμπί <gui style="button">Πολλαπλή φωτογράφηση</gui>  στην αριστερή πλευρά της οθόνης.</p>
+    </item>
+    <item>
+      <p>Πατήστε το κουμπί <gui style="button">Λήψη πολλαπλών φωτογραφιών με χρήση δικτυακής κάμερας</gui> στη μέση του κάτω πίνακα, ή πατήστε το πλήκτρο <key>Space</key>, για να αρχίσετε να βγάζετε φωτογραφίες.</p>
+      <p>Από προεπιλογή, θα λαμβάνονται τέσσερις φωτογραφίες, με καθυστέρηση ενός δευτερολέπτου και αντίστροφη μέτρηση ανάμεσα στις φωτογραφίες.</p>
+    </item>
+    <item>
+      <p>Για να διακοπεί η εγγραφή, πατήστε ξανά το ίδιο κουμπί. Μπορείτε επίσης να πατήσετε το πλήκτρο <key>Esc</key> ή το <key>Space</key> για να σταματήσει η εγγραφή.</p>
+    </item>
+  </steps>
+
+<section id="burst-preferences">
+  <title>Αλλαγή προτιμήσεων για την <gui>Πολλαπλή φωτογράφηση</gui></title>
+
+  <p>Μπορείτε να αλλάξετε το πόσες φωτογραφίες θα λαμβάνονται σε κάθε πολλαπλή φωτογράφηση, καθώς και τη διάρκεια της καθυστέρησης ανάμεσα στις φωτογραφίες:</p>
+
+  <steps>
+    <item>
+      <p>Επιλέξτε <guiseq><gui style="menu">Cheese</gui><gui style="menuitem">Προτιμήσεις</gui> <gui style="tab">Λήψη</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Τροποποίηση των ρυθμίσεων προτίμησης:</p>
+      <terms>
+        <item>
+          <title>Αντίστροφη μέτρηση</title>
+          <p>Αντίστροφη μέτρηση από το τρία, πριν τη λήψη της φωτογραφίας.</p>
+        </item>
+        <item>
+          <title>Ενεργοποίηση φλας</title>
+          <p>Η οθόνη σας θα λάμψει κατά τη λήψη της φωτογραφίας.</p>
+        </item>
+        <item>
+          <title>Αριθμός φωτογραφιών</title>
+          <p>Ο αριθμός των φωτογραφιών που θα ληφθούν σε μια μόνο πολλαπλή φωτογράφηση.</p>
+        </item>
+        <item>
+          <title>Καθυστέρηση μεταξύ φωτογραφιών (δευτερόλεπτα)</title>
+          <p>Η καθυστέρηση ανάμεσα σε δύο φωτογραφίες. Αν έχετε ενεργοποιήσει την <gui>Αντίστροφη μέτρηση</gui>, τότε αυτή η καθυστέρηση πρέπει να ορισθεί σε πάνω από τέσσερα δευτερόλεπτα για να μπορεί να έχει οποιοδήποτε αποτέλεσμα.</p>
+          <!--<p>The delay between the last photo and the start of the next
+          countdown. If <gui>Countdown</gui> is disabled, this is the delay
+          between photos.</p>-->
+        </item>
+      </terms>
+    </item>
+  </steps>
+
+</section>
+
+</page>

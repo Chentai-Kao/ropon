@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="photo-take" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="index#main" group="#first"/>
+    <link type="seealso" xref="pref-flash"/>
+    <link type="seealso" xref="pref-countdown"/>
+    <link type="seealso" xref="photo-view"/>
+    <link type="seealso" xref="photo-delete"/>
+
+    <revision pkgversion="3.0" date="2011-08-25" status="candidate"/>
+    <revision pkgversion="3.1" date="2011-09-05" status="review"/>
+    <revision pkgversion="3.8" date="2013-04-15" status="review"/>
+    <revision pkgversion="3.12" date="2014-02-21" status="review"/>
+
+    <credit type="author copyright">
+      <name>Julita Inca</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+      <years>2011</years>
+    </credit>
+    <credit type="author editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Χρησιμοποιήστε τη δικτυακή σας κάμερα για να τραβήξετε φωτογραφίες αντί για βίντεο.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Ευστάθιος Ιωσηφίδης</mal:name>
+      <mal:email>diamond_gr@freemail.gr</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Λήψη φωτογραφιών</title>
+
+  <p>Οι δικτυακές κάμερες μπορούν να τραβήξουν ακίνητες φωτογραφίες, καθώς και βίντεο. Για να τραβήξετε μια φωτογραφία:</p>
+
+  <steps>
+    <item>
+      <p>Βεβαιωθείτε ότι είστε στη λειτουργία <gui>Φωτογραφία</gui>. Εαν αυτό όντως ισχύει, θα επιλεγεί το κουμπί <gui style="button">Φωτογραφίες</gui> στην αριστερή πλευρά της οθόνης.</p>
+    </item>
+    <item>
+      <p>Πατήστε το κουμπί για <gui style="button">Λήψη φωτογραφίας με χρήση δικτυακής κάμερας</gui> στη μέση του κάτω πίνακα, ή πατήστε το πλήκτρο <key>Space</key>, για βγάλετε μια φωτογραφία.</p>
+    </item>
+    <item>
+      <p>Υπάρχει μια μικρή αντίστροφη μέτρηση, ακολουθούμενη από ένα φλας και η φωτογραφία θα εμφανισθεί στη ροή φωτογραφιών.</p>
+    </item>
+  </steps>
+
+  <p>Οι φωτογραφίες στη ροή φωτογραφιών αποθηκεύονται αυτόματα στον φάκελο <file>/Εικόνες/Δικτυακή κάμερα</file> στον προσωπικό σας φάκελο. Αποθηκεύονται σε μορφή JPEG (<file>.jpg</file>).</p>
+
+  <p>Για να ακυρώσετε τη λήψη μιας φωτογραφίας αφού έχετε κάνει κλικ στη <gui>Λήψη φωτογραφίας</gui>, πατήστε <key>Esc</key> πριν λήξει η αντίστροφη μέτρηση.</p>
+
+  <note>
+    <p>Για να βγάλετε πολλαπλές φωτογραφίες σε γρήγορη διαδοχή, χρησιμοποιήστε τη λειτουργία <link xref="burst-mode">Πολλαπλή φωτογράφηση</link>.</p>
+  </note>
+
+</page>

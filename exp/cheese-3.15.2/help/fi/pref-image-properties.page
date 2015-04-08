@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="pref-image-properties" xml:lang="fi">
+
+  <info>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="index#problems"/>
+    <revision pkgversion="3.0" date="2011-08-24" status="candidate"/>
+    <revision pkgversion="3.1" date="2011-09-05" status="review"/>
+    <revision pkgversion="3.8" date="2013-04-15" status="review"/>
+    <revision pkgversion="3.12" date="2014-02-21" status="review"/>
+
+    <credit type="author copyright">
+      <name>Julita Inca</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+      <years>2011</years>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Kuvien ja videoiden parantaminen muuttamalla niiden värikylläisyyttä, kontrastia, kirkkautta ja värisävyä.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Sami Jaktholm</mal:name>
+      <mal:email>sjakthol@outlook.com</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Kuvat ja videot näyttävät vääriltä</title>
+
+  <p>Jos kuvat tai videot ovat liian pimeitä tai värit vaikuttavat oudoilta, niiden värikylläisyyttä, kontrastia, kirkkautta ja värisävyä voi muuttaa seuraavasti:</p>
+
+  <steps>
+    <item>
+      <p>Valitse <guiseq><gui>Muikku</gui><gui>Asetukset</gui><gui>Kuva</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Etsi parhaat asetukset siirtämällä liukusäätimiä.</p>
+    </item>
+    <item>
+      <p>Click <gui>Close</gui> and check to see if the preview looks
+      better.</p>
+    </item>
+  </steps>
+
+  <figure>
+    <title><gui>Kuvan ominaisuudet</gui> sisältää seuraavat valinnat (vasemmalta oikealle): kirkkaus, kontrasti, värisävy ja värikylläisyys</title>
+    <media its:translate="no" type="image" src="figures/image-properties.png" width="800" height="150"/>
+  </figure>
+
+  <terms>
+    <item>
+      <title>Kirkkaus</title>
+      <p>Kirkkauden kasvattaminen lisää kuviin ja videoihin valoisuutta. Jos kuvaus tapahtuu hämärässä huoneessa, tämä saattaa muuttaa kuvat epätarkoiksi.</p>
+    </item>
+    <item>
+      <title>Kontrasti</title>
+      <p>Korkeampi kontrasti korostaa tummien ja vaaleiden värien eroja. Jos kuvat näyttävät ylivalottuneilta, kasvata kontrastia.</p>
+    </item>
+    <item>
+      <title>Värisävy</title>
+      <p>Värisävyä muuttamalla kuviin voi lisätä halutun värisen vivahteen. Jos kuvan värit näyttävät vääriltä (esimerkiksi liian keltainen), muuta värisävyä.</p>
+    </item>
+    <item>
+      <title>Värikylläisyys</title>
+      <p>Värikylläisyyden vähentäminen vähentää kuvassa esiintyviä värejä. Jos värit ovat liian räikeitä, pienennä värikylläisyyttä.</p>
+    </item>
+  </terms>
+
+</page>

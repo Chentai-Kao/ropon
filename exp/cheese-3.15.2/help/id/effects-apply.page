@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="effects-apply" xml:lang="id">
+
+  <info>
+    <link type="guide" xref="index#main"/>
+    <revision pkgversion="3.0" date="2011-08-24" status="candidate"/>
+    <revision pkgversion="3.1" date="2011-09-05" status="review"/>
+    <revision pkgversion="3.12" date="2014-02-21" status="review"/>
+
+    <credit type="author copyright">
+      <name>Julita Inca</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+      <years>2011</years>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Tambahkan efek menarik ke foto dan video Anda, seperti membuat Anda menjadi hijau atau mendistorsi gambar seperti cermin rumah aneh.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Andika Triwidada</mal:name>
+      <mal:email>andika@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Terapkan efek ke foto dan video</title>
+
+  <p>Anda dapat menerapkan efek yang menarik ke foto dan video Anda:</p>
+
+  <steps>
+    <item>
+      <p>Klik <gui style="button">Efek</gui>.</p>
+    </item>
+    <item>
+      <p>Pilih efek yang ingin Anda pakai dengan mengklik salah satu opsi atau pilih <gui>Tanpa Efek</gui> bila Anda tak ingin memakainya.</p>
+    </item>
+  </steps>
+
+  <p><app>Cheese</app> menawarkan 35 efek, yang hanya 9 diantaranya ditunjukkan pada halaman pertama. Klik panah maju dan mundur di sebelah <gui style="button">Efek</gui> untuk berpindah ke halaman lain.</p>
+
+  <figure>
+    <title>Beberapa efek, dari kiri ke kanan: Sepia, Shagadelic, Sobel (baris pertama), Waveform, X-Ray, Warp (baris kedua)</title>
+    <media its:translate="no" type="image" src="figures/effects.png" width="529" height="264"/>
+  </figure>
+
+</page>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="burst-mode" xml:lang="cs">
+
+  <info>
+    <link type="guide" xref="index#main" group="#first"/>
+    <revision pkgversion="3.0" date="2011-08-24" status="candidate"/>
+    <revision pkgversion="3.1" date="2011-09-05" status="review"/>
+    <revision pkgversion="3.8" date="2013-04-19" status="review"/>
+    <revision pkgversion="3.12" date="2014-02-21" status="review"/>
+
+    <credit type="author copyright">
+      <name>Julita Inca</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+      <years>2011</years>
+    </credit>
+    <credit type="author copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+      <years>2011, 2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Pořiďte několik snímků jediným zmáčknutím tlačítka v režimu <gui>snímání v sérii</gui>. Mezi každým snímkem změňte svoji pózu!</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Lucas Lommer</mal:name>
+      <mal:email>llommer@svn.gnome.org</mal:email>
+      <mal:years>2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Martin Jablečník</mal:name>
+      <mal:email>martin.jablecnik@seznam.cz</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Marek Černocký</mal:name>
+      <mal:email>marek@manet.cz</mal:email>
+      <mal:years>2013, 2014</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Jak pořídit <gui>sérii</gui> několika snímků v rychlém sledu</title>
+
+  <p>Použijte režim <gui>série snímků</gui> k automatickému pořízení několik snímků v řadě. To je obzvlášť zábavné, když mezi snímky měníte svou polohu a výraz! Pro použití režimu <gui>série snímků</gui>:</p>
+
+  <steps>
+    <item>
+      <p>Ujistěte se, že jste přepnutí v režimu <gui>snímání v sérii</gui>. Pokud tomu tak je, je vybráno tlačítko <gui style="button">Série</gui> po levé straně obrazovky.</p>
+    </item>
+    <item>
+      <p>Klikněte na tlačítko <gui style="button">Pořídit více snímků pomocí webové kamery</gui> uprostřed spodního panelu nebo zmáčkněte <key>mezerník</key> a spustí se snímání.</p>
+      <p>Standardně je nastaveno pořízení čtyř snímků s prodlevou jedné sekundy a odpočítáváním mezi snímky.</p>
+    </item>
+    <item>
+      <p>Pro ukončení snímání zmáčkněte to samé tlačítko znovu. Můžete také použít klávesu <key>Esc</key> nebo <key>mezerník</key>.</p>
+    </item>
+  </steps>
+
+<section id="burst-preferences">
+  <title>Změna předvoleb <gui>série snímků</gui></title>
+
+  <p>Množství pořizovaných snímků v sérii a prodlevu mezi nimi můžete změnit:</p>
+
+  <steps>
+    <item>
+      <p>Vyberte <guiseq><gui style="menu">Cheese</gui> <gui style="menuitem">Předvolby</gui> <gui style="tab">Snímání</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Upravte nastavení předvoleb:</p>
+      <terms>
+        <item>
+          <title>Odpočet</title>
+          <p>Odpočítávání od tří do okamžiku pořízení snímku.</p>
+        </item>
+        <item>
+          <title>Spustit blesk</title>
+          <p>Při pořizování smímku obrazovka bíle zableskne.</p>
+        </item>
+        <item>
+          <title>Počet snímků</title>
+          <p>Počet snímků, které se pořídí v jedné sérii.</p>
+        </item>
+        <item>
+          <title>Prodleva mezi snímky (v sekundách)</title>
+          <p>Prodleva mezi dvěma fotkami. Pokud máte zapnuto <gui>odpočítávání</gui>, musí být prodleva nastavena na více než čtyři sekundy, aby se projevila.</p>
+          <!--<p>The delay between the last photo and the start of the next
+          countdown. If <gui>Countdown</gui> is disabled, this is the delay
+          between photos.</p>-->
+        </item>
+      </terms>
+    </item>
+  </steps>
+
+</section>
+
+</page>

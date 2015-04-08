@@ -1,0 +1,21 @@
+GUVC Viewer
+- for raw frame, look for render_frame() in guvcview-src-2.0.1/guvcview/video_capture.c
+- nice preview and extensive control panel
+- a little bit complicated, also need to find out how to set parameter by code
+
+Cheese (the Linux application)
+
+libuvc
+- lightweight, easy to tweak
+- need to deal with thread concurrency and close streaming
+
+basic-tutorial-10.c (an example of GStreamer)
+- use GStreamer to stream video to sink (filesink or udpsink (web))
+- has command line mode and programming mode
+- cannot figure out yet
+- possible developing with web interface
+
+ffmpeg streaming to server
+- ffserver -f ffserver.conf & ffmpeg -v 2 -r 5 -s 640x480 -f video4linux2 -i /dev/video0 http://localhost:8090/webcam.ffm
+- possible developing with web interface
+- cannot figure out yet

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="effects-apply" xml:lang="hu">
+
+  <info>
+    <link type="guide" xref="index#main"/>
+    <revision pkgversion="3.0" date="2011-08-24" status="candidate"/>
+    <revision pkgversion="3.1" date="2011-09-05" status="review"/>
+    <revision pkgversion="3.12" date="2014-02-21" status="review"/>
+
+    <credit type="author copyright">
+      <name>Julita Inca</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+      <years>2011</years>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Vicces effektusok hozzáadása a fényképekhez és videókhoz, például bezöldítés vagy a kép vidámparki tükörlabirintushoz hasonló torzítása.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kelemen Gábor</mal:name>
+      <mal:email>kelemeng at gnome dot hu</mal:email>
+      <mal:years>2011, 2012, 2013, 2014.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Effektusok alkalmazása a fényképekre és videókra</title>
+
+  <p>Fényképeire és videóira vicces és érdekes effektusokat alkalmazhat:</p>
+
+  <steps>
+    <item>
+      <p>Nyomja meg az <gui style="button">Effektusok</gui> gombot.</p>
+    </item>
+    <item>
+      <p>Válassza ki a használni kívánt effektust a gombok megnyomásával, vagy válassza a <gui>Nincs effektust</gui>, ha nem szeretne ilyet használni.</p>
+    </item>
+  </steps>
+
+  <p>A <app>Csííz</app> 35 effektust tartalmaz, amelyek közül csak 9 jelenik meg az első oldalon. Nyomja meg a balra és jobbra nyilakat az <gui style="button">Effektusok</gui> mellett a további oldalakra lépéshez.</p>
+
+  <figure>
+    <title>Néhány effektus, balról jobbra: Szépia, Pszichedelikus, Sobel (első sor), Hullámforma, Röntgen, Görbítés (második sor)</title>
+    <media its:translate="no" type="image" src="figures/effects.png" width="529" height="264"/>
+  </figure>
+
+</page>

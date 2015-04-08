@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="video-record" xml:lang="pt-BR">
+
+  <info>
+    <link type="guide" xref="index#main" group="#first"/>
+    <revision pkgversion="3.0" date="2011-08-25" status="candidate"/>
+    <revision pkgversion="3.1" date="2011-09-05" status="review"/>
+    <revision pkgversion="3.8" date="2013-04-15" status="review"/>
+    <revision pkgversion="3.12" date="2014-02-21" status="review"/>
+
+    <credit type="author copyright">
+      <name>Julita Inca</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+      <years>2011</years>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Usando a sua webcam para gravar filmes curtos para compartilhar com amigos.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Fabrício Godoy</mal:name>
+      <mal:email>skarllot@gmail.com</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Leonardo Ferreira Fontenelle</mal:name>
+      <mal:email>leonardof@gnome.org</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Gabriel Speckhahn</mal:name>
+      <mal:email>gabspeck@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Enrico Nicoletto</mal:name>
+      <mal:email>liverig@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rafael Ferreira</mal:name>
+      <mal:email>rafael.f.f1@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Gravando um vídeo</title>
+
+  <p>Para gravar um vídeo usando a sua webcam:</p>
+
+  <steps>
+    <item>
+      <p>Make sure that you are in <gui>Video</gui> mode. If you are, the
+      <gui style="button">Video</gui> button will be selected on the left side
+      of the screen.</p>
+    </item>
+    <item>
+      <p>Click the <gui style="button">Record a video using a webcam</gui>
+      button in the middle of the bottom panel, or press the
+      <key>Space</key> key, to start recording the video.</p>
+    </item>
+    <item>
+     <p>To stop recording, press the same button again. You can also press the 
+     <key>Esc</key> or <key>Space</key> key to stop recording.</p>
+    </item>
+  </steps>
+
+  <p>Videos are saved in the WebM (<file>.webm</file>) format.</p>
+
+  <p>After you have stopped recording, the video will automatically appear in
+  the photo stream at the bottom of the <app>Cheese</app> window. From there,
+  you can <link xref="photo-view">open</link> or delete the video.</p>
+
+  <p>Se você tiver problemas ao compartilhar um vídeo com pessoas usando outros sistemas operacionais (como o Windows ou o Mac OS), talvez você precise <link href="help:gnome-help/video-sending">convertê-lo para um formato diferente</link>.</p>
+
+</page>

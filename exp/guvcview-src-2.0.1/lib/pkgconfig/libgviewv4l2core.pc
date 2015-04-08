@@ -1,0 +1,10 @@
+prefix=/home/cobra/Desktop/guvcview-src-2.0.1
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libgviewv4l2core
+Description: guvcview v4l2 core library.
+Version: 2.0.1
+Libs: -L${libdir} -lgviewv4l2core
+Cflags: -I${includedir}/guvcview-2/libgviewv4l2core

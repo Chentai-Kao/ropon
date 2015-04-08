@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="pref-resolution" xml:lang="gl">
+
+  <info>
+    <link type="guide" xref="index#preferences"/>
+    <revision pkgversion="3.0" date="2011-08-25" status="candidate"/>
+    <revision pkgversion="3.1" date="2011-09-05" status="review"/>
+    <revision pkgversion="3.12" date="2014-02-21" status="candidate"/>
+
+    <credit type="author copyright">
+      <name>Julita Inca</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+      <years>2011</years>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>A resolución dun vídeo ou foto determina canto detalle pode ver dela, cambiándoa afectará tamén ao tamaño do ficheiro.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Fran Dieguez</mal:name>
+      <mal:email>frandieguez@gnome.org</mal:email>
+      <mal:years>2013.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Cambiar a resolución da captura da súa cámara web</title>
+
+  <p>Resolucións máis grandes xeralmente significa que terá imaxes de maior calidade, porén fotos e vídeos con maior resolución ocuparán máis espazo no seu disco duro. Vídeos de maior resolución, en particular, poderían ocupar moito espazo.</p>
+
+  <p>Se quere que as súas imaxes ocupen menos espazo, reduza a resolución da súa cámara web. Se quere obter maior calidade nas imaxes, incremente a resolución. Pode cambiar a resolución da cámara web:</p>
+
+  <steps>
+    <item>
+      <p>Seleccione <guiseq><gui>Cheese</gui><gui>Preferencias</gui><gui>Cámara web</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Seleccione unha resolución diferente desde a lista despregábel. Algunhas cámaras web só admiten unha resolución, polo que non terá elección.</p>
+    </item>
+    <item>
+      <p>Prema <gui>Pechar</gui>.</p>
+    </item>
+  </steps>
+
+</page>

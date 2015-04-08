@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="pref-image-properties" xml:lang="cs">
+
+  <info>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="index#problems"/>
+    <revision pkgversion="3.0" date="2011-08-24" status="candidate"/>
+    <revision pkgversion="3.1" date="2011-09-05" status="review"/>
+    <revision pkgversion="3.8" date="2013-04-15" status="review"/>
+    <revision pkgversion="3.12" date="2014-02-21" status="review"/>
+
+    <credit type="author copyright">
+      <name>Julita Inca</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+      <years>2011</years>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Přizpůsobte si sytost barev, kontrast, jas a odstín pro lepší snímky a videa</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Lucas Lommer</mal:name>
+      <mal:email>llommer@svn.gnome.org</mal:email>
+      <mal:years>2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Martin Jablečník</mal:name>
+      <mal:email>martin.jablecnik@seznam.cz</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Marek Černocký</mal:name>
+      <mal:email>marek@manet.cz</mal:email>
+      <mal:years>2013, 2014</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Moje snímky a videa vypadají hrozně</title>
+
+  <p>Jestliže jsou vaše snímky nebo videa moc tmavé nebo mají nesprávné barvy, zkuste u nich upravit sytost barev, kontrast, jas a odstín:</p>
+
+  <steps>
+    <item>
+      <p>Vyberte <guiseq><gui>Cheese</gui><gui>Předvolby</gui><gui>Obraz</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Použijte táhla k nalezení nejlepšího nastavení své webové kamery.</p>
+    </item>
+    <item>
+      <p>Klikněte na <gui>Zavřít</gui> a ujistěte se, jestli to vypadá lépe než před tím.</p>
+    </item>
+  </steps>
+
+  <figure>
+    <title>Různé nastavení pod položkou <gui>Obraz</gui> (zleva do prava): použití jasu, kontrastu, odstínu a sytosti barev</title>
+    <media its:translate="no" type="image" src="figures/image-properties.png" width="800" height="150"/>
+  </figure>
+
+  <terms>
+    <item>
+      <title>Jas</title>
+      <p>S vyšším jasem vytvoříme snímky a videa prosvětlenější. Pokud jste však v tmavé místnosti, může zvýšení jasu způsobit v obrazu větší šum.</p>
+    </item>
+    <item>
+      <title>Kontrast</title>
+      <p>Nastavením vyššího kontrastu vzroste rozdíl mezi tmavými a světlými barvami. Jestliže obraz vypadá mdle, zkuste zvýšit kontrast.</p>
+    </item>
+    <item>
+      <title>Odstín</title>
+      <p>Změnou odstínu obrazu změníte tónování barev. Pokud má obraz nesprávné barvy (například moc žluté), zkuste změnit odstín.</p>
+    </item>
+    <item>
+      <title>Sytost barev</title>
+      <p>Snižováním sytosti vytváříte obraz s menším důrazem barev. Jestliže jsou barvy moc ostré, snižte sytost barev.</p>
+    </item>
+  </terms>
+
+</page>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="pref-resolution" xml:lang="id">
+
+  <info>
+    <link type="guide" xref="index#preferences"/>
+    <revision pkgversion="3.0" date="2011-08-25" status="candidate"/>
+    <revision pkgversion="3.1" date="2011-09-05" status="review"/>
+    <revision pkgversion="3.12" date="2014-02-21" status="candidate"/>
+
+    <credit type="author copyright">
+      <name>Julita Inca</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+      <years>2011</years>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Resolusi video atau foto menentukan seberapa banyak rincian yang dapat Anda lihat di dalamnya, mengubahnya akan mempengaruhi ukuran berkas.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Andika Triwidada</mal:name>
+      <mal:email>andika@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Ubah resolusi tangkap dari webcam Anda</title>
+
+  <p>Resolusi lebih tinggi umumnya berarti gambar dengan kualitas lebih tinggi, tapi foto dan video dengan resolusi lebih tinggi menghabiskan lebih banyak tempat pada hard disk Anda. Video resolusi tinggi khususnya, menghabiskan banyak tempat.</p>
+
+  <p>Bila Anda ingin agar gambar Anda mengambil lebih sedikit tempat, kurangi resolusi webcam Anda. Bila Anda ingin gambar dengan kualitas lebih tinggi, naikkan resolusi. Untuk mengubah resolusi webcam:</p>
+
+  <steps>
+    <item>
+      <p>Pilih <guiseq><gui>Cheese</gui><gui>Preferensi</gui><gui>Webcam</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Pilih resolusi berbeda dari daftar drop-down. Beberapa webcam hanya mendukung satu resolusi, sehingga mungkin Anda tak punya pilihan.</p>
+    </item>
+    <item>
+      <p>Klik <gui>Tutup</gui>.</p>
+    </item>
+  </steps>
+
+</page>

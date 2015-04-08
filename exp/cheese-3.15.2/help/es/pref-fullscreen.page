@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="pref-fullscreen" xml:lang="es">
+
+  <info>
+    <link type="guide" xref="index#preferences"/>
+    <revision pkgversion="3.6" date="2012-05-09" status="stub"/>
+    <revision pkgversion="3.12" date="2014-02-21" status="review"/>
+
+    <credit type="author">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Activar y desactivar el modo pantalla completa:</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2011 - 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jorge González</mal:name>
+      <mal:email>jorgegonz@svn.gnome.org</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Pantalla completa</title>
+
+  <p>Para activar o desactivar el modo a pantalla completa:</p>
+
+  <steps>
+    <item><p>Seleccione <guiseq><gui>Cheese</gui><gui>Pantalla completa</gui></guiseq>.</p></item>
+  </steps>
+
+  <p>Si no puede ver el menú de <gui style="menu">Cheese</gui> en el modo a pantalla completa, mueva el ratón o toque la pantalla.</p>
+
+  <note style="tip">
+    <p>También puede activar y desactivar el modo a pantalla completa pulsando <key>F11</key>.</p>
+  </note>
+</page>

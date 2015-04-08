@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="photo-delete" xml:lang="id">
+
+  <info>
+    <link type="guide" xref="index#main"/>
+    <revision pkgversion="3.0" date="2011-08-24" status="candidate"/>
+    <revision pkgversion="3.1" date="2011-09-05" status="review"/>
+    <revision pkgversion="3.12" date="2014-02-21" status="review"/>
+
+    <credit type="author copyright">
+      <name>Julita Inca</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+      <years>2011</years>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Hapus foto dan video yang tak ingin Anda simpan lagi.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Andika Triwidada</mal:name>
+      <mal:email>andika@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Hapus foto atau video</title>
+
+  <p>Bila Anda tak menginginkan suatu foto atau video, Anda dapat menghapusnya secara permanen:</p>
+
+  <steps>
+    <item>
+      <p>Temukan foto atau video yang ingin Anda hapus dalam stream foto di bagian bawah jendela <app>Cheese</app>.</p>
+    </item>
+    <item>
+      <p>Klik kanan dan pilih <gui>Hapus</gui>.</p>
+    </item>
+    <item>
+      <p>Anda akan ditanya apakah ingin menghapusnya secara permanen. Setujui dengan mengklik <gui>Hapus</gui>; Anda tak akan bisa memulihkan foto atau video tersebut.</p>
+    </item>
+  </steps>
+
+  <p>Bila Anda tak yakin apakah ingin menghapus foto atau video secara permanen, Anda dapat mengklik kanan padanya dan memilih <gui>Pindahkan ke Tong Sampah</gui> sebagai gantinya. Ini akan memindahkannya ke folder <gui>Tong Sampah</gui> komputer.</p>
+
+  <note>
+    <p>Cheese tak memiliki folder <gui>Tong Sampah</gui> sendiri dan Anda tak dapat mengakses folder <gui>Tong Sampah</gui> komputer dari dalam <app>Cheese</app>.</p>
+  </note>
+
+</page>

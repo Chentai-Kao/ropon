@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="pref-image-properties" xml:lang="ru">
+
+  <info>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="index#problems"/>
+    <revision pkgversion="3.0" date="2011-08-24" status="candidate"/>
+    <revision pkgversion="3.1" date="2011-09-05" status="review"/>
+    <revision pkgversion="3.8" date="2013-04-15" status="review"/>
+    <revision pkgversion="3.12" date="2014-02-21" status="review"/>
+
+    <credit type="author copyright">
+      <name>Джулита Инка (Julita Inca)</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+      <years>2011</years>
+    </credit>
+    <credit type="editor">
+      <name>Екатерина Герасимова (Ekaterina Gerasimova)</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Настройте насыщенность, контрастность, яркость и оттенок для того, чтобы фотографии и видео выглядели лучше.</desc>
+  </info>
+
+  <title>Если фото или видео выглядят ужасно</title>
+
+  <p>Если ваши фото или видео выглядят слишком тёмными или имеют неправильные оттенки цвета, попробуйте изменить параметры насыщенности, контрастности, яркости и цветности:</p>
+
+  <steps>
+    <item>
+      <p>Select
+      <guiseq><gui>Cheese</gui><gui>Preferences</gui><gui>Image</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Move the sliders to find the best settings for your webcam.</p>
+    </item>
+    <item>
+      <p>Click <gui>Close</gui> and check to see if the preview looks
+      better.</p>
+    </item>
+  </steps>
+
+  <figure>
+    <title>Различные параметры в <gui>свойствах изображения</gui> (слева направо): изменение яркости, контрастности, оттенка и насыщенности</title>
+    <media its:translate="no" type="image" src="figures/image-properties.png" width="800" height="150"/>
+  </figure>
+
+  <terms>
+    <item>
+      <title>Яркость</title>
+      <p>Увеличение яркости делает фотографии и видеозаписи светлее. Если вы находитесь в тёмной комнате, увеличение яркости может привести к зашумлённости изображения.</p>
+    </item>
+    <item>
+      <title>Контрастность</title>
+      <p>Повышение контрастности увеличивает разницу между тёмными и светлыми цветами. Если изображение выглядит замыленным, попробуйте увеличить контрастность.</p>
+    </item>
+    <item>
+      <title>Оттенок</title>
+      <p>Изменение оттенка изменит цветовой баланс изображения. Если изображение имеет неправильный оттенок (например, слишком жёлтый), попробуйте изменить оттенок.</p>
+    </item>
+    <item>
+      <title>Насыщенность</title>
+      <p>Уменьшение насыщенности делает изображение менее цветным. Если изображение чересчур грубое, попробуйте уменьшить насыщенность.</p>
+    </item>
+  </terms>
+
+</page>

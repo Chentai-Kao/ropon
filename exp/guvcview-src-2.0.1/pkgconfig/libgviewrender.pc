@@ -1,0 +1,10 @@
+prefix=/home/cobra/Desktop/guvcview-src-2.0.1
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libgviewrender
+Description: guvcview render library.
+Version: 2.0.1
+Libs: -L${libdir} -lgviewrender
+Cflags: -I${includedir}/guvcview-2/libgviewrender

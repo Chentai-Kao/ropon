@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="effects-apply" xml:lang="es">
+
+  <info>
+    <link type="guide" xref="index#main"/>
+    <revision pkgversion="3.0" date="2011-08-24" status="candidate"/>
+    <revision pkgversion="3.1" date="2011-09-05" status="review"/>
+    <revision pkgversion="3.12" date="2014-02-21" status="review"/>
+
+    <credit type="author copyright">
+      <name>Julita Inca</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+      <years>2011</years>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Y efectos divertidos a sus fotos y vídeos, como volverse verde o distorsionar la imagen como un espejo de feria.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2011 - 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jorge González</mal:name>
+      <mal:email>jorgegonz@svn.gnome.org</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Aplicar efectos a fotos y vídeos</title>
+
+  <p>Puede aplicar efectos interesantes y divertidos a sus fotos y vídeos:</p>
+
+  <steps>
+    <item>
+      <p>Pulse <gui style="button">Efectos</gui>.</p>
+    </item>
+    <item>
+      <p>Seleccione el efecto que quiere usar pulsando una de las opciones o seleccione <gui>Sin efecto</gui> si no quiere usar ninguno.</p>
+    </item>
+  </steps>
+
+  <p><app>Cheese</app> ofrece 35 efectos, de los que sólo 9 se muestran en esta página. Pulse en las flechas que hay junto a <gui style="button">Efectos</gui> para navegar por el resto de páginas.</p>
+
+  <figure>
+    <title>Algunos de los efectos, de izquierda a derecha: sepia, shagadelic, sobel (primera columna), forma de onda, rayos X, warp (segunda fila)</title>
+    <media its:translate="no" type="image" src="figures/effects.png" width="529" height="264"/>
+  </figure>
+
+</page>

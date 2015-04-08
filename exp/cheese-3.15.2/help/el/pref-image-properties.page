@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="pref-image-properties" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="index#problems"/>
+    <revision pkgversion="3.0" date="2011-08-24" status="candidate"/>
+    <revision pkgversion="3.1" date="2011-09-05" status="review"/>
+    <revision pkgversion="3.8" date="2013-04-15" status="review"/>
+    <revision pkgversion="3.12" date="2014-02-21" status="review"/>
+
+    <credit type="author copyright">
+      <name>Julita Inca</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+      <years>2011</years>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Προσαρμόστε τον κορεσμό, την αντίθεση, τη φωτεινότητα και την απόχρωση, ώστε οι φωτογραφίες και τα βίντεο να φαίνονται καλύτερα.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Ευστάθιος Ιωσηφίδης</mal:name>
+      <mal:email>diamond_gr@freemail.gr</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Οι φωτογραφίες και τα βίντεο μου δεν φαίνονται σωστά</title>
+
+  <p>Αν οι φωτογραφίες και τα βίντεο σας είναι πολύ σκοτεινά ή τα χρώματα φαίνονται να είναι λάθος, προσπαθήσετε να προσαρμόσετε τον κορεσμό, την αντίθεση, την φωτεινότητα και την απόχρωση:</p>
+
+  <steps>
+    <item>
+      <p>Επιλέξτε <guiseq><gui>Cheese</gui><gui>Προτιμήσεις</gui><gui>Εικόνα</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Μετακινήστε τα τους κινητούς δρομείς (sliders) για να βρείτε τις καλύτερες ρυθμίσεις για την δικτυακή σας κάμερα.</p>
+    </item>
+    <item>
+      <p>Κάντε κλικ στο <gui>Κλείσιμο</gui> και ελέγξτε αν η προεπισκόπηση δείχνει καλύτερα.</p>
+    </item>
+  </steps>
+
+  <figure>
+    <title>Διάφορες επιλογές στις <gui>Ιδιότητες εικόνας</gui> (από αριστερά στα δεξιά): τρέχουσα φωτεινότητα, αντίθεση, απόχρωση και κορεσμός</title>
+    <media its:translate="no" type="image" src="figures/image-properties.png" width="800" height="150"/>
+  </figure>
+
+  <terms>
+    <item>
+      <title>Φωτεινότητα</title>
+      <p>Η αύξηση της φωτεινότητας θα κάνει τις φωτογραφίες και τα βίντεο πιο φωτεινά. Αλλά, εάν είστε σε σκοτεινό δωμάτιο η αύξηση της φωτεινότητας μπορεί να κάνει την εικόνα να φαίνεται πιο θορυβώδης.</p>
+    </item>
+    <item>
+      <title>Αντίθεση</title>
+      <p>Αυξάνοντας την αντίθεση θα αυξηθεί και η διαφορά μεταξύ σκοτεινών και φωτεινών χρωμάτων. Αν η εικόνα φαίνεται ξεπλυμένη, προσπαθήστε να αυξήσετε την αντίθεση.</p>
+    </item>
+    <item>
+      <title>Απόχρωση</title>
+      <p>Αν αλλάξετε την απόχρωση της εικόνας θα προσθεθεί μια χροιά σε αυτήν. Αν η εικόνα φαίνεται να είναι λάθος χρώμα (π.χ. πολύ κίτρινη), προσπαθήστε να αλλάξετε την απόχρωση.</p>
+    </item>
+    <item>
+      <title>Κορεσμός</title>
+      <p>Αν μειώσετε τον κορεσμό η εικόνα θα γίνει λιγότερο χρωματιστή. Αν τα χρώματα δείχνουν πολύ σκληρά, μειώστε τον κορεσμό.</p>
+    </item>
+  </terms>
+
+</page>

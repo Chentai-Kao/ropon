@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="photo-take" xml:lang="es">
+
+  <info>
+    <link type="guide" xref="index#main" group="#first"/>
+    <link type="seealso" xref="pref-flash"/>
+    <link type="seealso" xref="pref-countdown"/>
+    <link type="seealso" xref="photo-view"/>
+    <link type="seealso" xref="photo-delete"/>
+
+    <revision pkgversion="3.0" date="2011-08-25" status="candidate"/>
+    <revision pkgversion="3.1" date="2011-09-05" status="review"/>
+    <revision pkgversion="3.8" date="2013-04-15" status="review"/>
+    <revision pkgversion="3.12" date="2014-02-21" status="review"/>
+
+    <credit type="author copyright">
+      <name>Julita Inca</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+      <years>2011</years>
+    </credit>
+    <credit type="author editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Usar su cámara web para hacer fotos en lugar de vídeos.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2011 - 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jorge González</mal:name>
+      <mal:email>jorgegonz@svn.gnome.org</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Hacer fotos</title>
+
+  <p>Las cámaras web se pueden usar para hacer fotos nítidas, así como vídeos. Para hacer una foto:</p>
+
+  <steps>
+    <item>
+      <p>Asegúrese de que está en el modo <gui>Foto</gui>. Si lo está, el botón <gui style="button">Foto</gui> estará seleccionado en la parte izquierda de la pantalla.</p>
+    </item>
+    <item>
+      <p>Pulse el botón <gui style="button">Tomar una foto usando la cámara web</gui> en la parte central del panel inferior o pulse la tecla <key>Espacio</key> para hacer la foto.</p>
+    </item>
+    <item>
+      <p>Se mostrará una pequeña cuenta atrás, seguida de un flash y después la foto aparecerá en la colección de imágenes.</p>
+    </item>
+  </steps>
+
+  <p>Las fotos en la colección de imágenes se guardan automáticamente en la carpeta <file>Imágenes/Webcam</file> en su carpeta personal. Se guardan usando el formato JPEG (<file>.jpg</file>).</p>
+
+  <p>Para cancelar la toma de una foto después de que haya pulsado <gui>Tomar una foto</gui> pulse <key>Esc</key> antes de que finalice la cuenta atrás.</p>
+
+  <note>
+    <p>Use el modo <link xref="burst-mode">ráfaga</link> para hacer múltiples fotos muy seguidas.</p>
+  </note>
+
+</page>

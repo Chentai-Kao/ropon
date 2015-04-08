@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="introduction" xml:lang="ca">
+
+  <info>
+    <link type="guide" xref="index" group="#first"/>
+    <revision pkgversion="3.0" date="2011-08-24" status="candidate"/>
+    <revision pkgversion="3.1" date="2011-09-05" status="review"/>
+    <revision pkgversion="3.6" date="2012-05-09" status="review"/>
+    <revision pkgversion="3.8" date="2013-04-15" status="review"/>
+    <revision pkgversion="3.12" date="2014-02-21" status="final"/>
+
+    <credit type="author copyright">
+      <name>Julita Inca</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+      <years>2011</years>
+    </credit>
+    <credit type="author editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Introducció a l'<app>aplicació de la càmera web Cheese</app>.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Joan Duran</mal:name>
+      <mal:email>jodufi@gmail.com</mal:email>
+      <mal:years>2008, 2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Carles Ferrando</mal:name>
+      <mal:email>carles.ferrando@gmail.com</mal:email>
+      <mal:years>2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Gerard Alcorlo Bofill</mal:name>
+      <mal:email>galcorlo@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Laura Sales</mal:name>
+      <mal:email>laura.saflo@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Introducció</title>
+
+  <p><app>Cheese</app> is a webcam application that lets you take photos and
+  record videos using your webcam. You can take multiple photos in quick
+  succession using the <link xref="burst-mode"><gui>Burst</gui> mode</link> and
+  apply <link xref="effects-apply">special <gui>Effects</gui></link> to add a
+  personal touch to them.</p>
+
+  <p>Per defecte, el <app>Cheese</app> s'inicia en <gui>Mode foto</gui>, preparat per <link xref="take-photo">fer una foto</link>. Heu de canviar-lo a al <gui>Mode vídeo</gui> per <link xref="record-video">enregistrar un vídeo</link> o al <gui>Mode seqüència</gui> per <link xref="burst-mode">fer diverses fotos de cop</link>.</p>
+
+  <p>El <app>Cheese</app> funciona amb la majoria de càmeres web, però les més antigues poden presentar problemes de compatibilitat.</p>
+
+</page>

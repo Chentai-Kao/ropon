@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="photo-take" xml:lang="cs">
+
+  <info>
+    <link type="guide" xref="index#main" group="#first"/>
+    <link type="seealso" xref="pref-flash"/>
+    <link type="seealso" xref="pref-countdown"/>
+    <link type="seealso" xref="photo-view"/>
+    <link type="seealso" xref="photo-delete"/>
+
+    <revision pkgversion="3.0" date="2011-08-25" status="candidate"/>
+    <revision pkgversion="3.1" date="2011-09-05" status="review"/>
+    <revision pkgversion="3.8" date="2013-04-15" status="review"/>
+    <revision pkgversion="3.12" date="2014-02-21" status="review"/>
+
+    <credit type="author copyright">
+      <name>Julita Inca</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+      <years>2011</years>
+    </credit>
+    <credit type="author editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Použijte svoji webovou kameru k pořízení snímků místo videí.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Lucas Lommer</mal:name>
+      <mal:email>llommer@svn.gnome.org</mal:email>
+      <mal:years>2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Martin Jablečník</mal:name>
+      <mal:email>martin.jablecnik@seznam.cz</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Marek Černocký</mal:name>
+      <mal:email>marek@manet.cz</mal:email>
+      <mal:years>2013, 2014</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Jak pořídit fotky</title>
+
+  <p>Webové kamery mohou být použity k pořízení statických fotografií stejně dobře, jako k nahrávání videí. Když chcete pořídit snímek:</p>
+
+  <steps>
+    <item>
+      <p>Ujistěte se, že jste přepnutí v režimu <gui>fotek</gui>. Pokud tomu tak je, je vybráno tlačítko <gui style="button">Fotka</gui> po levé straně obrazovky.</p>
+    </item>
+    <item>
+      <p>Klikněte na tlačítko <gui style="button">Pořídit fotku pomocí webové kamery</gui> uprostřed spodního panelu nebo zmáčkněte <key>mezerník</key> a pořídí se snímek.</p>
+    </item>
+    <item>
+      <p>Proběhne krátké odpočítávání, následované bleskem, a pak se snímek objeví v panelu snímků ve spodní části okna.</p>
+    </item>
+  </steps>
+
+  <p>Fotky v panelu fotek jsou automaticky ukládány do složky <file>Obrázky/Webcam</file> ve vaší domovské složce. Formát ukládání je JPEG (<file>.jpg</file>).</p>
+
+  <p>Pro zrušení pořizení snímku po kliknutí na <gui>Pořídit snímek</gui>, zmáčkněte před koncem odpočítávání <key>Esc</key>.</p>
+
+  <note>
+    <p>Pro pořízení více snímků v rychlém sledu, použijte <link xref="burst-mode">režim <gui>Série snímků</gui></link>.</p>
+  </note>
+
+</page>

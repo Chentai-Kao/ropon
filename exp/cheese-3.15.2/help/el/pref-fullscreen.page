@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="pref-fullscreen" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="index#preferences"/>
+    <revision pkgversion="3.6" date="2012-05-09" status="stub"/>
+    <revision pkgversion="3.12" date="2014-02-21" status="review"/>
+
+    <credit type="author">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Ενεργοποιήστε και απενεργοποιήστε τη λειτουργία πλήρους οθόνης</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Ευστάθιος Ιωσηφίδης</mal:name>
+      <mal:email>diamond_gr@freemail.gr</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Πλήρης οθόνη</title>
+
+  <p>Για την ενεργοποίηση ή την απενεργοποίηση της λειτουργίας πλήρους οθόνης:</p>
+
+  <steps>
+    <item><p>Επιλέξτε <guiseq><gui>Cheese</gui><gui>Πλήρης οθόνη</gui></guiseq></p></item>
+  </steps>
+
+  <p>Αν δε μπορείτε να δείτε το μενού <gui style="menu">Cheese</gui> σε λειτουργία πλήρους οθόνης, μετακινήστε το ποντίκι σας ή χτυπήστε στην οθόνη αφής σας.</p>
+
+  <note style="tip">
+    <p>Μπορείτε επίσης να ενεργοποιήσετε και να απενεργοποιήσετε τη λειτουργία πλήρους οθόνης πατώντας το <key>F11</key></p>
+  </note>
+</page>

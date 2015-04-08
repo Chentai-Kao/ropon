@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="effects-apply" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="index#main"/>
+    <revision pkgversion="3.0" date="2011-08-24" status="candidate"/>
+    <revision pkgversion="3.1" date="2011-09-05" status="review"/>
+    <revision pkgversion="3.12" date="2014-02-21" status="review"/>
+
+    <credit type="author copyright">
+      <name>Julita Inca</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+      <years>2011</years>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Προσθέστε διασκεδαστικά εφέ στις φωτογραφίες και βίντεο σας, όπως να μετατρέψετε τον εαυτό σας σε πράσινο, ή αλλοιώνοντας την εικόνα όπως σε έναν παραμορφωτικό καθρέφτη.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Ευστάθιος Ιωσηφίδης</mal:name>
+      <mal:email>diamond_gr@freemail.gr</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Εφαρμογή εφέ στις φωτογραφίες και στα βίντεο</title>
+
+  <p>Μπορείτε να εφαρμόσετε διασκεδαστικά, ενδιαφέροντα εφέ στις φωτογραφίες και τα βίντεο:</p>
+
+  <steps>
+    <item>
+      <p>Κάντε κλικ στα <gui style="button">Εφέ</gui>.</p>
+    </item>
+    <item>
+      <p>Επιλέξτε τα τα εφέ που θέλετε να χρησιμοποιήσετε, κάνοντας κλικ σε μια από τις επιλογές, ή επιλέξτε το <gui>Χωρίς εφέ</gui> αν δε θέλετε να χρησιμοποιήσετε κάτι τέτοιο.</p>
+    </item>
+  </steps>
+
+  <p>Το <app>Cheese</app> προσφέρει 35 εφέ,από τα οποία μόνο τα 9 εμφανίζονται στην πρώτη σελίδα. Κάντε κλικ στα βέλη προς τα εμπρός και προς τα πίσω, δίπλα στα <gui>Εφέ</gui> για να περιηγηθείτε στις άλλες σελίδες.</p>
+
+  <figure>
+    <title>Μερικά από τα εφέ, από τα αριστερά προς στα δεξιά: Sepia, Shagadelic, Sobel (first row), Κυμματομορφή, Ακτίνες X, Warp (second row), Διόγκωση, Άκρη και Καθρέφτες</title>
+    <media its:translate="no" type="image" src="figures/effects.png" width="529" height="264"/>
+  </figure>
+
+</page>

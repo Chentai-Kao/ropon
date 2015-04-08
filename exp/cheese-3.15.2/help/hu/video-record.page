@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="video-record" xml:lang="hu">
+
+  <info>
+    <link type="guide" xref="index#main" group="#first"/>
+    <revision pkgversion="3.0" date="2011-08-25" status="candidate"/>
+    <revision pkgversion="3.1" date="2011-09-05" status="review"/>
+    <revision pkgversion="3.8" date="2013-04-15" status="review"/>
+    <revision pkgversion="3.12" date="2014-02-21" status="review"/>
+
+    <credit type="author copyright">
+      <name>Julita Inca</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+      <years>2011</years>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Rögzítsen rövid filmeket webkamerájával, és ossza meg azokat barátaival.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kelemen Gábor</mal:name>
+      <mal:email>kelemeng at gnome dot hu</mal:email>
+      <mal:years>2011, 2012, 2013, 2014.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Videó felvétele</title>
+
+  <p>Videó felvétele webkamerájával:</p>
+
+  <steps>
+    <item>
+      <p>Győződjön meg róla, hogy <gui>Videó</gui> módban van. Ebben az esetben a képernyő bal oldalán ki van jelölve a <gui style="button">Videó</gui> gomb.</p>
+    </item>
+    <item>
+      <p>Nyomja meg a <gui style="button">Videó készítése webkamerával</gui> gombot az alsó panel közepén, vagy a <key>szóközt</key> a felvétel elindításához.</p>
+    </item>
+    <item>
+     <p>A felvétel leállításához nyomja meg újra ugyanazt a gombot. A felvétel leállítható az <key>Esc</key> vagy <key>szóköz</key> billentyűkkel is.</p>
+    </item>
+  </steps>
+
+  <p>A videók WebM (<file>.webm</file>) formátumban kerülnek mentésre.</p>
+
+  <p>A felvétel leállítása után a videó automatikusan megjelenik a <app>Csííz</app> ablak alján lévő fényképsávban. Innen <link xref="photo-view">megnyithatja</link> vagy törölheti a videót.</p>
+
+  <p>Ha a videó más operációs rendszerek (Windows, Mac OS) felhasználóival való megosztása problémákat okoz, akkor <link href="help:gnome-help/video-sending">konvertálja másik formátumba</link> a videót.</p>
+
+</page>
