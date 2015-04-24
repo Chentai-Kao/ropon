@@ -1644,6 +1644,14 @@ uint8_t *get_bgr_mem() {
   return bgr_mem;
 }
 
+void set_bgr_mem(uint8_t **external_mem) {
+  *(void **)external_mem = bgr_mem;
+}
+
+void copy_bgr_mem(uint8_t *external_mem, size_t size) {
+  memcpy(external_mem, bgr_mem, size);
+}
+
 void query_frame()
 {
   if (!active_dev || !active_buf || !bgr_mem) {
