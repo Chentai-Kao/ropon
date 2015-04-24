@@ -22,7 +22,9 @@ Webcam
           videobox border-alpha=0 top=0 left=-320 ! mix.
   - Control with GUVCview while streaming
     - $ guvcview -d /dev/video1 -o
-  - OpenCV + GStreamer works!
+  - OpenCV + GStreamer works, but lagging (suspect: fat opencv)
+  - customized yavta works
+
 
 stereo calibration
 - using calib3d + checkboard

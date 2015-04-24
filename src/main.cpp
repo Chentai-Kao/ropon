@@ -27,7 +27,7 @@ int main(int argc, char** argv)
     Mat frame;
     cap >> frame; // get a new frame from camera
     imshow("frame", frame);
-    if (waitKey(30) >= 0) {
+    if (waitKey(30) == 'q') {
       break;
     }
   }

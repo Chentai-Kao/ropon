@@ -1046,6 +1046,11 @@ void *capture_loop(void *data)
 			render_set_caption(render_caption);
 			render_frame(device->yuv_frame, my_render_mask);
 
+      /* Save frame to file */
+      char filename[50];
+      sprintf(filename, "/home/cobra/Desktop/frame/%d", device->frame_index);
+      save_image_bmp(device, filename);
+
 			if(check_photo_timer())
 			{
 				if((device->timestamp - my_last_photo_time) > my_photo_timer)
