@@ -2273,12 +2273,12 @@ void *init(void *args)
 
 void run(int argc, char *argv[])
 {
-  struct arg_struct args;
-  args.argc = argc;
-  args.argv = argv;
+  struct arg_struct* args = malloc(sizeof(struct arg_struct));
+  args->argc = argc;
+  args->argv = argv;
 
   pthread_t thread;
-  if (pthread_create(&thread, NULL, &init, (void *)&args) != 0) {
+  if (pthread_create(&thread, NULL, &init, args) != 0) {
     fprintf(stderr, "Fail creating thread!");
     return;
   }
