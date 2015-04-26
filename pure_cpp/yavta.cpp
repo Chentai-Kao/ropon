@@ -1746,14 +1746,15 @@ static int video_do_capture(struct device *dev, unsigned int nframes,
       video_save_image(dev, &buf, pattern, i);
 
     /* Display the image. */
-    //std::unique_lock<std::mutex> lock(m);
-    //lock.unlock();
-    //condition.notify_one();
-    cv::Mat m = video_to_cv_mat();
-    cv::imshow("frame", m);
-    if (cv::waitKey(1) == 'q') {
-      request_stop();
-    }
+    condition.notify_one();
+    std::unique_lock<std::mutex> lock(m);
+    condition.wait(lock);
+    lock.unlock();
+    //cv::Mat m = video_to_cv_mat();
+    //cv::imshow("frame", m);
+    //if (cv::waitKey(1) == 'q') {
+    //  request_stop();
+    //}
 
     if (skip)
       --skip;
@@ -2296,6 +2297,7 @@ void caller()
         break;
       }
     }
+    condition.notify_one();
     lock.unlock();
   }
 }
@@ -2313,11 +2315,11 @@ void run(int argc, char *argv[])
     return;
   }
 
-  pthread_join(thread, NULL);
+  //pthread_join(thread, NULL);
 }
 
 int main(int argc, char *argv[])
 {
   run(argc, argv);
-  //caller();
+  caller();
 }
