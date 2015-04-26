@@ -13,6 +13,9 @@ all: yavta
 yavta: yavta.o
 	$(CC) $(LDFLAGS) -o $@ $^ $(LIBS) $(shell pkg-config --libs opencv)
 
+simple: simple.o
+	$(CC) $(LDFLAGS) -o $@ $^ $(LIBS) $(shell pkg-config --libs opencv)
+
 clean:
 	-rm -f *.o
 	-rm -f yavta
