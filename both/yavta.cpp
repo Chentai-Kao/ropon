@@ -51,8 +51,6 @@
 
 #define ARRAY_SIZE(a)  (sizeof(a)/sizeof((a)[0]))
 
-#define MAX_DEVICE_COUNT 2
-
 struct arg_struct {
   int argc;
   char **argv;
@@ -1951,7 +1949,7 @@ void *init(void *args)
   char **argv = ((struct arg_struct *)args)->argv;
 
   struct sched_param sched;
-  struct device devs[MAX_DEVICE_COUNT];
+  struct device dev;
   int ret;
 
   /* Options parsings */
@@ -1996,9 +1994,7 @@ void *init(void *args)
 
   unsigned int rt_priority = 1;
 
-  for (int i = 0; i < MAX_DEVICE_COUNT; ++i) {
-    video_init(&devs[i]);
-  }
+  video_init(&dev);
 
   opterr = 0;
   while ((c = getopt_long(argc, argv, "B:c::Cd:f:F::hi:Iln:pq:r:R::s:t:uw:",

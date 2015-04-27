@@ -48,21 +48,37 @@ void convert(uint8_t *pyuv, uint8_t *pbgr, int length)
   }
 }
 
-cv::Mat video_to_cv_mat(void *memory, const int height, const int width) {
+cv::Mat getMat(void *memory, const int height, const int width) {
   cv::Mat m(height, width, CV_8UC3);
   convert((uint8_t *)memory, (uint8_t *)m.data, height * width * 3);
   return m;
 }
 
-void control(int fd, int request, void *arg, const char *message) {
+void setControl(int fd, int request, void *arg, const char *message) {
   if (-1 == ioctl(fd, request, arg)) {
     fprintf(stderr, "Error ioctl %s\n", message);
     exit(1);
   }
 }
 
+void setParameter(int fd, int id, const unsigned int value,
+    const char *message) {
+  // Set up the control
+  struct v4l2_ext_control ctrl;
+  memset(&ctrl, 0, sizeof(ctrl));
+  ctrl.id = id;
+  ctrl.value64 = value;
+  // Wrap up and send to ioctl
+  struct v4l2_ext_controls ctrls;
+  memset(&ctrls, 0, sizeof(ctrls));
+  ctrls.ctrl_class = V4L2_CTRL_ID2CLASS(id);
+  ctrls.count = 1;
+  ctrls.controls = &ctrl;
+  setControl(fd, VIDIOC_S_EXT_CTRLS, &ctrls, message);
+}
+
 int main() {
-  const int width = 320, height = 240;
+  const int width = 800, height = 448; // widest frame with 30 fps
 
   // Open the capture device.
   int fd = open("/dev/video1", O_RDWR);
@@ -73,7 +89,7 @@ int main() {
 
   // Query the capture.
   struct v4l2_capability caps;
-  control(fd, VIDIOC_QUERYCAP, &caps, "querying capabilities");
+  setControl(fd, VIDIOC_QUERYCAP, &caps, "querying capabilities");
 
   // Image format.
   struct v4l2_format fmt;
@@ -83,7 +99,7 @@ int main() {
   fmt.fmt.pix.height = height;
   fmt.fmt.pix.pixelformat = V4L2_PIX_FMT_YUYV;
   fmt.fmt.pix.field = V4L2_FIELD_NONE;
-  control(fd, VIDIOC_S_FMT, &fmt, "setting pixel format");
+  setControl(fd, VIDIOC_S_FMT, &fmt, "setting pixel format");
 
   // Request buffers.
   struct v4l2_requestbuffers req;
@@ -91,7 +107,7 @@ int main() {
   req.count = NBUF;
   req.type = V4L2_BUF_TYPE_VIDEO_CAPTURE;
   req.memory = V4L2_MEMORY_MMAP;
-  control(fd, VIDIOC_REQBUFS, &req, "requesting buffer");
+  setControl(fd, VIDIOC_REQBUFS, &req, "requesting buffer");
 
   // Query buffer.
   void* memory[NBUF] = { NULL };
@@ -101,39 +117,50 @@ int main() {
     buf.type = V4L2_BUF_TYPE_VIDEO_CAPTURE;
     buf.memory = V4L2_MEMORY_MMAP;
     buf.index = i;
-    control(fd, VIDIOC_QUERYBUF, &buf, "querying buffer");
+    setControl(fd, VIDIOC_QUERYBUF, &buf, "querying buffer");
     memory[i] = mmap(NULL, buf.length, PROT_READ | PROT_WRITE, MAP_SHARED, fd,
         buf.m.offset);
     if ((void *)-1 == memory) {
       fprintf(stderr, "Error on mmap\n");
       return 1;
     }
-    control(fd, VIDIOC_QBUF, &buf, "queuing frame");
+    setControl(fd, VIDIOC_QBUF, &buf, "queuing frame");
   }
 
   // Print framerate.
   struct v4l2_streamparm parm;
   memset(&parm, 0, sizeof parm);
   parm.type = V4L2_BUF_TYPE_VIDEO_CAPTURE;
-  control(fd, VIDIOC_G_PARM, &parm, "getting frame rate");
-  printf("Current frame rate: %u/%u\n",
-      parm.parm.capture.timeperframe.numerator,
-      parm.parm.capture.timeperframe.denominator);
+  parm.parm.capture.timeperframe.numerator = 1;
+  parm.parm.capture.timeperframe.denominator = 30;
+  setControl(fd, VIDIOC_S_PARM, &parm, "getting frame rate");
+
+  // Set parameters.
+  setParameter(fd, 0x00980900, 100, "brightness"); // 0 ~ 255
+  setParameter(fd, 0x009a0901, 1, "exposure auto"); // 1. manual 3. auto
+  setParameter(fd, 0x009a0902, 150, "exposure (absolute)"); // 3 ~ 2047
+  setParameter(fd, 0x0098090c, 0, "white balance auto"); // 0 or 1
+  setParameter(fd, 0x0098091a, 4500, "white balance (absolute)"); // 2800 ~ 6500
+  setParameter(fd, 0x0098091c, 0, "backlight compensation"); // 0 or 1
+  setParameter(fd, 0x009a090c, 0, "focus auto"); // 0 or 1
+  setParameter(fd, 0x009a090a, 0, "focus (absolute)"); // 0 ~ 255
+  setParameter(fd, 0x0098091b, 100, "sharpness"); // 0 ~ 255
+  setParameter(fd, 0x009a090d, 1, "zoom (absolute)"); // (wide) 1 ~ 5 (near)
 
   // Capture image.
-  control(fd, VIDIOC_STREAMON, &buf.type, "starting capture");
-  for (int i = 0; i < 100; ++i) {
-    control(fd, VIDIOC_DQBUF, &buf, "retrieving frame");
-    cv::Mat m = video_to_cv_mat(memory[buf.index], height, width);
+  setControl(fd, VIDIOC_STREAMON, &buf.type, "starting capture");
+  while (true) {
+    setControl(fd, VIDIOC_DQBUF, &buf, "retrieving frame");
+    cv::Mat m = getMat(memory[buf.index], height, width);
     cv::imshow("frame", m);
     if (cv::waitKey(1) == 'q') {
       break;
     }
-    control(fd, VIDIOC_QBUF, &buf, "queuing frame");
+    setControl(fd, VIDIOC_QBUF, &buf, "queuing frame");
   }
 
   // Stop capture.
-  control(fd, VIDIOC_STREAMOFF, &buf.type, "ending capture");
+  setControl(fd, VIDIOC_STREAMOFF, &buf.type, "ending capture");
   for (int i = 0; i < NBUF; ++i) {
     if (-1 == munmap(memory[i], buf.length)) {
       fprintf(stderr, "Error on munmap\n");
