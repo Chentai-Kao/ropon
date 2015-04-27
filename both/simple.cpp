@@ -36,6 +36,8 @@ static inline unsigned char sat(int i) {
   IYUYV2BGR_8(pyuv + 16, pbgr + 24); \
 }
 
+#define NBUF 8
+
 void convert(uint8_t *pyuv, uint8_t *pbgr, int length)
 {
   uint8_t *pbgr_end = pbgr + length;
@@ -86,23 +88,27 @@ int main() {
   // Request buffers.
   struct v4l2_requestbuffers req;
   memset(&req, 0, sizeof req);
-  req.count = 8;
+  req.count = NBUF;
   req.type = V4L2_BUF_TYPE_VIDEO_CAPTURE;
   req.memory = V4L2_MEMORY_MMAP;
   control(fd, VIDIOC_REQBUFS, &req, "requesting buffer");
 
   // Query buffer.
+  void* memory[NBUF] = { NULL };
   struct v4l2_buffer buf;
-  memset(&buf, 0, sizeof buf);
-  buf.type = V4L2_BUF_TYPE_VIDEO_CAPTURE;
-  buf.memory = V4L2_MEMORY_MMAP;
-  buf.index = 0;
-  control(fd, VIDIOC_QUERYBUF, &buf, "querying buffer");
-  void *memory = mmap(NULL, buf.length, PROT_READ | PROT_WRITE, MAP_SHARED, fd,
-      buf.m.offset);
-  if ((void *)-1 == memory) {
-    fprintf(stderr, "Error on mmap\n");
-    return 1;
+  for (int i = 0; i < NBUF; ++i) {
+    memset(&buf, 0, sizeof buf);
+    buf.type = V4L2_BUF_TYPE_VIDEO_CAPTURE;
+    buf.memory = V4L2_MEMORY_MMAP;
+    buf.index = i;
+    control(fd, VIDIOC_QUERYBUF, &buf, "querying buffer");
+    memory[i] = mmap(NULL, buf.length, PROT_READ | PROT_WRITE, MAP_SHARED, fd,
+        buf.m.offset);
+    if ((void *)-1 == memory) {
+      fprintf(stderr, "Error on mmap\n");
+      return 1;
+    }
+    control(fd, VIDIOC_QBUF, &buf, "queuing frame");
   }
 
   // Print framerate.
@@ -117,20 +123,22 @@ int main() {
   // Capture image.
   control(fd, VIDIOC_STREAMON, &buf.type, "starting capture");
   for (int i = 0; i < 100; ++i) {
-    control(fd, VIDIOC_QBUF, &buf, "queuing frame");
     control(fd, VIDIOC_DQBUF, &buf, "retrieving frame");
-    cv::Mat m = video_to_cv_mat(memory, height, width);
+    cv::Mat m = video_to_cv_mat(memory[buf.index], height, width);
     cv::imshow("frame", m);
     if (cv::waitKey(1) == 'q') {
       break;
     }
+    control(fd, VIDIOC_QBUF, &buf, "queuing frame");
   }
 
   // Stop capture.
   control(fd, VIDIOC_STREAMOFF, &buf.type, "ending capture");
-  if (-1 == munmap(memory, buf.length)) {
-    fprintf(stderr, "Error on munmap\n");
-    return 1;
+  for (int i = 0; i < NBUF; ++i) {
+    if (-1 == munmap(memory[i], buf.length)) {
+      fprintf(stderr, "Error on munmap\n");
+      return 1;
+    }
   }
   if (-1 == close(fd)) {
     fprintf(stderr, "Error closing device\n");
